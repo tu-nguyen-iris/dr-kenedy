@@ -1,0 +1,32 @@
+header {
+  img {
+    padding: 8px 0 8px 0px;
+  }
+  .header_top__right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    button {
+      padding: 11px 16px;
+    }
+    p {
+      display: inline;
+      //color: $color-second;
+    }
+  }
+  .call {
+    padding-right: 30px;
+    padding-left: 20px;
+  }
+  @include media-breakpoint-down(lg) {
+    -webkit-box-shadow: -27px 6px 78px 22px rgba(0,0,0,0.14);
+    -moz-box-shadow: -27px 6px 78px 22px rgba(0,0,0,0.14);
+    box-shadow: -27px 6px 78px 22px rgba(0,0,0,0.14);
+    img {
+      float: left;
+    }
+    .header_top__right {
+      display: none;
+    }
+  }
+}
