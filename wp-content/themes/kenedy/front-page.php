@@ -34,23 +34,6 @@
         </div>
     </div>
 </section>
-
-<!--<section class="horizon container-fluid">-->
-<!--    <div class="row no-gutters">-->
-<!--        <div class="col-xl-6 col-lg-6 horizon__text">-->
-<!--            <h2 class="title">Cosmetic Dentistry</h2>-->
-<!--            <p class="text_item">Whether your teeth are stained, chipped, or crooked, or you have cosmetic issues that-->
-<!--                need to be-->
-<!--                addressed to improve your smile’s appearance, Dr. Kennedy can prescribe a conservative smile makeover-->
-<!--                plan to correct your specific concerns. Common cosmetic procedures include:</p>-->
-<!--        </div>-->
-<!--        <div class="col-xl-6 col-lg-6">-->
-<!--            <img class="images" src="--><?php //echo THEME_URL ?><!--/src/images/girlHome1.jpg">-->
-<!--        </div>-->
-<!--    </div>-->
-<!--</section>-->
-
-
 <section class="welcome container">
     <div class="row justify-content-center">
         <div class="col-xl-5 col-lg-6 ">
