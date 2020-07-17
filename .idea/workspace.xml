@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f92dffad-8f09-4032-a5a7-d65847a47083" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/kenedy/dist/theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/kenedy/dist/theme.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/kenedy/src/css/pages/_home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/kenedy/src/css/pages/_home.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/kenedy/src/css/Component/_horizon.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/kenedy/src/css/Component/_horizon.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,11 +21,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/kenedy/src/css/pages/_home.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="363">
-              <caret line="118" column="21" selection-start-line="118" selection-start-column="21" selection-end-line="118" selection-end-column="21" />
+            <state relative-caret-position="321">
+              <caret line="116" column="21" selection-start-line="116" selection-start-column="21" selection-end-line="116" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -67,11 +66,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/kenedy/src/css/Component/_horizon.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1134">
-              <caret line="105" column="1" selection-start-line="105" selection-start-column="1" selection-end-line="105" selection-end-column="1" />
+            <state relative-caret-position="454">
+              <caret line="118" column="18" selection-start-line="118" selection-start-column="18" selection-end-line="118" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -136,18 +135,18 @@
         <option value="$PROJECT_DIR$/wp-content/themes/kenedy/page.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/kenedy/src/css/Component/_button.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/kenedy/src/css/Component/_slider.scss" />
-        <option value="$PROJECT_DIR$/wp-content/themes/kenedy/src/css/Component/_horizon.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/kenedy/src/css/_valiable.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/kenedy/src/css/app.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/kenedy/front-page.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/kenedy/src/css/Component/_banner.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/kenedy/src/css/pages/_home.scss" />
+        <option value="$PROJECT_DIR$/wp-content/themes/kenedy/src/css/Component/_horizon.scss" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="150" />
-    <option name="y" value="566" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="207" />
+    <option name="y" value="517" />
     <option name="width" value="1400" />
     <option name="height" value="834" />
   </component>
@@ -278,12 +277,12 @@
       <workItem from="1594809927683" duration="367000" />
       <workItem from="1594825867707" duration="14937000" />
       <workItem from="1594875459507" duration="18933000" />
-      <workItem from="1594915904909" duration="14449000" />
+      <workItem from="1594915904909" duration="14884000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58629000" />
+    <option name="totallyTimeSpent" value="59064000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -604,17 +603,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/kenedy/src/css/Component/_horizon.scss">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/kenedy/src/css/pages/_home.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1134">
-          <caret line="105" column="1" selection-start-line="105" selection-start-column="1" selection-end-line="105" selection-end-column="1" />
+        <state relative-caret-position="321">
+          <caret line="116" column="21" selection-start-line="116" selection-start-column="21" selection-end-line="116" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/kenedy/src/css/pages/_home.scss">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/kenedy/src/css/Component/_horizon.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="118" column="21" selection-start-line="118" selection-start-column="21" selection-end-line="118" selection-end-column="21" />
+        <state relative-caret-position="454">
+          <caret line="118" column="18" selection-start-line="118" selection-start-column="18" selection-end-line="118" selection-end-column="18" />
         </state>
       </provider>
     </entry>
