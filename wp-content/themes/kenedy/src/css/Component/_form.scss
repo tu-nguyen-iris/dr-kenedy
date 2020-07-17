@@ -1,0 +1,40 @@
+.form_custom {
+  .form-group {
+    margin-bottom: 24px;
+
+    input {
+      height: 50px;
+    }
+
+    textarea {
+      resize: none;
+      height: 120px;
+    }
+
+    ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+      color: $color-dark2;
+      font-size: 16px;
+    }
+
+    ::-moz-placeholder { /* Firefox 19+ */
+      color: $color-dark2;
+      font-size: 16px;
+    }
+
+    :-ms-input-placeholder { /* IE 10+ */
+      color: $color-dark2;
+      font-size: 16px;
+    }
+
+    :-moz-placeholder { /* Firefox 18- */
+      color: $color-dark2;
+      font-size: 16px;
+    }
+  }
+
+  .button {
+    padding: 11px 35px;
+    display: block;
+    margin: 45px auto 0 auto;
+  }
+}

@@ -1,0 +1,48 @@
+.cover {
+  position: relative;
+
+  img {
+    width: 100%;
+    object-fit: cover;
+  }
+  &__body {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(37, 40, 45, 0.3);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  &__title {
+    margin-bottom: 36px;
+    color: $color-white;
+    font-family: Lora;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 30px;
+  }
+  .heading {
+    margin-bottom: 60px;
+  }
+
+  @include media-breakpoint-down(md) {
+    padding-top: 70px;
+    img {
+      height: 401px;
+    }
+    &__title {
+      font-size: 16px;
+      margin-bottom: 8px;
+      margin-top: 99px;
+    }
+    .heading {
+      font-size: 36px;
+      margin-bottom: 40px;
+    }
+  }
+}

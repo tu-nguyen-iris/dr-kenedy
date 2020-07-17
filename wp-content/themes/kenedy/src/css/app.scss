@@ -1,9 +1,13 @@
-@import "valiable";
-@import "Component/reset";
-
-
 @import "~bootstrap";
+@import "valiable";
 @import "fonts";
-
+@import "Component/horizon";
+@import "Component/banner";
+@import "Component/slider";
+@import "Component/form";
+@import "Component/reset";
 @import "Component/button";
 @import "Component/header";
+@import "Component/nav";
+@import "Component/footer";
+@import "pages/home";

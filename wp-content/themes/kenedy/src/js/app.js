@@ -1,7 +1,5 @@
-
 import global from "./global"
 const controllers = {
-
 }
 const _find = (_class, _str) => {
     if (_class.length > 0) {

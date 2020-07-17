@@ -1,0 +1,116 @@
+.home {
+  .cover {
+    &__button {
+      .button {
+        display: block;
+        margin: 0 auto 20px auto;
+      }
+    }
+    &__rating {
+      width: 220px;
+      position: absolute;
+      left: calc(50% + 260px);
+      bottom: 80px;
+      background: #fff;
+      border-radius: 10px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      text-align: center;
+      .title {
+        font-family: 'Lora', serif;
+        font-size: 12px;
+        color: $color-yellow !important;
+        margin-bottom: 5px;
+        position: relative;
+      }
+      .title:before,
+      .title:after {
+        content: '';
+        position: absolute;
+        width: 25px;
+        height: 1px;
+        background-color: #E2AB40;
+        top: 50%;
+      }
+      .title:before {
+        left: 30px;
+      }
+      .title:after {
+        right: 30px;
+      }
+      .number {
+        font-size: 35px;
+        line-height: 23px;
+        color: #5E7872;
+      }
+      .label {
+        font-size: 10px;
+        line-height: 15px;
+        background-color: #5E7872;
+        text-transform: uppercase;
+        color: $color-yellow;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        letter-spacing: 0.2em;
+        display: inline-block;
+        padding-left: 8px;
+        padding-right: 8px;
+      }
+      &__stars{
+        margin-bottom: -10px;
+        .star{
+         background-image: url("./../../icons/star.svg");
+          width: 20px;
+          height: 20px;
+          display: inline-block;
+          }
+        }
+      &__learnmore {
+        font-size: 10px;
+        line-height: 13px;
+        text-transform: uppercase;
+        color: #5E7872 !important;
+        letter-spacing: 0.3em;
+      }
+
+    }
+  }
+.welcome{
+  padding-top: 42px;
+  &__title{
+    font-family: Lora;
+    font-weight: bold;
+    font-size: 46px;
+    line-height: 63px;
+    color: $color-yellow2;
+    margin-bottom: 15px;
+  }
+  &__text{
+margin-bottom: 42px;
+  }
+  &__description{
+    margin-bottom: 20px;
+    font-family: Lora;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 30px;
+    color: $color-yellow;
+  }
+}
+.banner{
+  img{
+    display: block;
+    margin: auto;
+  }
+  &::before{
+    background-color: red;
+  }
+  &::after{
+    background-color: blue;
+  }
+}
+
+
+
+
+}

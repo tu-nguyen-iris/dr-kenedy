@@ -1,10 +1,57 @@
-.button{
-font-family:Averta-Semibold;
+.button {
+  font-family: Averta;
+  font-weight: 600;
   font-size: 16px;
+  color: $color-white;
   padding: 14px 2px;
   line-height: 19px;
   background: $color-yellow;
-  &--blue{
+  border: 1px solid $color-yellow-1;
+  outline: 0 !important;
+  border-radius: 2px;
+  display: inline-block;
+  text-align: center;
+  transition: box-shadow 0.2s, transform 0.2s;
+
+  &--blue {
     background: $color-blue;
+  }
+
+  &--video {
+    padding-right: 70px;
+    padding-left: 25px;
+    position: relative;
+    background-color: $color-blue;
+    &::before {
+      content: '';
+      width: 1px;
+      background-color: #fff;
+      display: block;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      right: 48px;
+    }
+    &::after {
+      content: '';
+      background-image: url(./../../icons/play.svg);
+      background-repeat: no-repeat;
+      background-size: 100%;
+      background-position: center;
+      width: 24px;
+      height: 24px;
+      display: inline-block;
+      position: absolute;
+      right: 12px;
+      top:50%;
+      transform: translateY(-50%);
+    }
+    &--primary {
+      &::after{
+        background-image: url("./../../icons/play2.png");
+      }
+      color: $color-blue;
+      background-color: $color-white2;
+    }
   }
 }

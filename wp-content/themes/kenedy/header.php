@@ -4,44 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php the_title()?></title>
-    <link href="<?php echo THEME_URL?>/dist/theme.css">
-    <link href="<?php echo THEME_URL?>/dist/vendor.css">
+    <link  rel="stylesheet" href="<?php echo THEME_URL?>/dist/theme.css">
+    <link rel="stylesheet" href="<?php echo THEME_URL?>/dist/vendor.css">
     <?php wp_head()?>
 </head>
 <body <?php body_class()?>>
 <?php wp_body_open()?>
 <header>
-    <div class="header_top">
-        <div class="container">
-            <a class="header_top__logo" href="index.html">
-                <img alt="logo" src="./assets/img/logo.svg" />
+    <div class="header_top container">
+            <a class="header_top__logo" href="/">
+                <img alt="logo" src="<?php echo THEME_URL?>/src/images/logo.svg" />
             </a>
+        <button class="humbuger-button d-lg-none"></button>
             <div class="header_top__right d-none d-lg-flex">
-                <a class="header__address" href="http://maps.google.com/?q=200 The Great Road, Suite 243, Bedford, MA 01730" target="_blank">200 The Great Road, Suite 243, Bedford, MA 01730</a>
-                <a class="header__phone" href="tel:781-275-0200">781-275-0200</a>
+                <a class="header_top__right__address" href="http://maps.google.com/?q=200 The Great Road, Suite 243, Bedford, MA 01730" target="_blank">200 The Great Road, Suite 243, Bedford, MA 01730</a>
+                <a class="header_top__right__phone" href="tel:781-275-0200">781-275-0200</a>
                 <button class="button">Request an appoinment</button>
             </div>
-            <button class="humbuger-button button d-block d-lg-none"></button>
-        </div>
     </div>
 
-    <div class="nav">
+    <nav>
         <div class="container">
-            <ul class="nav__list">
-                <li class="nav__item"><a href="index.html">Home</a></li>
-                <li class="nav__item nav__item--active"><a href="about.html">About</a></li>
-                <li class="nav__item"><a href="family.html">Family</a></li>
-                <li class="nav__item"><a href="#!">General</a></li>
-                <li class="nav__item"><a href="#!">Cosmetic</a></li>
-                <li class="nav__item"><a href="#!">Replacement</a></li>
-                <li class="nav__item"><a href="#!">New Patients</a></li>
-                <li class="nav__item"><a href="#!">Contact Us</a></li>
-            </ul>
+            <?php
+            wp_nav_menu(array(
+                'depth' => 2,
+                'menu' => "",
+                'menu_class' => "nav__list",
+                'menu_id' => "",
+                'container' => "div",
+                'container_class' => "",
+                'container_id' => "",
+                'fallback_cb' => false,
+                'theme_location' => "primary",
+                'walker' => new wp_bootstrap_navwalker()
+            ));
+            ?>
         </div>
-    </div>
-
-
-
-
+    </nav>
 
 </header>
