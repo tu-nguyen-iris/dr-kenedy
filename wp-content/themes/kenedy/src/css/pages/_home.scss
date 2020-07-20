@@ -90,6 +90,7 @@
     padding-top: 42px;
 
     &__title {
+      text-align: left;
       font-family: Lora;
       font-weight: bold;
       font-size: 46px;
@@ -113,6 +114,8 @@
   }
 
   .banner {
+    width: 100%;
+    height: 100%;
     img {
       max-width: 100%;
       display: block;
@@ -125,5 +128,78 @@
     }
   }
 
+  .horizon_right{
+    .title{
+      padding-top: 62px;
+      margin-bottom: 16px;
+    }
+    a{
+      display: block;
+      padding-top: 20px;
+      color: $color-blue;
+    }
+    .button{
+      margin-top: 37px;
+      width: 142px;
+    }
+    .item-body__right{
+      padding-left: 88px;
+      padding-right: 148px;
+    }
+  }
+  .horizon{
+    .item-body__left{
+      padding-left: 184px;
+      padding-right: 53px;
+    }
+    .title{
+      padding-top: 62px;
+      margin-bottom: 16px;
+    }
+    a{
+      display: block;
+      padding-top: 20px;
+      color: $color-blue;
+    }
+    .button{
+      margin-top: 37px;
+      width: 142px;
+    }
+  }
+  .fa{
+    padding-right: 8px;
+  }
+  .teeth{
 
+  }
+}
+@include media-breakpoint-down(md){
+  .home{
+    .horizon{
+      .item-body__left{
+        padding-left: 0px;
+        padding-right: 0px;
+      }
+      .button{
+        width: 100%;
+      }
+    }
+    .horizon_right{
+      .item-body__right{
+        padding-left: 0px;
+        padding-right: 0px;
+      }
+      .button{
+        width: 100%;
+      }
+    }
+    .welcome{
+      .welcome__title{
+        text-align: center;
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 40px;
+      }
+    }
+  }
 }

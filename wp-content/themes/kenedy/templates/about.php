@@ -55,7 +55,7 @@
                 </div>
             </div>
         </section>
-        <section class="horizon__first container-fluid">
+        <section class="horizon__first  container-fluid">
             <div class="row horizon_right no-gutters">
                 <div class="col-12 col-sm-12 col-md-6 col-lg-6">
                     <div class="row text-center mobile">
@@ -108,7 +108,7 @@
                             </div>
                             <div class="col-12 col-sm-12 col-md-6 col-lg-6 button-down mr-auto">
                                 <button class="button">
-                                    Request an appoinment
+                                    781-275-0200
                                 </button>
                             </div>
                         </div>

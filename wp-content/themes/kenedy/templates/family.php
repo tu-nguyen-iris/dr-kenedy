@@ -89,27 +89,26 @@
                 </div>
             </div>
         </section>
-        <section>
-            <div class="container-fluid">
-                <div class="row banner">
-                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center">
-                        <h2 class="banner__title">
-                            Schedule an Appointment with Dr. Kennedy Today!
-                        </h2>
-                        <p class="banner__content">
-                            To learn more about the services we offer to protect, restore, and improve your family’s smiles, contact us today by calling (781) 275-0200, or by visiting our Bedford, MA dental office.
-                        </p>
-                        <div class="row">
-                            <div class="col-12 col-sm-12 col-md-6 col-lg-6 button-up ml-auto">
-                                <button class="button">
-                                    Request an appoinment
-                                </button>
-                            </div>
-                            <div class="col-12 col-sm-12 col-md-6 col-lg-6 button-down mr-auto">
-                                <button class="button">
-                                    Request an appoinment
-                                </button>
-                            </div>
+        <section class="container-fluid">
+
+            <div class="row banner">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                    <h2 class="banner__title">
+                        Schedule an Appointment with Dr. Kennedy Today!
+                    </h2>
+                    <p class="banner__content">
+                        To learn more about the services we offer to protect, restore, and improve your family’s smiles, contact us today by calling (781) 275-0200, or by visiting our Bedford, MA dental office.
+                    </p>
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-6 button-up ml-auto">
+                            <button class="button">
+                                Request an appoinment
+                            </button>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-6 button-down mr-auto">
+                            <button class="button">
+                                781-275-0200
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -149,7 +148,8 @@
             </div>
         </section>
         <section class="horizon__second final mobile container-fluid">
-            <div class="row horizon_right">
+            <div class="horizon_right">
+            <div class="row no-gutters">
 
                 <div class="col-sm-12 col-md-6 col-lg-6 item-images">
                     <div class="row mobile text-center">
@@ -176,6 +176,7 @@
                     <button class="button mobile">Learn More</button>
                 </div>
 
+            </div>
             </div>
         </section>
     </section>

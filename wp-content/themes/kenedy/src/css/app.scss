@@ -1,4 +1,5 @@
 @import "~bootstrap";
+@import "~zurb-twentytwenty/css/twentytwenty.css";
 @import "valiable";
 @import "fonts";
 @import "Component/horizon";
@@ -10,15 +11,11 @@
 @import "Component/header";
 @import "Component/nav";
 @import "Component/footer";
-<<<<<<< HEAD
 @import "Component/title";
 @import "pages/about";
 @import "pages/family";
 @import "pages/home";
 @import "pages/general";
-=======
-@import "pages/home";
 @import "pages/cosmetic";
 @import "pages/replacement";
 @import "pages/new-patients";
->>>>>>> 87304844b16bdfb719d1e94c5cadeac618151946
