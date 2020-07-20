@@ -27,17 +27,31 @@ get_header();?>
     </section>
     <section class="before-after container">
         <h2>Smile Gallery</h2>
-        <div class="row">
+        <div class="row d-none d-lg-flex">
             <h3 class="col-xl-6 col-lg-6">Before</h3>
             <h3 class="col-xl-6 col-lg-6">After</h3>
         </div>
-        <div class="row">
-            <img class="col-xl-6 col-lg-6" src="<?php echo THEME_URL?>/src/images/patient-bf-1.png">
-            <img class="col-xl-6 col-lg-6" src="<?php echo THEME_URL?>/src/images/patient-af-1.png">
+        <div class="d-none d-lg-block">
+            <div class="row">
+                <img class="col-xl-6 col-lg-6" src="<?php echo THEME_URL?>/src/images/patient-bf-1.png">
+                <img class="col-xl-6 col-lg-6" src="<?php echo THEME_URL?>/src/images/patient-af-1.png">
+            </div>
+            <div class="row">
+                <img class="col-xl-6 col-lg-6" src="<?php echo THEME_URL?>/src/images/patient-bf-2.png">
+                <img class="col-xl-6 col-lg-6" src="<?php echo THEME_URL?>/src/images/patient-af-2.png">
+            </div>
         </div>
-        <div class="row">
-            <img class="col-xl-6 col-lg-6" src="<?php echo THEME_URL?>/src/images/patient-bf-2.png">
-            <img class="col-xl-6 col-lg-6" src="<?php echo THEME_URL?>/src/images/patient-af-2.png">
+        <!--mobile-->
+        <div class="d-block d-xl-none">
+        <div class="test">
+            <img  src="<?php echo THEME_URL?>/src/images/patient-bf-1.png">
+            <img  src="<?php echo THEME_URL?>/src/images/patient-af-1.png">
+        </div>
+            <div class="test">
+                <img  src="<?php echo THEME_URL?>/src/images/patient-bf-2.png">
+                <img  src="<?php echo THEME_URL?>/src/images/patient-af-2.png">
+            </div>
+            <button class="button">See more</button>
         </div>
     </section>
     <section class="banner">
@@ -46,13 +60,13 @@ get_header();?>
                 <h1>Schedule an Appointment with Dr. Kennedy Today!</h1>
                 <p>Robert M. Kennedy, DDS, and the caring, compassionate staff at Kennedy Family & Cosmetic Dentistry have served the Bedford, MA area and surrounding communities since 1992. To learn more about our services, contact us today by calling <a href="tel:781)2750200">(781) 275-0200 </a> or by visiting our office as soon as possible.</p>
             </div>
-            <div class="row no-gutters justify-content-center">
+            <div class="row no-gutters justify-content-center" >
                 <div class="col-xl-3 col-lg-3"><a href="/contact" class="btn button">Request an appoinment</a> </div>
                 <div class="col-xl-3 col-lg-3"><a href="tel:7812750200" class="btn button">781-275-0200</a> </div>
             </div>
         </div>
     </section>
-    <section class="before-after container">
+    <section class="before-after container d-none d-xl-block">
         <div class="row">
             <img class="col-xl-6 col-lg-6" src="<?php echo THEME_URL?>/src/images/patient-bf-3.png">
             <img class="col-xl-6 col-lg-6" src="<?php echo THEME_URL?>/src/images/patient-af-3.png">
@@ -62,7 +76,8 @@ get_header();?>
             <img class="col-xl-6 col-lg-6" src="<?php echo THEME_URL?>/src/images/patient-af-4.png">
         </div>
     </section>
-    <section class="testimonials">
+    <section class="testimonials d-none d-lg-block">
+        <h2>testimonials</h2>
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -86,7 +101,6 @@ get_header();?>
                                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                 <span class="sr-only">Next</span>
                             </a>
-
                         </div>
                     </div>
                 </div>
@@ -107,7 +121,6 @@ get_header();?>
                                 <span class="sr-only">Next</span>
                             </a>
                         </div>
-
                     </div>
                 </div>
                 <div class="carousel-item">
@@ -130,9 +143,16 @@ get_header();?>
                     </div>
                 </div>
             </div>
-
         </div>
-            </div>
+    </section>
+    <section class="tetimonials_mobile banner d-block d-xl-none">
+        <div class="container">
+        <h2>Testimonials</h2>
+            <img class="avatar" src="<?php echo THEME_URL?>/src/images/slider-1.png">
+            <p class="testimonials-mobile__comment">Everyone was patient and understanding when I asked to address a different tooth than they had planned during my appointment. It's a pleasure working with Dr. Kennedy and all the staff!</p>
+            <img src="<?php echo THEME_URL?>/src/images/stars.png">
+            <p class="testimonials-mobile__comment--name">P.C</p>
+        <button class="button">See more reviews</button>
         </div>
     </section>
 <?php get_footer(); ?>
