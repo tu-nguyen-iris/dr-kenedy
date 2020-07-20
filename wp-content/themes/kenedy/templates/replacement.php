@@ -25,7 +25,7 @@ get_header();?>
         <h4>LIFELIKE REPLACEMENTS FOR LOST TEETH</h4>
         <p class="">When a tooth is lost or needs to be extracted, the right type of replacement tooth/teeth is needed to preserve the rest of your healthy teeth and oral structures. Using advanced equipment and materials, Dr. Kennedy can custom-design the right dental prosthetic to complete your smile.</p>
     </section>
-    <section class="item-list container">
+    <section class="item-list container-fluid">
         <h2 class="d-none d-lx-block">Dental Bridges</h2>
         <div class="horizon_right row no-gutters">
             <h2 class="d-block d-xl-none">Dental Bridges</h2>
@@ -39,7 +39,7 @@ get_header();?>
             </div>
         </div>
     </section>
-    <section class="item-list container">
+    <section class="item-list container-fluid">
         <h2 class="d-none d-xl-block">Dentures</h2>
         <div class="horizon_right row no-gutters">
             <h2 class="d-block d-xl-none">Dentures</h2>
@@ -68,7 +68,7 @@ get_header();?>
             </div>
         </div>
     </section>
-    <section class="item-list container">
+    <section class="item-list container-fluid">
         <h2 class="d-none d-xl-block">Dental Implants</h2>
         <div class="horizon_right  row no-gutters">
             <h2 class="d-block d-xl-none">Dental Implants</h2>
