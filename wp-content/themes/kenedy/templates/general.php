@@ -54,13 +54,9 @@
         <section class="horizon_right d-flex d-lg-none container-fluid">
             <div class="row no-gutters">
                 <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
-                    <div class="row text-center d-flex d-lg-none">
-                        <div class="col-12 col-sm-12 col-md-12 col-lg-12">
-                            <h2 class="title-second">
-                                Tooth Extraction
-                            </h2>
-                        </div>
-                    </div>
+                    <h2 class="title-second text-center">
+                        Tooth Extraction
+                    </h2>
                     <img class="images" src="<?php echo THEME_URL ?>/src/images/shutterstock_1294378294 (1) 1.png">
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 item-body__right">
@@ -145,6 +141,9 @@
         </section>
         <section class="horizon_right d-flex d-sm-none container-fluid">
             <div class="row no-gutters">
+                <h2 class="title-second d-block d-lg-none text-center">
+                    Root Canal Treatment
+                </h2>
                 <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
                     <img class="images" src="<?php echo THEME_URL ?>/src/images/general-root-canal.png">
                 </div>
@@ -162,8 +161,7 @@
                 </div>
             </div>
         </section>
-        <section class="container-fluid">
-
+        <section class="container-fluid ">
             <div class="row banner">
                 <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center">
                     <h2 class="banner__title">
@@ -180,7 +178,7 @@
                         </div>
                         <div class="col-12 col-sm-12 col-md-6 col-lg-6 button-down mr-auto">
                             <button class="button">
-                                781-275-0200
+                                Request an appoinment
                             </button>
                         </div>
                     </div>
@@ -198,7 +196,6 @@
         </section>
         <section class="horizon_right d-none d-lg-flex container-fluid">
             <div class="row no-gutters">
-
                 <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
                     <img class="images" src="<?php echo THEME_URL ?>/src/images/Dental-Crown 1.png">
                 </div>
@@ -221,13 +218,9 @@
         <section class="horizon_right d-flex d-lg-none container-fluid">
             <div class="row no-gutters">
                 <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-                    <div class="row text-center d-flex d-lg-none">
-                        <div class="col-12 col-sm-12 col-md-12 col-lg-12">
-                            <h2 class="title-second">
-                                Root Canal Treatment
-                            </h2>
-                        </div>
-                    </div>
+                    <h2 class="title-second text-center">
+                        Dental Crowns
+                    </h2>
                     <img class="images" src="<?php echo THEME_URL ?>/src/images/Dental-Crown 1.png">
                 </div>
                 <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 item-body__right">
@@ -255,12 +248,9 @@
                 </div>
             </div>
         </section>
-        <section class="horizon_right d-none d-lg-flex final-section container-fluid">
+        <section class="horizon d-none d-lg-flex final-section container-fluid">
             <div class="row no-gutters">
-                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-                    <img class="images" src="<?php echo THEME_URL ?>/src/images/134949515 1.png">
-                </div>
-                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 item-body__right">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 item-body__left">
                     <h3 class="title">
                         Lifelike porcelain dental crowns for a natural look
                     </h3>
@@ -274,29 +264,28 @@
                         Learn More
                     </button>
                 </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                    <img class="images" src="<?php echo THEME_URL ?>/src/images/134949515 1.png">
+                </div>
             </div>
         </section>
         <section class="horizon_right d-flex d-lg-none container-fluid">
             <div class="row no-gutters">
                 <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-                    <div class="row text-center d-flex d-lg-none">
-                        <div class="col-12 col-sm-12 col-md-12 col-lg-12">
-                            <h2 class="title-second">
-                                Dental Crowns
+                            <h2 class="title-second text-center">
+                                Tooth Extraction
                             </h2>
-                        </div>
-                    </div>
                     <img class="images" src="<?php echo THEME_URL ?>/src/images/134949515 1.png">
                 </div>
                 <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 item-body__right">
                     <h3 class="title">
-                        Lifelike porcelain dental crowns for a natural look
+                        A viable solution to impacted teeth and gum diseases
                     </h3>
                     <p>
-                        Because Dr. Kennedy understands the importance of an attractive smile, we approach all dental procedures with a cosmetic dental philosophy. In many situations where a durable, attractive restoration is called for, we prefer to place tooth-colored, porcelain crowns rather than metal ones.
+                        We believe in conservative dental treatments. When Dr. Kennedy recommends tooth extraction, it is a last resort. Sometimes, when root canal treatment won’t suffice, a damaged tooth must be removed to ensure your good oral health. When teeth are too close together, one tooth or more may have to be extracted to apply orthodontic braces. Tooth extraction might be necessary for those who need dentures.
                     </p>
                     <p>
-                        At a trusted dental lab, a skilled ceramist will follow our instructions and use the impression of your teeth as a guide to create a crown that will fit snugly onto your prepared tooth. The ceramist will follow a shade guide to match the porcelain to the teeth on either side of the tooth. This will help ensure a natural and discreet finish.
+                        Whatever your situation is, we will explain the reasons behind, and talk with you about how we’ll make the procedure quick and comfortable. If another dentist has recommended tooth extraction but you’d like a second opinion, then we’ll be glad to provide one.
                     </p>
                     <button class="button">
                         Learn More

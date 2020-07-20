@@ -55,42 +55,35 @@
                 </div>
             </div>
         </section>
-        <section class="horizon__first">
-            <div class="container-fluid">
-                <div class="row horizon_right">
-                    <div class="col-12 col-sm-12 col-md-6 col-lg-6">
-                        <div class="row text-center mobile">
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-12">
-                                <h2 class="title-second">
-                                    Checkups & Cleanings
-                                </h2>
-                            </div>
-                        </div>
-                        <img src="<?php echo THEME_URL?>/src/images/shutterstock_194275118 1.png" class="images">
-                    </div>
-                    <div class="col-12 col-sm-12 col-md-6 col-lg-6 item-body__right">
-                        <h3 class="title">
-                            Prevention through routine checkups & cleanings
-                        </h3>
+        <section class="horizon__first container-fluid">
+            <div class="row horizon_right no-gutters">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                    <h2 class="title-second d-block d-lg-none text-center">
+                        Checkups & Cleanings
+                    </h2>
+                    <img src="<?php echo THEME_URL?>/src/images/shutterstock_194275118 1.png" class="images">
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 item-body__right">
+                    <h3 class="title">
+                        Prevention through routine checkups & cleanings
+                    </h3>
 
-                        <p>
-                            Preventive dental checkups and cleanings are essential to the long-term health of your mouth and your body.
+                    <p>
+                        Preventive dental checkups and cleanings are essential to the long-term health of your mouth and your body.
 
-                        </p>
-                        <br>
-                        <p>
-                            During a checkup, Dr. Kennedy will look for cavities, demineralization (the precursor to cavities), and structural problems, like cracks or chips and recommend a suitable treatment. If necessary, we’ll take digital X-rays to review. During your cleaning, our registered dental hygienist will chart information about your gums, look for signs of gum disease, and then thoroughly clean your teeth to remove plaque, tartar, and debris. Because gum diseases begin with plaque, six-month cleanings will reduce your risk for those diseases.
-                        </p>
-                        <button class="button mobile">Learn More</button>
-                        <button class="button desktop d-none d-lg-block">
-                            Request an appoinment
-                        </button>
-                    </div>
+                    </p>
+                    <br>
+                    <p>
+                        During a checkup, Dr. Kennedy will look for cavities, demineralization (the precursor to cavities), and structural problems, like cracks or chips and recommend a suitable treatment. If necessary, we’ll take digital X-rays to review. During your cleaning, our registered dental hygienist will chart information about your gums, look for signs of gum disease, and then thoroughly clean your teeth to remove plaque, tartar, and debris. Because gum diseases begin with plaque, six-month cleanings will reduce your risk for those diseases.
+                    </p>
+                    <button class="button mobile">Learn More</button>
+                    <button class="button desktop d-none d-lg-block">
+                        Request an appoinment
+                    </button>
                 </div>
             </div>
         </section>
-        <section class="container-fluid">
-
+        <section class="container-fluid ">
             <div class="row banner">
                 <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center">
                     <h2 class="banner__title">
@@ -107,7 +100,7 @@
                         </div>
                         <div class="col-12 col-sm-12 col-md-6 col-lg-6 button-down mr-auto">
                             <button class="button">
-                                781-275-0200
+                                Request an appoinment
                             </button>
                         </div>
                     </div>
@@ -123,60 +116,59 @@
                 </div>
             </div>
         </section>
-
-        <section class="horizon__second final container-fluid d-none d-lg-block">
-            <div class="row horizon">
-                <div class="col-sm-12 col-md-6 col-lg-6 item-body__left">
-                    <h3 class="title">
-                        Protecting children's smiles with professional dentistry
-                    </h3>
-                    <p>
-                        Around age one, your baby should come with you to a dental checkup. Between ages one and three, if you notice tooth decay, red and swollen gum tissue, or any other potential oral health problem, please come in for a visit. Otherwise, brief six-month checkups are sufficient. Because hormone changes can increase your proclivity for gum disease, it's important to have a dental checkup and cleaning during your pregnancy as part of early oral healthcare.
-                    </p>
-                    <br>
-                    <p>
-                        Dr. Kennedy will look inside your child’s mouth to assess oral development. If he sees any reason for concern, we can talk about your options. We’ll also chat about how to encourage your child to take good care of his or her teeth and gums at home.
-                    </p>
-                    <button class="button desktop d-none d-lg-block">
-                        Request an appoinment
-                    </button>
-
-                </div>
-                <div class="col-sm-12 col-md-6 col-lg-6 item-images">
-                    <img src="<?php echo THEME_URL?>/src/images/shutterstock_663132562 1.png" class="images images__right">
+        <section class="horizon__second  final d-none d-lg-block">
+            <div class="container-fluid">
+                <div class="row horizon no-gutters">
+                    <div class="col-sm-12 col-md-6 col-lg-6 item-body__left">
+                        <h3 class="title">
+                            Protecting children's smiles with professional dentistry
+                        </h3>
+                        <p>
+                            Around age one, your baby should come with you to a dental checkup. Between ages one and three, if you notice tooth decay, red and swollen gum tissue, or any other potential oral health problem, please come in for a visit. Otherwise, brief six-month checkups are sufficient. Because hormone changes can increase your proclivity for gum disease, it's important to have a dental checkup and cleaning during your pregnancy as part of early oral healthcare.
+                        </p>
+                        <br>
+                        <p>
+                            Dr. Kennedy will look inside your child’s mouth to assess oral development. If he sees any reason for concern, we can talk about your options. We’ll also chat about how to encourage your child to take good care of his or her teeth and gums at home.
+                        </p>
+                        <button class="button desktop d-none d-lg-block">
+                            Request an appoinment
+                        </button>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-6 item-images">
+                        <img src="<?php echo THEME_URL?>/src/images/shutterstock_663132562 1.png" class="images">
+                        <button class="button d-none">Learn More</button>
+                    </div>
                 </div>
             </div>
         </section>
         <section class="horizon__second final mobile container-fluid">
-            <div class="horizon_right">
-            <div class="row no-gutters">
+            <div class="row horizon_right no-gutters">
 
                 <div class="col-sm-12 col-md-6 col-lg-6 item-images">
-                    <div class="row mobile text-center">
-                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center">
-                            <h2 class="title-second">
-                                Children's Dentistry
-                            </h2>
-                        </div>
-                    </div>
-                    <img src="<?php echo THEME_URL?>/src/images/shutterstock_663132562 1.png" class="images images__right">
-
+                    <h2 class="title-second d-block d-lg-none text-center">
+                        Our Dental Assistant
+                    </h2>
                 </div>
-                <div class="col-sm-12 col-md-6 col-lg-6 item-body__right">
-                    <h3 class="title">
-                        Protecting children's smiles with professional dentistry
-                    </h3>
-                    <p>
-                        Around age one, your baby should come with you to a dental checkup. Between ages one and three, if you notice tooth decay, red and swollen gum tissue, or any other potential oral health problem, please come in for a visit. Otherwise, brief six-month checkups are sufficient. Because hormone changes can increase your proclivity for gum disease, it's important to have a dental checkup and cleaning during your pregnancy as part of early oral healthcare.
-                    </p>
-                    <br>
-                    <p>
-                        Dr. Kennedy will look inside your child’s mouth to assess oral development. If he sees any reason for concern, we can talk about your options. We’ll also chat about how to encourage your child to take good care of his or her teeth and gums at home.
-                    </p>
-                    <button class="button mobile">Learn More</button>
-                </div>
+                <img src="<?php echo THEME_URL?>/src/images/shutterstock_663132562 1.png" class="images">
 
             </div>
+            <div class="col-sm-12 col-md-6 col-lg-6 item-body__right">
+                <h3 class="title">
+                    Protecting children's smiles with professional dentistry
+                </h3>
+                <p>
+                    Around age one, your baby should come with you to a dental checkup. Between ages one and three, if you notice tooth decay, red and swollen gum tissue, or any other potential oral health problem, please come in for a visit. Otherwise, brief six-month checkups are sufficient. Because hormone changes can increase your proclivity for gum disease, it's important to have a dental checkup and cleaning during your pregnancy as part of early oral healthcare.
+                </p>
+                <br>
+                <p>
+                    Dr. Kennedy will look inside your child’s mouth to assess oral development. If he sees any reason for concern, we can talk about your options. We’ll also chat about how to encourage your child to take good care of his or her teeth and gums at home.
+                </p>
+                <button class="button desktop d-none d-lg-block">
+                    Request an appoinment
+                </button>
+                <button class="button">Learn More</button>
+            </div>
+
             </div>
         </section>
     </section>

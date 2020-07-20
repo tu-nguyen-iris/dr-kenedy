@@ -1,11 +1,13 @@
 .home {
   .testimonials{
     text-align: center;
+    margin-bottom: 80px;
     h2{
       font-weight: bold;
       font-family: Lora;
       text-align: center;
       color: $color-yellow2;
+      margin-bottom: 40px;
     }
     .point{
       margin: 60px auto;
@@ -26,6 +28,27 @@
         font-weight: bold;
         color: $color-dark;
       }
+    }
+  }
+  .tetimonials_mobile{
+    h2{
+      font-size: 32px;
+      font-weight: bold;
+      font-family: Lora;
+      text-align: center;
+      margin-bottom: 50px;
+      color: $color-yellow2;
+    }
+    .avatar{
+      width:56px;
+      border-radius: 50%;
+      margin-bottom: 15px;
+    }
+    .testimonials-mobile__comment{
+      font-family: Lora;
+    }
+    .button{
+      width: 100%;
     }
   }
   .carousel{
@@ -52,15 +75,18 @@
         color: $color-dark1;
       }
       .carousel-control-prev{
-        left: 180px;
+        left: 90px;
         color: black;
       }
       .carousel-control-next{
-        right: 180px;
+        right: 90px;
       }
-      i{
-        color: #5e7872;
-      }
+    }
+    .carousel-control-prev-icon{
+      background-image: url("../../images/left.png");
+    }
+    .carousel-control-next-icon{
+      background-image: url("../../images/right.png");
     }
   }
   .cover {

@@ -200,27 +200,27 @@
             </div>
         </div>
     </section>
-<!--    <section class="container">-->
-<!--        <div class="row test">-->
-<!--            <div class="col-12 col-sm-12 col-md-3 col-lg-3 test">-->
-<!--                <img src="--><?php //echo THEME_URL?><!--/src/images/image 2.png">-->
-<!--                <img src="--><?php //echo THEME_URL?><!--/src/images/image 3.png">-->
-<!--            </div>-->
-<!--            <div class="col-12 col-sm-12 col-md-3 col-lg-3 test">-->
-<!--                <img src="--><?php //echo THEME_URL?><!--/src/images/patient-bf-2.png">-->
-<!--                <img src="--><?php //echo THEME_URL?><!--/src/images/patient-af-2.png">-->
-<!--            </div>-->
-<!--            <div class="col-12 col-sm-12 col-md-3 col-lg-3 test">-->
-<!--                <img src="--><?php //echo THEME_URL?><!--/src/images/patient-bf-3.png">-->
-<!--                <img src="--><?php //echo THEME_URL?><!--/src/images/patient-af-3.png">-->
-<!--            </div>-->
-<!--            <div class="col-12 col-sm-12 col-md-3 col-lg-3 test">-->
-<!--                <img src="--><?php //echo THEME_URL?><!--/src/images/patient-bf-4.png">-->
-<!--                <img src="--><?php //echo THEME_URL?><!--/src/images/patient-af-4.png">-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </section>-->
-    <section class="testimonials">
+    <section class="container">
+        <div class="row">
+            <div class="test">
+                <img src="<?php echo THEME_URL?>/src/images/image 2.png">
+                <img src="<?php echo THEME_URL?>/src/images/image 3.png">
+            </div>
+            <div class="test">
+                <img src="<?php echo THEME_URL?>/src/images/patient-bf-2.png">
+                <img src="<?php echo THEME_URL?>/src/images/patient-af-2.png">
+            </div>
+            <div class="test">
+                <img src="<?php echo THEME_URL?>/src/images/patient-bf-3.png">
+                <img src="<?php echo THEME_URL?>/src/images/patient-af-3.png">
+            </div>
+            <div class="test">
+                <img src="<?php echo THEME_URL?>/src/images/patient-bf-4.png">
+                <img src="<?php echo THEME_URL?>/src/images/patient-af-4.png">
+            </div>
+        </div>
+    </section>
+    <section class="testimonials banner d-none d-lg-block">
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -272,8 +272,6 @@
                         <div class="col-xl-6 col-lg-6">
                             <img class="d-block point" src="<?php echo THEME_URL?>/src/images/dau-phay.png">
                             <p class="testimonials__comment">“Always welcoming, professional with excellent service. Thanks for running a first rate service and I am happy to recommend you to all my friends!”</p>
-
-                            Trần Trực, [20.07.20 13:18]
                             <img class="block star" src="<?php echo THEME_URL?>/src/images/stars.png">
                             <p class="testimonials__comment--name"> D.H. </p>
                             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -290,6 +288,17 @@
             </div>
         </div>
     </section>
+    <section class="tetimonials_mobile banner d-block d-xl-none">
+        <div class="container">
+            <h2>Testimonials</h2>
+            <img class="avatar" src="<?php echo THEME_URL?>/src/images/slider-1.png">
+            <p class="testimonials-mobile__comment">Everyone was patient and understanding when I asked to address a different tooth than they had planned during my appointment. It's a pleasure working with Dr. Kennedy and all the staff!</p>
+            <img src="<?php echo THEME_URL?>/src/images/stars.png">
+            <p class="testimonials-mobile__comment--name text-center">P.C</p>
+            <button class="button">See more reviews</button>
+        </div>
+    </section>
+
 </section>
 
 <?php get_footer() ?>

@@ -55,16 +55,12 @@
                 </div>
             </div>
         </section>
-        <section class="horizon__first  container-fluid">
+        <section class="horizon__first container-fluid">
             <div class="row horizon_right no-gutters">
                 <div class="col-12 col-sm-12 col-md-6 col-lg-6">
-                    <div class="row text-center mobile">
-                        <div class="col-12 col-sm-12 col-md-12 col-lg-12">
-                            <h2 class="title-second">
+                            <h2 class="title-second d-block d-lg-none text-center">
                                 Meet Dr. Robert M. Kennedy
                             </h2>
-                        </div>
-                    </div>
                     <img src="<?php echo THEME_URL?>/src/images/avatar.png" class="images">
                 </div>
                 <div class="col-12 col-sm-12 col-md-6 col-lg-6 item-body__right">
@@ -90,8 +86,7 @@
                 </div>
             </div>
         </section>
-        <section class="container-fluid">
-
+        <section class="container-fluid ">
                 <div class="row banner">
                     <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center">
                         <h2 class="banner__title">
@@ -108,7 +103,7 @@
                             </div>
                             <div class="col-12 col-sm-12 col-md-6 col-lg-6 button-down mr-auto">
                                 <button class="button">
-                                    781-275-0200
+                                    Request an appoinment
                                 </button>
                             </div>
                         </div>
@@ -148,13 +143,9 @@
 
             <div class="row horizon_right no-gutters mobile">
                 <div class="col-sm-12 col-md-6 col-lg-6 item-images">
-                    <div class="row mobile text-center">
-                        <div class="col-12 col-sm-12 col-md-12 col-lg-12">
-                            <h2 class="title-second">
+                            <h2 class="title-second d-block d-lg-none text-center">
                                 Our Hygienists
                             </h2>
-                        </div>
-                    </div>
                     <img src="<?php echo THEME_URL?>/src/images/7807 1.png" class="images images__right">
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-6 item-body__right">
@@ -242,13 +233,9 @@
             <div class="container-fluid">
             <div class="row horizon_right no-gutters">
                 <div class="col-sm-12 col-md-6 col-lg-6 item-images">
-                    <div class="row text-center mobile">
-                        <div class="col-12 col-sm-12 col-md-12 col-lg-12">
-                            <h2 class="title-second">
+                            <h2 class="title-second d-block d-lg-none text-center">
                                 Our Dental Assistant
                             </h2>
-                        </div>
-                    </div>
                     <img src="<?php echo THEME_URL?>/src/images/Mask Group.png" class="images images__right">
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-6 item-body__right">
@@ -302,12 +289,9 @@
             <div class="row horizon_right no-gutters">
 
                 <div class="col-sm-12 col-md-6 col-lg-6 item-images">
-                    <div class="row mobile text-center">
-                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center">
-                            <h2 class="title-second">
+                            <h2 class="title-second d-block d-lg-none text-center">
                                 Our Dental Assistant
                             </h2>
-                        </div>
                     </div>
                     <img src="<?php echo THEME_URL?>/src/images/close-up-smiling-man_23-2148364950 1.png" class="images images__right">
 
