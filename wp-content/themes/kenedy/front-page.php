@@ -68,5 +68,33 @@
 <section class="banner">
     <img src="<?php echo THEME_URL?>/src/images/Home2.png" >
 </section>
+<section class="content-page-home">
+        <div class="row horizon">
+        <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+            <h2 class="item-title">
+                Family Dentistry
+            </h2>
+            <p>
+                Family’s dental health requires a variety of dental services. Children’s teeth and oral structures require different treatments than those of their parents and older siblings—which are more complex. We offer a wide range of family dentistry services for every member of your family:
+            </p>
+            <button class="button">
+                Learn More
+            </button>
+        </div>
+        <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+            <img src="<?php echo THEME_URL?>/src/images/Rectangle 104.png" class="images" >
+        </div>
+        </div>
+</section>
+<section class="home-slider">
+    <div class="row cover">
+        <div class="col-6 col-sm-6 col-md-6 col-lg-6">
+            <img
+        </div>
+        <div class="col-6 col-sm-6 col-md-6 col-lg-6 cover__body">
+
+        </div>
+    </div>
+</section>
 
 <?php get_footer() ?>

@@ -2,8 +2,8 @@
 /**
  * Cấu hình cơ bản cho WordPress
  *
- * Trong quá trình cài đặt, file "wp-config.php" sẽ được tạo dựa trên nội dung
- * mẫu của file này. Bạn không bắt buộc phải sử dụng giao diện web để cài đặt,
+ * Trong quá trình cài đặt, file "wp-config.php" sẽ được tạo dựa trên nội dung 
+ * mẫu của file này. Bạn không bắt buộc phải sử dụng giao diện web để cài đặt, 
  * chỉ cần lưu file này lại với tên "wp-config.php" và điền các thông tin cần thiết.
  *
  * File này chứa các thiết lập sau:
@@ -20,7 +20,7 @@
 
 // ** Thiết lập MySQL - Bạn có thể lấy các thông tin này từ host/server ** //
 /** Tên database MySQL */
-define( 'DB_NAME', 'kenedy' );
+define( 'DB_NAME', 'dr-kenedy' );
 
 /** Username của database */
 define( 'DB_USER', 'root' );
@@ -48,14 +48,14 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define( 'AUTH_KEY',         'LRh4Ph4s_K=]fGJxDt:/tKcd<@lfK?oN4Ku8{])c/qvZU$=VT@IvKVkGVG5;urC ' );
-define( 'SECURE_AUTH_KEY',  'Bh9~o:U+l$Z-.<cUJ8/q7aaA(*Sq:e :?1x+g2#N-OB8rA:#AKssyr:GsY}t_1V}' );
-define( 'LOGGED_IN_KEY',    '?JT&+5b`DEa 4M~@Bs$CxIR<f(OU~Mm+nNdudjds[>5OHp|,-A8y,1BBMw=Kd4zP' );
-define( 'NONCE_KEY',        '3g8}MC5^enmr|:18ZaJ~6>+7d<[9ms$E)eiqd?B?qe0q_H6?=)7K/OSzfdXxA4X2' );
-define( 'AUTH_SALT',        '}ImVWbv:nkI&84.PHn`(3y w]0Le73MuV{1sZ24gZWK3yvc/pO>(Ick2-mSjJW`A' );
-define( 'SECURE_AUTH_SALT', 'Jr1Krg_1cWF$Q2Hl}gz85BU2wgLmG+/phB*u,MBK2oT2Ajof4j,]dkJBjhhWL^f7' );
-define( 'LOGGED_IN_SALT',   'RiH:%;O6TEG7D%su2Ej:VU:W76p]j=Qw=0xjc7=*SsmJ1W)1h?-I=60]cR]-X;!.' );
-define( 'NONCE_SALT',       'ha5X[HA9DZ)x[Qe-dmvsg!sMj:X<<5zryJlL7BHgq0INGgc}+rm99;ECr?^|Pa]q' );
+define( 'AUTH_KEY',         'C!Zm(~:*zq?L5{~j-fJ<f#+_/cP};dhM?H_uQu5WL s8B6J85&GO4=QyDz)iG+~:' );
+define( 'SECURE_AUTH_KEY',  'iIs6p}#yz=%ck0~*iLB83$z<YZw}^gAa?VIrp$3tLm$L0yY_v`8%cYWQd318G$=*' );
+define( 'LOGGED_IN_KEY',    'ps1@1d.b1^&qN#Oc*vgC|=EFiV%wZ)#;C0Cj#8m5E37h%Xs0^$6BgSdz1u25Cf%Q' );
+define( 'NONCE_KEY',        '-74Whm!RlzI6bFtJZE,%T>I]e%Ku{0^i`x?GwnR)1,k=;S]=GwC`-O]7Yavq,W0-' );
+define( 'AUTH_SALT',        '%@YXF2I cf2:)q{q7}Ff^4wnc#y^N]B,dSt1@Uv`h(/C=I@TK?U{u}sR_8w7i9#K' );
+define( 'SECURE_AUTH_SALT', 'vs3[l!D9RlYC,;m#dQSa5y RT/>e&w=4>lGZE 0`(S^;X9eyIK&W:f;;m7s[6k4k' );
+define( 'LOGGED_IN_SALT',   '!eKvXT<BR67/v DAg}3m3)`[sSxpngG{hB1rVBj`}7HL!0*p8{80Qa`G/KQ&j2rM' );
+define( 'NONCE_SALT',       '%tFvp6tcxYR5J(!/sCppK6-sK@!eo`r]~C/2**ZCo5Tsa g=3CdyX!5qt#)80Z-*' );
 
 /**#@-*/
 
@@ -83,7 +83,7 @@ define('WP_DEBUG', false);
 
 /** Đường dẫn tuyệt đối đến thư mục cài đặt WordPress. */
 if ( !defined('ABSPATH') )
-    define('ABSPATH', dirname(__FILE__) . '/');
+	define('ABSPATH', dirname(__FILE__) . '/');
 
 /** Thiết lập biến và include file. */
 require_once(ABSPATH . 'wp-settings.php');

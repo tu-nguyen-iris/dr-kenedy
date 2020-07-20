@@ -1,0 +1,252 @@
+.family {
+
+  .mobile {
+    display: none;
+  }
+
+  .horizon__first {
+    padding-bottom: 59px;
+
+    .horizon_right {
+      background: #F1F4F5;
+
+      .title {
+        color: $color-dark;
+        padding-top: 88px;
+
+      }
+
+      .button {
+        width: 100%;
+        margin-top: 25px;
+      }
+
+      .desktop {
+        display: block;
+        width: 221px;
+        padding-bottom: 15px;
+        padding-top: 15px;
+        margin-bottom: 58px;
+      }
+
+      .item-body__right {
+        padding-left: 86px;
+        padding-right: 151px;
+      }
+    }
+
+  }
+}
+  .banner {
+    height: 481px;
+    margin-bottom: 50px;
+
+    .banner__title {
+      padding-top: 73px;
+      padding-left: 270px;
+      padding-right: 270px;
+      font-family: Lora, SansSerif;
+      font-weight: bold;
+      line-height: 63px;
+      color: #5E7872;
+      margin-bottom: 30px;
+    }
+
+    .banner__content {
+      padding-left: 380px;
+      padding-right: 380px;
+      padding-bottom: 49px;
+    }
+
+    .button-banner__right {
+      left: 0px;
+    }
+
+    .button-banner__left {
+      right: 0px;
+    }
+
+    .button {
+      width: 221px;
+      height: 50px;
+    }
+  }
+
+  .horizon__second {
+    .title {
+      color: $color-dark;
+      padding-top: 90px;
+      margin-bottom: 42px;
+    }
+
+    .item-body__left {
+      padding-left: 184px;
+      padding-right: 53px;
+    }
+
+    .item-images {
+      background-color: #ffffff;
+      padding: 0px;
+    }
+
+    .item-body__right {
+      padding-left: 88px;
+      padding-right: 148px;
+    }
+
+    .desktop {
+      display: block;
+      width: 221px;
+      padding-bottom: 15px;
+      padding-top: 15px;
+      margin-bottom: 58px;
+    }
+
+    .button {
+      width: 221px;
+      margin-top: 25px;
+    }
+  }
+
+  .title-begin {
+    padding-top: 0px;
+  }
+
+  .final {
+    margin-bottom: 80px;
+  }
+
+  @include media-breakpoint-down(md) {
+    .family {
+      .horizon_mid {
+        .button {
+          margin-bottom: 40px;
+        }
+
+        .final__mid {
+          margin-bottom: 0px;
+        }
+      }
+
+      .title-second {
+        font-size: 32px;
+        line-height: 40px;
+      }
+
+      .mobile {
+        display: block;
+
+        .title-second {
+          padding-top: 28px;
+        }
+      }
+
+      .horizon__first {
+        padding-bottom: 50px;
+
+        .horizon_right {
+          padding-bottom: 30px;
+          background: $color-yellow3;
+
+          .title {
+            font-family: Averta, SansSerif;
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 28px;
+            padding-top: 16px;
+            margin-bottom: 16px;
+          }
+
+          .item-body__right {
+            padding-left: 20px;
+            padding-right: 20px;
+          }
+
+          .desktop {
+            display: none;
+          }
+
+          .button {
+            display: block;
+            width: 100%;
+          }
+        }
+
+      }
+
+      .banner {
+        height: 520px;
+
+        .banner__title {
+          font-size: 28px;
+          padding-top: 46px;
+          padding-left: 0px;
+          padding-right: 0px;
+          font-family: Lora, SansSerif;
+          font-weight: bold;
+          line-height: 40px;
+          color: #5E7872;
+          margin-bottom: 16px;
+        }
+
+        .banner__content {
+          padding-left: 0px;
+          padding-right: 0px;
+          padding-bottom: 29px;
+        }
+
+        .button-up {
+          margin-bottom: 20px;
+        }
+
+        .button-down {
+          margin-bottom: 69px;
+        }
+
+        .button {
+          width: 221px;
+          height: 50px;
+        }
+      }
+
+      .horizon__second {
+        padding-bottom: 40px;
+
+        .title {
+          color: $color-dark;
+          padding-top: 12px;
+          margin-bottom: 12px;
+          font-weight: bold;
+          font-size: 18px;
+          line-height: 28px;
+        }
+
+        .item-body__left {
+          padding-left: 20px;
+          padding-right: 20px;
+        }
+
+        .item-images {
+          background: $color-yellow3;
+          padding: 0px;
+        }
+
+        .item-body__right {
+          padding-left: 20px;
+          padding-right: 20px;
+        }
+
+        .button {
+          display: block;
+          width: 100%;
+        }
+      }
+
+      .final {
+        margin-bottom: 20px;
+      }
+    }
+
+  }
+
+
