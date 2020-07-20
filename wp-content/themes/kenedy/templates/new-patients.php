@@ -76,9 +76,9 @@ get_header();?>
             <img class="col-xl-6 col-lg-6" src="<?php echo THEME_URL?>/src/images/patient-af-4.png">
         </div>
     </section>
-    <section class="testimonials d-none d-lg-block">
-        <h2>testimonials</h2>
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <section class="testimonials  d-none d-lg-block">
+        <h2>Testimonials</h2>
+        <div id="carouselExampleIndicators" class="carousel slide banner" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -93,14 +93,6 @@ get_header();?>
                             <p class="testimonials__comment">Everyone was patient and understanding when I asked to address a different tooth than they had planned during my appointment. It's a pleasure working with Dr. Kennedy and all the staff!</p>
                             <img class="block star" src="<?php echo THEME_URL?>/src/images/stars.png">
                             <p class="testimonials__comment--name"> Jack</p>
-                            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                <span class="sr-only">Previous</span>
-                            </a>
-                            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                <span class="sr-only">Next</span>
-                            </a>
                         </div>
                     </div>
                 </div>
@@ -112,14 +104,6 @@ get_header();?>
                             <p class="testimonials__comment">“I really enjoy all of you. Friendly and funny and professional! Thank you.”</p>
                             <img class="block star" src="<?php echo THEME_URL?>/src/images/stars.png">
                             <p class="testimonials__comment--name"> M.H.</p>
-                            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                <span class="sr-only">Previous</span>
-                            </a>
-                            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                <span class="sr-only">Next</span>
-                            </a>
                         </div>
                     </div>
                 </div>
@@ -131,18 +115,18 @@ get_header();?>
                             <p class="testimonials__comment">“Always welcoming, professional with excellent service. Thanks for running a first rate service and I am happy to recommend you to all my friends!”</p>
                             <img class="block star" src="<?php echo THEME_URL?>/src/images/stars.png">
                             <p class="testimonials__comment--name"> D.H. </p>
-                            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                <span class="sr-only">Previous</span>
-                            </a>
-                            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                <span class="sr-only">Next</span>
-                            </a>
                         </div>
                     </div>
                 </div>
             </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
         </div>
     </section>
     <section class="tetimonials_mobile banner d-block d-xl-none">
