@@ -200,23 +200,93 @@
             </div>
         </div>
     </section>
-    <section class="container">
-        <div class="row test">
-            <div class="col-12 col-sm-12 col-md-3 col-lg-3 test">
-                <img src="<?php echo THEME_URL?>/src/images/image 2.png">
-                <img src="<?php echo THEME_URL?>/src/images/image 3.png">
-            </div>
-            <div class="col-12 col-sm-12 col-md-3 col-lg-3 test">
-                <img src="<?php echo THEME_URL?>/src/images/patient-bf-2.png">
-                <img src="<?php echo THEME_URL?>/src/images/patient-af-2.png">
-            </div>
-            <div class="col-12 col-sm-12 col-md-3 col-lg-3 test">
-                <img src="<?php echo THEME_URL?>/src/images/patient-bf-3.png">
-                <img src="<?php echo THEME_URL?>/src/images/patient-af-3.png">
-            </div>
-            <div class="col-12 col-sm-12 col-md-3 col-lg-3 test">
-                <img src="<?php echo THEME_URL?>/src/images/patient-bf-4.png">
-                <img src="<?php echo THEME_URL?>/src/images/patient-af-4.png">
+<!--    <section class="container">-->
+<!--        <div class="row test">-->
+<!--            <div class="col-12 col-sm-12 col-md-3 col-lg-3 test">-->
+<!--                <img src="--><?php //echo THEME_URL?><!--/src/images/image 2.png">-->
+<!--                <img src="--><?php //echo THEME_URL?><!--/src/images/image 3.png">-->
+<!--            </div>-->
+<!--            <div class="col-12 col-sm-12 col-md-3 col-lg-3 test">-->
+<!--                <img src="--><?php //echo THEME_URL?><!--/src/images/patient-bf-2.png">-->
+<!--                <img src="--><?php //echo THEME_URL?><!--/src/images/patient-af-2.png">-->
+<!--            </div>-->
+<!--            <div class="col-12 col-sm-12 col-md-3 col-lg-3 test">-->
+<!--                <img src="--><?php //echo THEME_URL?><!--/src/images/patient-bf-3.png">-->
+<!--                <img src="--><?php //echo THEME_URL?><!--/src/images/patient-af-3.png">-->
+<!--            </div>-->
+<!--            <div class="col-12 col-sm-12 col-md-3 col-lg-3 test">-->
+<!--                <img src="--><?php //echo THEME_URL?><!--/src/images/patient-bf-4.png">-->
+<!--                <img src="--><?php //echo THEME_URL?><!--/src/images/patient-af-4.png">-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </section>-->
+    <section class="testimonials">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row">
+                        <img class="col-xl-6 col-lg-6" src="<?php echo THEME_URL?>/src/images/slider-1.png">
+                        <div class="col-xl-6 col-lg-6">
+                            <img class="d-block point" src="<?php echo THEME_URL?>/src/images/dau-phay.png">
+                            <p class="testimonials__comment">Everyone was patient and understanding when I asked to address a different tooth than they had planned during my appointment. It's a pleasure working with Dr. Kennedy and all the staff!</p>
+                            <img class="block star" src="<?php echo THEME_URL?>/src/images/stars.png">
+                            <p class="testimonials__comment--name"> Jack</p>
+                            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <img class="col-xl-6 col-lg-6" src="<?php echo THEME_URL?>/src/images/slider-2.png">
+                        <div class="col-xl-6 col-lg-6">
+                            <img class="d-block point" src="<?php echo THEME_URL?>/src/images/dau-phay.png">
+                            <p class="testimonials__comment">“I really enjoy all of you. Friendly and funny and professional! Thank you.”</p>
+                            <img class="block star" src="<?php echo THEME_URL?>/src/images/stars.png">
+                            <p class="testimonials__comment--name"> M.H.</p>
+                            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <img class="col-xl-6 col-lg-6" src="<?php echo THEME_URL?>/src/images/slider-3.png">
+                        <div class="col-xl-6 col-lg-6">
+                            <img class="d-block point" src="<?php echo THEME_URL?>/src/images/dau-phay.png">
+                            <p class="testimonials__comment">“Always welcoming, professional with excellent service. Thanks for running a first rate service and I am happy to recommend you to all my friends!”</p>
+
+                            Trần Trực, [20.07.20 13:18]
+                            <img class="block star" src="<?php echo THEME_URL?>/src/images/stars.png">
+                            <p class="testimonials__comment--name"> D.H. </p>
+                            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
