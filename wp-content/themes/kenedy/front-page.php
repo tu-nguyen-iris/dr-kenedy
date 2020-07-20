@@ -69,7 +69,7 @@
     <section class="banner">
         <img src="<?php echo THEME_URL?>/src/images/Home2.png" >
     </section>
-    <section class="horizon container-fluid">
+    <section class="horizon d-none d-lg-flex container-fluid">
         <div class="row no-gutters">
             <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 item-body__left">
                 <h3 class="title">
@@ -86,6 +86,26 @@
             </div>
             <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
                 <img class="images" src="<?php echo THEME_URL ?>/src/images/girl-hot.png">
+            </div>
+        </div>
+    </section>
+    <section class="horizon_right d-flex d-lg-none container-fluid">
+        <div class="row no-gutters">
+            <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                <img class="images" src="<?php echo THEME_URL ?>/src/images/girl-hot.png">
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 item-body__right">
+                <h3 class="title">
+                    Family Dentistry
+                </h3>
+                <p>
+                    Family’s dental health requires a variety of dental services. Children’s teeth and oral structures require different treatments than those of their parents and older siblings—which are more complex. We offer a wide range of family dentistry services for every member of your family:
+                </p>
+                <a href="#"><i class="fa fa-chevron-circle-right"></i>Checkups & Cleanings</a>
+                <a href="#"><i class="fa fa-chevron-circle-right"></i>Children’s Dentistry</a>
+                <button class="button">
+                    Learn More
+                </button>
             </div>
         </div>
     </section>
@@ -109,7 +129,7 @@
             </div>
         </div>
     </section>
-    <section class="horizon container-fluid">
+    <section class="horizon container-fluid d-none d-lg-flex">
         <div class="row no-gutters">
             <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 item-body__left">
                 <h3 class="title">
@@ -126,7 +146,28 @@
                 </button>
             </div>
             <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
-                <img class="images" src="<?php echo THEME_URL ?>/src/images/girl-hot.png">
+                <img class="images" src="<?php echo THEME_URL ?>/src/images/girlHome1.jpg">
+            </div>
+        </div>
+    </section>
+    <section class="horizon_right d-flex d-sm-none container-fluid">
+        <div class="row no-gutters">
+            <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                <img class="images" src="<?php echo THEME_URL ?>/src/images/girlHome1.jpg">
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 item-body__right">
+                <h3 class="title">
+                    Cosmetic Dentistry
+                </h3>
+                <p>
+                    Whether your teeth are stained, chipped, or crooked, or you have cosmetic issues that need to be addressed to improve your smile’s appearance, Dr. Kennedy can prescribe a conservative smile makeover plan to correct your specific concerns. Common cosmetic procedures include:
+                </p>
+                <a href="#"><i class="fa fa-chevron-circle-right"></i>Checkups & Cleanings</a>
+                <a href="#"><i class="fa fa-chevron-circle-right"></i>Bonding/Contouring</a>
+                <a href="#"><i class="fa fa-chevron-circle-right"></i>Porcelain Veneers</a>
+                <button class="button">
+                    Learn More
+                </button>
             </div>
         </div>
     </section>
@@ -159,13 +200,23 @@
             </div>
         </div>
     </section>
-    <section class="slider-teeth">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-sm-12 col-md-3 col-lg-3 test">
-                <img class="teeth" src="<?php echo THEME_URL ?>/src/images/patient-bf-1.png">
-                <img class="teeth" src="<?php echo THEME_URL ?>/src/images/patient-bf-2.png">
-                </div>
+    <section class="container">
+        <div class="row test">
+            <div class="col-12 col-sm-12 col-md-3 col-lg-3 test">
+                <img src="<?php echo THEME_URL?>/src/images/image 2.png">
+                <img src="<?php echo THEME_URL?>/src/images/image 3.png">
+            </div>
+            <div class="col-12 col-sm-12 col-md-3 col-lg-3 test">
+                <img src="<?php echo THEME_URL?>/src/images/patient-bf-2.png">
+                <img src="<?php echo THEME_URL?>/src/images/patient-af-2.png">
+            </div>
+            <div class="col-12 col-sm-12 col-md-3 col-lg-3 test">
+                <img src="<?php echo THEME_URL?>/src/images/patient-bf-3.png">
+                <img src="<?php echo THEME_URL?>/src/images/patient-af-3.png">
+            </div>
+            <div class="col-12 col-sm-12 col-md-3 col-lg-3 test">
+                <img src="<?php echo THEME_URL?>/src/images/patient-bf-4.png">
+                <img src="<?php echo THEME_URL?>/src/images/patient-af-4.png">
             </div>
         </div>
     </section>
