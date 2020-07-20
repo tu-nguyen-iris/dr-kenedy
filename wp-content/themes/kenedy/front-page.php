@@ -200,9 +200,33 @@
             </div>
         </div>
     </section>
-    <div class="test">
-        <img src="<?php echo THEME_URL?>/src/images/slider-1.png">
-        <img src="<?php echo THEME_URL?>/src/images/slider-1.png">
+    <div class="container home-slider">
+        <div class="row">
+        <div class="col-12 col-sm-12 col-md-3 col-lg-3">
+            <div class="test">
+                <img src="<?php echo THEME_URL?>/src/images/patient-bf-1.png">
+                <img src="<?php echo THEME_URL?>/src/images/patient-af-1.png">
+            </div>
+        </div>
+         <div class="col-12 col-sm-12 col-md-3 col-lg-3">
+                <div class="test">
+                    <img src="<?php echo THEME_URL?>/src/images/patient-bf-2.png">
+                    <img src="<?php echo THEME_URL?>/src/images/patient-af-2.png">
+                </div>
+         </div>
+         <div class="col-12 col-sm-12 col-md-3 col-lg-3">
+                <div class="test">
+                    <img src="<?php echo THEME_URL?>/src/images/patient-bf-3.png">
+                    <img src="<?php echo THEME_URL?>/src/images/patient-af-3.png">
+                </div>
+         </div>
+         <div class="col-12 col-sm-12 col-md-3 col-lg-3">
+                <div class="test">
+                    <img src="<?php echo THEME_URL?>/src/images/patient-bf-4.png">
+                    <img src="<?php echo THEME_URL?>/src/images/patient-af-4.png">
+                </div>
+         </div>
+    </div>
     </div>
     <section class="testimonials banner d-none d-lg-block">
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
