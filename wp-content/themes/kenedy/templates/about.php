@@ -289,9 +289,7 @@
             <div class="row horizon_right no-gutters">
 
                 <div class="col-sm-12 col-md-6 col-lg-6 item-images">
-                            <h2 class="title-second d-block d-lg-none text-center">
-                                Our Dental Assistant
-                            </h2>
+                             
                     </div>
                     <img src="<?php echo THEME_URL?>/src/images/close-up-smiling-man_23-2148364950 1.png" class="images images__right">
 
