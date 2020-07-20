@@ -17,12 +17,8 @@
                 </h1>
                 <div class="cover__button">
                     <button class="button button--video">Watch a video</button>
-                    <button class="button button--video button--video--primary d-none d-lg-block">Watch a video</button>
                 </div>
                 <div class="cover__rating d-none d-lg-block">
-                    <p class="title">Best Dental</p>
-                    <p class="number">101</p>
-                    <p class="label">Review</p>
                     <div class="cover__rating__stars">
                         <div class="star"></div>
                         <div class="star"></div>

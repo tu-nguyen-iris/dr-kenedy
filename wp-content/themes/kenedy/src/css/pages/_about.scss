@@ -51,10 +51,10 @@
       padding-bottom: 49px;
     }
     .button-up{
-      padding-left: 500px;
+      text-align: right
     }
     .button-down{
-      padding-right: 500px;
+      text-align: left
     }
     .button{
       width: 221px;
@@ -165,11 +165,13 @@
         padding-bottom: 29px;
       }
       .button-up{
+        text-align: center;
         padding-right:0px;
         padding-left:0px;
         margin-bottom: 20px;
       }
       .button-down{
+        text-align: center;
         margin-bottom: 69px;
         padding-right:0px;
         padding-left:0px;

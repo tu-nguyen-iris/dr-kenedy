@@ -258,7 +258,7 @@
             <div class="row text-center">
                 <div class="col-12 col-sm-12 col-md-12 col-lg-12">
                     <h2 class="title-second">
-                        Our Dental Assistant
+                        Office Manager
                     </h2>
                 </div>
             </div>
@@ -287,10 +287,10 @@
         </section>
         <section class="horizon__second final mobile container-fluid">
             <div class="row horizon_right no-gutters">
-
                 <div class="col-sm-12 col-md-6 col-lg-6 item-images">
-                             
-                    </div>
+                    <h2 class="title-second text-center">
+                        Office Manager
+                    </h2>
                     <img src="<?php echo THEME_URL?>/src/images/close-up-smiling-man_23-2148364950 1.png" class="images images__right">
 
                 </div>

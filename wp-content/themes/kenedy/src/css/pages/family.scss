@@ -62,11 +62,11 @@
     }
 
     .button-up {
-      padding-left: 500px;
+      text-align: right;
     }
 
     .button-down {
-      padding-right: 500px;
+      text-align: left;
     }
 
     .button {
@@ -202,12 +202,15 @@
           padding-left: 0px;
           padding-right: 0px;
           margin-bottom: 20px;
+          text-align: center;
+
         }
 
         .button-down {
           padding-left: 0px;
           padding-right: 0px;
           margin-bottom: 69px;
+          text-align: center;
         }
 
         .button {
