@@ -1,66 +1,6 @@
 /******/ (function(modules) { // webpackBootstrap
-/******/ 	// install a JSONP callback for chunk loading
-/******/ 	function webpackJsonpCallback(data) {
-/******/ 		var chunkIds = data[0];
-/******/ 		var moreModules = data[1];
-/******/ 		var executeModules = data[2];
-/******/
-/******/ 		// add "moreModules" to the modules object,
-/******/ 		// then flag all "chunkIds" as loaded and fire callback
-/******/ 		var moduleId, chunkId, i = 0, resolves = [];
-/******/ 		for(;i < chunkIds.length; i++) {
-/******/ 			chunkId = chunkIds[i];
-/******/ 			if(Object.prototype.hasOwnProperty.call(installedChunks, chunkId) && installedChunks[chunkId]) {
-/******/ 				resolves.push(installedChunks[chunkId][0]);
-/******/ 			}
-/******/ 			installedChunks[chunkId] = 0;
-/******/ 		}
-/******/ 		for(moduleId in moreModules) {
-/******/ 			if(Object.prototype.hasOwnProperty.call(moreModules, moduleId)) {
-/******/ 				modules[moduleId] = moreModules[moduleId];
-/******/ 			}
-/******/ 		}
-/******/ 		if(parentJsonpFunction) parentJsonpFunction(data);
-/******/
-/******/ 		while(resolves.length) {
-/******/ 			resolves.shift()();
-/******/ 		}
-/******/
-/******/ 		// add entry modules from loaded chunk to deferred list
-/******/ 		deferredModules.push.apply(deferredModules, executeModules || []);
-/******/
-/******/ 		// run deferred modules when all chunks ready
-/******/ 		return checkDeferredModules();
-/******/ 	};
-/******/ 	function checkDeferredModules() {
-/******/ 		var result;
-/******/ 		for(var i = 0; i < deferredModules.length; i++) {
-/******/ 			var deferredModule = deferredModules[i];
-/******/ 			var fulfilled = true;
-/******/ 			for(var j = 1; j < deferredModule.length; j++) {
-/******/ 				var depId = deferredModule[j];
-/******/ 				if(installedChunks[depId] !== 0) fulfilled = false;
-/******/ 			}
-/******/ 			if(fulfilled) {
-/******/ 				deferredModules.splice(i--, 1);
-/******/ 				result = __webpack_require__(__webpack_require__.s = deferredModule[0]);
-/******/ 			}
-/******/ 		}
-/******/
-/******/ 		return result;
-/******/ 	}
-/******/
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
-/******/
-/******/ 	// object to store loaded and loading chunks
-/******/ 	// undefined = chunk not loaded, null = chunk preloaded/prefetched
-/******/ 	// Promise = chunk loading, 0 = chunk loaded
-/******/ 	var installedChunks = {
-/******/ 		"app": 0
-/******/ 	};
-/******/
-/******/ 	var deferredModules = [];
 /******/
 /******/ 	// The require function
 /******/ 	function __webpack_require__(moduleId) {
@@ -139,18 +79,9 @@
 /******/ 	// __webpack_public_path__
 /******/ 	__webpack_require__.p = "";
 /******/
-/******/ 	var jsonpArray = window["webpackJsonp"] = window["webpackJsonp"] || [];
-/******/ 	var oldJsonpFunction = jsonpArray.push.bind(jsonpArray);
-/******/ 	jsonpArray.push = webpackJsonpCallback;
-/******/ 	jsonpArray = jsonpArray.slice();
-/******/ 	for(var i = 0; i < jsonpArray.length; i++) webpackJsonpCallback(jsonpArray[i]);
-/******/ 	var parentJsonpFunction = oldJsonpFunction;
 /******/
-/******/
-/******/ 	// add entry module to deferred list
-/******/ 	deferredModules.push(["kOmT","vendors"]);
-/******/ 	// run deferred modules when ready
-/******/ 	return checkDeferredModules();
+/******/ 	// Load entry module and return exports
+/******/ 	return __webpack_require__(__webpack_require__.s = "kOmT");
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -160,10 +91,9 @@
   !*** ./src/js/global.js ***!
   \**************************/
 /*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports) {
 
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* WEBPACK VAR INJECTION */(function($) {/* harmony import */ var jquery_dist_jquery_min__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! jquery/dist/jquery.min */ \"xexB\");\n/* harmony import */ var jquery_dist_jquery_min__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(jquery_dist_jquery_min__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var popper_js_dist_umd_popper_min__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! popper.js/dist/umd/popper.min */ \"mla3\");\n/* harmony import */ var popper_js_dist_umd_popper_min__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(popper_js_dist_umd_popper_min__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var bootstrap_dist_js_bootstrap_min__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! bootstrap/dist/js/bootstrap.min */ \"Pkg3\");\n/* harmony import */ var bootstrap_dist_js_bootstrap_min__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(bootstrap_dist_js_bootstrap_min__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var zurb_twentytwenty_js_jquery_event_move__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! zurb-twentytwenty/js/jquery.event.move */ \"entn\");\n/* harmony import */ var zurb_twentytwenty_js_jquery_event_move__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(zurb_twentytwenty_js_jquery_event_move__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony import */ var zurb_twentytwenty_js_jquery_twentytwenty__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! zurb-twentytwenty/js/jquery.twentytwenty */ \"UzhO\");\n/* harmony import */ var zurb_twentytwenty_js_jquery_twentytwenty__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(zurb_twentytwenty_js_jquery_twentytwenty__WEBPACK_IMPORTED_MODULE_4__);\n\n\n\n\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (function () {\n  console.log(\"global\");\n  var body = document.body;\n  $(\".humbuger-button\").click(function () {\n    $(body).toggleClass(\"show-menu\");\n  });\n  $(\"nav\").click(function (e) {\n    if (e.$target === \"nav\") {\n      $(body).classList.remove(\"show-menu\");\n    }\n  });\n  $(\".test\").twentytwenty();\n});\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! jquery */ \"EVdn\")))\n\n//# sourceURL=webpack:///./src/js/global.js?");
+eval("throw new Error(\"Module build failed (from ./node_modules/babel-loader/lib/index.js):\\nSyntaxError: D:\\\\dr_Kenedy\\\\wp-content\\\\themes\\\\kenedy\\\\src\\\\js\\\\global.js: Unexpected token (6:0)\\n\\n\\u001b[0m \\u001b[90m 4 | \\u001b[39m\\u001b[36mimport\\u001b[39m \\u001b[32m\\\"zurb-twentytwenty/js/jquery.event.move\\\"\\u001b[39m\\u001b[0m\\n\\u001b[0m \\u001b[90m 5 | \\u001b[39m\\u001b[36mimport\\u001b[39m \\u001b[32m\\\"zurb-twentytwenty/js/jquery.twentytwenty\\\"\\u001b[39m\\u001b[0m\\n\\u001b[0m\\u001b[31m\\u001b[1m>\\u001b[22m\\u001b[39m\\u001b[90m 6 | \\u001b[39m\\u001b[33m<<\\u001b[39m\\u001b[33m<<\\u001b[39m\\u001b[33m<<\\u001b[39m\\u001b[33m<\\u001b[39m \\u001b[33mHEAD\\u001b[39m\\u001b[0m\\n\\u001b[0m \\u001b[90m   | \\u001b[39m\\u001b[31m\\u001b[1m^\\u001b[22m\\u001b[39m\\u001b[0m\\n\\u001b[0m \\u001b[90m 7 | \\u001b[39m\\u001b[0m\\n\\u001b[0m \\u001b[90m 8 | \\u001b[39m\\u001b[33m===\\u001b[39m\\u001b[33m===\\u001b[39m\\u001b[33m=\\u001b[39m\\u001b[0m\\n\\u001b[0m \\u001b[90m 9 | \\u001b[39m\\u001b[33m>>>\\u001b[39m\\u001b[33m>>>\\u001b[39m\\u001b[33m>\\u001b[39m \\u001b[35m6\\u001b[39mc9e997803a7fedd657f047a980ac02eda7b879b\\u001b[0m\\n    at Parser._raise (D:\\\\dr_Kenedy\\\\wp-content\\\\themes\\\\kenedy\\\\node_modules\\\\@babel\\\\parser\\\\lib\\\\index.js:757:17)\\n    at Parser.raiseWithData (D:\\\\dr_Kenedy\\\\wp-content\\\\themes\\\\kenedy\\\\node_modules\\\\@babel\\\\parser\\\\lib\\\\index.js:750:17)\\n    at Parser.raise (D:\\\\dr_Kenedy\\\\wp-content\\\\themes\\\\kenedy\\\\node_modules\\\\@babel\\\\parser\\\\lib\\\\index.js:744:17)\\n    at Parser.unexpected (D:\\\\dr_Kenedy\\\\wp-content\\\\themes\\\\kenedy\\\\node_modules\\\\@babel\\\\parser\\\\lib\\\\index.js:8834:16)\\n    at Parser.parseExprAtom (D:\\\\dr_Kenedy\\\\wp-content\\\\themes\\\\kenedy\\\\node_modules\\\\@babel\\\\parser\\\\lib\\\\index.js:10176:20)\\n    at Parser.parseExprSubscripts (D:\\\\dr_Kenedy\\\\wp-content\\\\themes\\\\kenedy\\\\node_modules\\\\@babel\\\\parser\\\\lib\\\\index.js:9688:23)\\n    at Parser.parseMaybeUnary (D:\\\\dr_Kenedy\\\\wp-content\\\\themes\\\\kenedy\\\\node_modules\\\\@babel\\\\parser\\\\lib\\\\index.js:9668:21)\\n    at Parser.parseExprOps (D:\\\\dr_Kenedy\\\\wp-content\\\\themes\\\\kenedy\\\\node_modules\\\\@babel\\\\parser\\\\lib\\\\index.js:9538:23)\\n    at Parser.parseMaybeConditional (D:\\\\dr_Kenedy\\\\wp-content\\\\themes\\\\kenedy\\\\node_modules\\\\@babel\\\\parser\\\\lib\\\\index.js:9511:23)\\n    at Parser.parseMaybeAssign (D:\\\\dr_Kenedy\\\\wp-content\\\\themes\\\\kenedy\\\\node_modules\\\\@babel\\\\parser\\\\lib\\\\index.js:9466:21)\\n    at Parser.parseExpression (D:\\\\dr_Kenedy\\\\wp-content\\\\themes\\\\kenedy\\\\node_modules\\\\@babel\\\\parser\\\\lib\\\\index.js:9418:23)\\n    at Parser.parseStatementContent (D:\\\\dr_Kenedy\\\\wp-content\\\\themes\\\\kenedy\\\\node_modules\\\\@babel\\\\parser\\\\lib\\\\index.js:11339:23)\\n    at Parser.parseStatement (D:\\\\dr_Kenedy\\\\wp-content\\\\themes\\\\kenedy\\\\node_modules\\\\@babel\\\\parser\\\\lib\\\\index.js:11210:17)\\n    at Parser.parseBlockOrModuleBlockBody (D:\\\\dr_Kenedy\\\\wp-content\\\\themes\\\\kenedy\\\\node_modules\\\\@babel\\\\parser\\\\lib\\\\index.js:11785:25)\\n    at Parser.parseBlockBody (D:\\\\dr_Kenedy\\\\wp-content\\\\themes\\\\kenedy\\\\node_modules\\\\@babel\\\\parser\\\\lib\\\\index.js:11771:10)\\n    at Parser.parseTopLevel (D:\\\\dr_Kenedy\\\\wp-content\\\\themes\\\\kenedy\\\\node_modules\\\\@babel\\\\parser\\\\lib\\\\index.js:11141:10)\\n    at Parser.parse (D:\\\\dr_Kenedy\\\\wp-content\\\\themes\\\\kenedy\\\\node_modules\\\\@babel\\\\parser\\\\lib\\\\index.js:12843:10)\\n    at parse (D:\\\\dr_Kenedy\\\\wp-content\\\\themes\\\\kenedy\\\\node_modules\\\\@babel\\\\parser\\\\lib\\\\index.js:12896:38)\\n    at parser (D:\\\\dr_Kenedy\\\\wp-content\\\\themes\\\\kenedy\\\\node_modules\\\\@babel\\\\core\\\\lib\\\\parser\\\\index.js:54:34)\\n    at parser.next (<anonymous>)\\n    at normalizeFile (D:\\\\dr_Kenedy\\\\wp-content\\\\themes\\\\kenedy\\\\node_modules\\\\@babel\\\\core\\\\lib\\\\transformation\\\\normalize-file.js:93:38)\\n    at normalizeFile.next (<anonymous>)\\n    at run (D:\\\\dr_Kenedy\\\\wp-content\\\\themes\\\\kenedy\\\\node_modules\\\\@babel\\\\core\\\\lib\\\\transformation\\\\index.js:31:50)\\n    at run.next (<anonymous>)\\n    at Function.transform (D:\\\\dr_Kenedy\\\\wp-content\\\\themes\\\\kenedy\\\\node_modules\\\\@babel\\\\core\\\\lib\\\\transform.js:27:41)\\n    at transform.next (<anonymous>)\\n    at step (D:\\\\dr_Kenedy\\\\wp-content\\\\themes\\\\kenedy\\\\node_modules\\\\gensync\\\\index.js:254:32)\\n    at D:\\\\dr_Kenedy\\\\wp-content\\\\themes\\\\kenedy\\\\node_modules\\\\gensync\\\\index.js:266:13\\n    at async.call.result.err.err (D:\\\\dr_Kenedy\\\\wp-content\\\\themes\\\\kenedy\\\\node_modules\\\\gensync\\\\index.js:216:11)\");\n\n//# sourceURL=webpack:///./src/js/global.js?");
 
 /***/ }),
 

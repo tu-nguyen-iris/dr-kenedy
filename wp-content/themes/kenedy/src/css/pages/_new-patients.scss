@@ -15,6 +15,12 @@
   }
   .before-after{
     text-align: center;
+    h2{
+      font-family: Lora;
+      font-weight: bold;
+      color: $color-yellow2;
+      margin-bottom: 40px;
+    }
     h3{
       font-weight: bold;
       line-height: 50px;
@@ -47,6 +53,12 @@
   }
   .testimonials{
     text-align: center;
+    h2{
+      font-weight: bold;
+      font-family: Lora;
+      text-align: center;
+      color: $color-yellow2;
+    }
     .point{
       margin: 60px auto;
     }
@@ -103,6 +115,29 @@
       }
     }
   }
+
+  .tetimonials_mobile{
+    h2{
+      font-size: 32px;
+      font-weight: bold;
+      font-family: Lora;
+      text-align: center;
+      margin-bottom: 50px;
+      color: $color-yellow2;
+    }
+    .avatar{
+      width:56px;
+      height: 56px;
+      border-radius: 50%;
+      margin-bottom: 15px;
+    }
+    .testimonials-mobile__comment{
+      font-family: Lora;
+    }
+    .button{
+      width: 100%;
+    }
+  }
 }
 @include  media-breakpoint-only(xs){
   .new-patients-ph{
@@ -114,6 +149,17 @@
         text-align: left;
         margin: 15px 0px;
       }
+    }
+    .before-after{
+      background: rgba(249, 246, 236, 0.5);
+      margin-top: 30px;
+      margin-bottom: 50px;
+      .button{
+        width: 100%;
+      }
+    }
+    .twentytwenty-wrapper{
+      margin-bottom:20px;
     }
     .banner{
       padding: 50px 0px;
