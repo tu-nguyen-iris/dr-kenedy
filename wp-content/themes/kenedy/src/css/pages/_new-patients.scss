@@ -53,11 +53,13 @@
   }
   .testimonials{
     text-align: center;
+    margin-bottom: 80px;
     h2{
       font-weight: bold;
       font-family: Lora;
       text-align: center;
       color: $color-yellow2;
+      margin-bottom: 40px;
     }
     .point{
       margin: 60px auto;
@@ -104,16 +106,19 @@
         color: $color-dark1;
       }
       .carousel-control-prev{
-        left: 180px;
+        left: 90px;
         color: black;
       }
       .carousel-control-next{
-        right: 180px;
-      }
-      i{
-        color: #5e7872;
+        right: 90px;
       }
     }
+    .carousel-control-prev-icon{
+      background-image: url("../../images/left.png");
+    }
+    .carousel-control-next-icon{
+      background-image: url("../../images/right.png");
+      }
   }
 
   .tetimonials_mobile{

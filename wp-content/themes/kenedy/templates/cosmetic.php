@@ -25,7 +25,7 @@ get_header();?>
         <h4>A BEAUTIFUL SMILE THROUGH COSMETIC DENTISTRY</h4>
         <p class="">Cosmetic dentistry entails a number of procedures designed to address the issues that often affect patients’ smiles. Whether your teeth are stained, chipped, or crooked, or you have several cosmetic issues that need to be addressed to improve your smile’s appearance, Dr. Kennedy can prescribe a conservative smile makeover plan to correct your specific concerns.</p>
     </section>
-    <section class="item-list container">
+    <section class="item-list container-fluid">
         <h2 class="d-none d-lx-block">Teeth Whitening</h2>
         <div class="horizon_right row no-gutters">
             <h2 class="d-block d-xl-none">Teeth Whitening</h2>
@@ -39,7 +39,7 @@ get_header();?>
             </div>
         </div>
     </section>
-    <section class="item-list container">
+    <section class="item-list container-fluid">
         <h2 class="d-none d-xl-block">Bonding/ Contouring</h2>
         <div class="horizon_right row no-gutters">
             <h2 class="d-block d-xl-none">Bonding/ Contouring</h2>
@@ -67,7 +67,7 @@ get_header();?>
         </div>
         </div>
     </section>
-    <section class="item-list container">
+    <section class="item-list container-fluid">
         <h2 class="d-none d-xl-block">Porcelain Veneers</h2>
         <div class="horizon_right  row no-gutters">
             <h2 class="d-block d-xl-none">Porcelain Veneers</h2>
