@@ -6,6 +6,7 @@
     <title><?php the_title()?></title>
     <link  rel="stylesheet" href="<?php echo THEME_URL?>/dist/theme.css">
     <link rel="stylesheet" href="<?php echo THEME_URL?>/dist/vendor.css">
+    <link rel="stylesheet" href="<?php echo THEME_URL?>/dist/vendors.min.css">
     <?php wp_head()?>
 </head>
 <body <?php body_class()?>>

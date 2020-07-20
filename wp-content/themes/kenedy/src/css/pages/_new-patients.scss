@@ -1,0 +1,184 @@
+.new-patients-ph{
+  .intro{
+    margin: 50px auto;
+    text-align: center;
+    h4{
+      font-size: 30px;
+      font-family: Lora;
+      line-height: 30px;
+      font-weight: 600;
+      color:$color-yellow;
+    }
+    p{
+      margin: 30px 15%;
+    }
+  }
+  .before-after{
+    text-align: center;
+    h2{
+      font-family: Lora;
+      font-weight: bold;
+      color: $color-yellow2;
+      margin-bottom: 40px;
+    }
+    h3{
+      font-weight: bold;
+      line-height: 50px;
+      margin-bottom: 20px;
+    }
+    img{
+      margin-bottom: 30px;
+    }
+  }
+  .banner{
+    text-align: center;
+    margin-bottom: 80px;
+    &::before, &::after{
+      background: #CADEC7;
+      opacity: 0.3;
+    }
+    .banner--content{
+      padding: 65px 200px 40px;
+    }
+    h1{
+      color:$color-dark1;
+      font-size: 60px;
+      font-family: Lora;
+      margin-bottom: 30px;
+    }
+    .button{
+      width: 220px;
+      margin-bottom: 55px;
+    }
+  }
+  .testimonials{
+    text-align: center;
+    margin-bottom: 80px;
+    h2{
+      font-weight: bold;
+      font-family: Lora;
+      text-align: center;
+      color: $color-yellow2;
+      margin-bottom: 40px;
+    }
+    .point{
+      margin: 60px auto;
+    }
+    .star{
+      margin-top: 60px;
+      margin-bottom: 15px;
+    }
+    &__comment{
+      color:$color-yellow2;
+      font-size: 26px;
+      line-height: 42px;
+      font-family: Lora;
+      height: 250px;
+      &--name{
+        font-size: 20px;
+        line-height: 28px;
+        font-weight: bold;
+        color: $color-dark;
+      }
+    }
+  }
+  .carousel{
+    .carousel-indicators{
+      margin-left: 22%;
+      margin-right: 22%;
+      left: unset;
+      bottom: 60px;
+      li{
+        height: 10px;
+        width: 10px;
+        -moz-border-radius: 10px;
+        -webkit-border-radius: 10px;
+        --border-radius: 10px;
+        border-radius: 10px;
+        border-bottom: 0px;
+        border-top: 0px;
+        background: $color-dark1;
+      }
+    }
+      .carousel-control-prev, .carousel-control-next{
+        bottom: -490px;
+        color: $color-dark1;
+      }
+      .carousel-control-prev{
+        left: 660px;
+        color: black;
+      }
+      .carousel-control-next{
+        right: 0px;
+      }
+    .carousel-control-prev-icon{
+      background-image: url("../../images/left.png");
+    }
+    .carousel-control-next-icon{
+      background-image: url("../../images/right.png");
+      }
+  }
+
+  .tetimonials_mobile{
+    h2{
+      font-size: 32px;
+      font-weight: bold;
+      font-family: Lora;
+      text-align: center;
+      margin-bottom: 50px;
+      color: $color-yellow2;
+    }
+    .avatar{
+      width:56px;
+      height: 56px;
+      border-radius: 50%;
+      margin-bottom: 15px;
+    }
+    .testimonials-mobile__comment{
+      font-family: Lora;
+    }
+    .button{
+      width: 100%;
+    }
+  }
+}
+@include  media-breakpoint-only(xs){
+  .new-patients-ph{
+    .intro{
+      h4{
+        font-size: 18px;
+      }
+      p{
+        text-align: left;
+        margin: 15px 0px;
+      }
+    }
+    .before-after{
+      background: rgba(249, 246, 236, 0.5);
+      margin-top: 30px;
+      margin-bottom: 50px;
+      .button{
+        width: 100%;
+      }
+    }
+    .twentytwenty-wrapper{
+      margin-bottom:20px;
+    }
+    .banner{
+      padding: 50px 0px;
+      margin-bottom: 50px;
+      .banner--content{
+        padding: 0px;
+        margin-bottom: 30px;
+        h1{
+          font-size: 28px;
+          line-height: 40px;
+        }
+      }
+      .button{
+        margin-top: 0px ;
+        margin-bottom:20px ;
+      }
+    }
+  }
+}

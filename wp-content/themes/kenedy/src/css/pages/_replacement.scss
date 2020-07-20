@@ -1,0 +1,119 @@
+.replacement-ph{
+  .intro{
+    margin: 50px auto;
+    text-align: center;
+    h4{
+      font-size: 30px;
+      font-family: Lora;
+      line-height: 30px;
+      font-weight: 600;
+      color:$color-yellow;
+    }
+    p{
+      margin: 30px 15%;
+    }
+  }
+  .item-list{
+    margin-bottom: 80px;
+    h2{
+      color:$color-yellow2;
+      font-weight: bold;
+      text-align: center;
+      font-family: Lora;
+      margin-bottom: 40px;
+    }
+    h3{
+      font-weight: bold;
+      line-height: 50px;
+      margin-bottom: 20px;
+    }
+    .button{
+      font-weight: bold;
+      width: 200px;
+      height: 50px;
+      margin-top: 40px;
+    }
+    &__content
+    {
+      &--right{
+        padding: 70px 150px 100px 70px;
+      }
+      &--left{
+        padding: 70px 40px 60px 180px;
+      }
+    }
+  }
+  .banner{
+    text-align: center;
+    margin-bottom: 80px;
+    &::before, &::after{
+      background: #CADEC7;
+      opacity: 0.3;
+    }
+    .banner--content{
+      padding: 65px 200px 40px;
+    }
+    h1{
+      color:$color-dark1;
+      font-size: 60px;
+      font-family: Lora;
+      margin-bottom: 30px;
+    }
+    .button{
+      width: 220px;
+      margin-bottom: 55px;
+    }
+  }
+}
+@include media-breakpoint-only(xs){
+  .replacement-ph{
+    .intro{
+      h4{
+        font-size: 18px;
+      }
+      p{
+        text-align: left;
+        margin: 15px 0px;
+      }
+    }
+    .item-list{
+      margin-bottom: 50px;
+      h2{
+        font-size: 32px;
+        margin: 50px auto 40px;
+      }
+      h3{
+        font-size: 18px;
+        line-height: 28px;
+      }
+      &__content{
+        &--left,&--right{
+          padding: 0px;
+        }
+      }
+      img{
+        margin-bottom: 35px;
+      }
+      .button{
+        width: 100%;
+      }
+    }
+    .banner{
+      padding: 50px 0px;
+      margin-bottom: 50px;
+      .banner--content{
+        padding: 0px;
+        margin-bottom: 30px;
+        h1{
+          font-size: 28px;
+          line-height: 40px;
+        }
+
+      }
+      .button{
+        margin-top: 0px ;
+        margin-bottom:20px ;
+      }
+    }
+  }
+}
