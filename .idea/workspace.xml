@@ -3,11 +3,18 @@
   <component name="ChangeListManager">
     <list default="true" id="f92dffad-8f09-4032-a5a7-d65847a47083" name="Default Changelist" comment="">
 <<<<<<< HEAD
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/wp-content/themes/kenedy/front-page.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/kenedy/front-page.php" afterDir="false" />
 =======
       <change beforePath="$PROJECT_DIR$/wp-content/themes/kenedy/dist/theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/kenedy/dist/theme.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/kenedy/src/css/pages/_home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/kenedy/src/css/pages/_home.scss" afterDir="false" />
 >>>>>>> a9b3bc62a5cff2e8cc0eb828fb15f77f6e1d5d8d
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/kenedy/src/css/Component/_horizon.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/kenedy/src/css/Component/_horizon.scss" afterDir="false" />
+>>>>>>> dev
+>>>>>>> 87304844b16bdfb719d1e94c5cadeac618151946
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,6 +23,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
+<<<<<<< HEAD
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+=======
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/kenedy/front-page.php">
@@ -28,6 +38,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/wp-content/themes/kenedy/src/css/Component/_slider.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="608">
@@ -63,6 +74,12 @@
             <state relative-caret-position="363">
               <caret line="118" column="21" selection-start-line="118" selection-start-column="21" selection-end-line="118" selection-end-column="21" />
 >>>>>>> a9b3bc62a5cff2e8cc0eb828fb15f77f6e1d5d8d
+=======
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/kenedy/src/css/pages/_home.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="321">
+              <caret line="116" column="21" selection-start-line="116" selection-start-column="21" selection-end-line="116" selection-end-column="21" />
+>>>>>>> 87304844b16bdfb719d1e94c5cadeac618151946
             </state>
           </provider>
         </entry>
@@ -116,15 +133,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/kenedy/src/css/Component/_horizon.scss">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
 <<<<<<< HEAD
             <state relative-caret-position="1600">
               <caret line="100" selection-start-line="100" selection-end-line="100" />
 =======
             <state relative-caret-position="1134">
               <caret line="105" column="1" selection-start-line="105" selection-start-column="1" selection-end-line="105" selection-end-column="1" />
+=======
+            <state relative-caret-position="454">
+              <caret line="118" column="18" selection-start-line="118" selection-start-column="18" selection-end-line="118" selection-end-column="18" />
+>>>>>>> 87304844b16bdfb719d1e94c5cadeac618151946
             </state>
           </provider>
         </entry>
@@ -159,6 +181,7 @@
         </entry>
       </file>
     </leaf>
+>>>>>>> dev
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -193,7 +216,11 @@
         <option value="$PROJECT_DIR$/wp-content/themes/kenedy/src/css/Component/_reset.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/kenedy/page.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/kenedy/src/css/Component/_button.scss" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/wp-content/themes/kenedy/src/css/Component/_horizon.scss" />
+=======
+        <option value="$PROJECT_DIR$/wp-content/themes/kenedy/src/css/Component/_slider.scss" />
+>>>>>>> 87304844b16bdfb719d1e94c5cadeac618151946
         <option value="$PROJECT_DIR$/wp-content/themes/kenedy/src/css/_valiable.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/kenedy/src/css/app.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/kenedy/front-page.php" />
@@ -203,6 +230,7 @@
 =======
         <option value="$PROJECT_DIR$/wp-content/themes/kenedy/src/css/Component/_banner.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/kenedy/src/css/pages/_home.scss" />
+<<<<<<< HEAD
 >>>>>>> a9b3bc62a5cff2e8cc0eb828fb15f77f6e1d5d8d
       </list>
     </option>
@@ -215,6 +243,15 @@
     <option name="x" value="150" />
     <option name="y" value="566" />
 >>>>>>> a9b3bc62a5cff2e8cc0eb828fb15f77f6e1d5d8d
+=======
+        <option value="$PROJECT_DIR$/wp-content/themes/kenedy/src/css/Component/_horizon.scss" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="207" />
+    <option name="y" value="517" />
+>>>>>>> 87304844b16bdfb719d1e94c5cadeac618151946
     <option name="width" value="1400" />
     <option name="height" value="835" />
   </component>
@@ -252,6 +289,7 @@
               <item name="themes" type="462c0819:PsiDirectoryNode" />
               <item name="kenedy" type="462c0819:PsiDirectoryNode" />
             </path>
+<<<<<<< HEAD
             <path>
               <item name="dr_Kenedy" type="b2602c69:ProjectViewProjectNode" />
               <item name="dr_Kenedy" type="462c0819:PsiDirectoryNode" />
@@ -288,6 +326,8 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
+=======
+>>>>>>> 87304844b16bdfb719d1e94c5cadeac618151946
           </expand>
           <select />
         </subPane>
@@ -298,7 +338,11 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+<<<<<<< HEAD
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+=======
+    <property name="last_opened_file_path" value="D:/drfouychau" />
+>>>>>>> 87304844b16bdfb719d1e94c5cadeac618151946
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -346,25 +390,46 @@
       <workItem from="1594875459507" duration="18933000" />
 <<<<<<< HEAD
       <workItem from="1594915904909" duration="11808000" />
+<<<<<<< HEAD
       <workItem from="1594969348669" duration="1589000" />
 =======
       <workItem from="1594915904909" duration="14449000" />
 >>>>>>> a9b3bc62a5cff2e8cc0eb828fb15f77f6e1d5d8d
+=======
+      <workItem from="1594969254283" duration="627000" />
+=======
+      <workItem from="1594915904909" duration="14884000" />
+>>>>>>> dev
+>>>>>>> 87304844b16bdfb719d1e94c5cadeac618151946
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
 <<<<<<< HEAD
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="57577000" />
 =======
     <option name="totallyTimeSpent" value="58629000" />
 >>>>>>> a9b3bc62a5cff2e8cc0eb828fb15f77f6e1d5d8d
+=======
+    <option name="totallyTimeSpent" value="56615000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+=======
+    <option name="totallyTimeSpent" value="59064000" />
+>>>>>>> 87304844b16bdfb719d1e94c5cadeac618151946
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
+>>>>>>> dev
     <layout>
+<<<<<<< HEAD
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24026845" />
+=======
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24054463" />
+>>>>>>> 87304844b16bdfb719d1e94c5cadeac618151946
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -379,6 +444,7 @@
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.39281577" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32340425" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Codota" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -560,6 +626,7 @@
     </entry>
     <entry file="file://$USER_HOME$/Desktop/web_template-tunguyen/dr_kennedy_example/index.html" />
     <entry file="file://$PROJECT_DIR$/wp-content/themes/kenedy/page.php">
+<<<<<<< HEAD
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
           <caret line="16" column="25" selection-start-line="16" selection-end-line="17" />
@@ -568,6 +635,8 @@
     </entry>
 <<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/wp-content/themes/kenedy/src/css/Component/_button.scss">
+=======
+>>>>>>> 87304844b16bdfb719d1e94c5cadeac618151946
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="489">
           <caret line="51" column="7" selection-start-line="51" selection-start-column="7" selection-end-line="51" selection-end-column="7" />
@@ -587,14 +656,20 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/wp-content/themes/kenedy/functions.php">
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/kenedy/src/css/Component/_button.scss">
+>>>>>>> 87304844b16bdfb719d1e94c5cadeac618151946
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-309">
-          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        <state relative-caret-position="489">
+          <caret line="51" column="7" selection-start-line="51" selection-start-column="7" selection-end-line="51" selection-end-column="7" />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/wp-content/themes/kenedy/header.php">
 =======
 >>>>>>> a9b3bc62a5cff2e8cc0eb828fb15f77f6e1d5d8d
@@ -608,11 +683,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="16">
           <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
+=======
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/kenedy/src/css/Component/_header.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-126">
+          <caret column="8" selection-start-column="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+=======
+>>>>>>> dev
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/kenedy/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-309">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+>>>>>>> 87304844b16bdfb719d1e94c5cadeac618151946
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/kenedy/src/css/pages/_home.scss">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="304">
           <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
         </state>
@@ -639,9 +730,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1600">
           <caret line="100" selection-start-line="100" selection-end-line="100" />
+=======
+        <state relative-caret-position="289">
+          <caret line="17" column="56" selection-start-line="17" selection-start-column="56" selection-end-line="17" selection-end-column="56" />
+>>>>>>> 87304844b16bdfb719d1e94c5cadeac618151946
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/kenedy/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
+=======
     <entry file="file://$PROJECT_DIR$/wp-content/themes/kenedy/src/css/app.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="64">
@@ -666,6 +767,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21">
           <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="13" />
+>>>>>>> dev
         </state>
       </provider>
     </entry>
@@ -689,11 +791,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/kenedy/webpack.config.js">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="333">
           <caret line="77" column="22" selection-start-line="77" selection-start-column="16" selection-end-line="77" selection-end-column="22" />
+=======
+        <state relative-caret-position="408">
+          <caret line="24" column="28" selection-start-line="24" selection-end-line="25" />
+>>>>>>> 87304844b16bdfb719d1e94c5cadeac618151946
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
 <<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/wp-content/themes/kenedy/src/js/global.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -703,11 +811,28 @@
             <element signature="e#0#32#0" expanded="true" />
           </folding>
 =======
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/kenedy/src/css/Component/_banner.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/kenedy/src/css/_valiable.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="13" />
+>>>>>>> 87304844b16bdfb719d1e94c5cadeac618151946
+=======
     <entry file="file://$PROJECT_DIR$/wp-content/themes/kenedy/src/css/Component/_button.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="489">
           <caret line="51" column="7" selection-start-line="51" selection-start-column="7" selection-end-line="51" selection-end-column="7" />
+<<<<<<< HEAD
 >>>>>>> a9b3bc62a5cff2e8cc0eb828fb15f77f6e1d5d8d
+=======
+>>>>>>> dev
+>>>>>>> 87304844b16bdfb719d1e94c5cadeac618151946
         </state>
       </provider>
     </entry>
@@ -723,6 +848,26 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/kenedy/src/css/Component/_horizon.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="100" selection-start-line="100" selection-end-line="100" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/kenedy/src/css/app.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/kenedy/front-page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1445">
+          <caret line="85" column="57" selection-start-line="85" selection-start-column="57" selection-end-line="85" selection-end-column="57" />
+=======
     <entry file="file://$PROJECT_DIR$/wp-content/themes/kenedy/src/css/Component/_header.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -730,18 +875,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/kenedy/src/css/Component/_horizon.scss">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/kenedy/src/css/pages/_home.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1134">
-          <caret line="105" column="1" selection-start-line="105" selection-start-column="1" selection-end-line="105" selection-end-column="1" />
+        <state relative-caret-position="321">
+          <caret line="116" column="21" selection-start-line="116" selection-start-column="21" selection-end-line="116" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/kenedy/src/css/pages/_home.scss">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/kenedy/src/css/Component/_horizon.scss">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="363">
           <caret line="118" column="21" selection-start-line="118" selection-start-column="21" selection-end-line="118" selection-end-column="21" />
 >>>>>>> a9b3bc62a5cff2e8cc0eb828fb15f77f6e1d5d8d
+=======
+        <state relative-caret-position="454">
+          <caret line="118" column="18" selection-start-line="118" selection-start-column="18" selection-end-line="118" selection-end-column="18" />
+>>>>>>> dev
+>>>>>>> 87304844b16bdfb719d1e94c5cadeac618151946
         </state>
       </provider>
     </entry>

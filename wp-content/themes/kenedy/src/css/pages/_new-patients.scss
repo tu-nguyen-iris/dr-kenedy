@@ -1,0 +1,71 @@
+.new-patients-ph{
+  .intro{
+    margin: 50px auto;
+    text-align: center;
+    h4{
+      font-size: 30px;
+      font-family: Lora;
+      line-height: 30px;
+      font-weight: 600;
+      color:$color-yellow;
+    }
+    p{
+      margin: 30px 15%;
+    }
+  }
+  .before-after{
+    text-align: center;
+    h3{
+      font-weight: bold;
+      line-height: 50px;
+      margin-bottom: 20px;
+    }
+    img{
+      margin-bottom: 30px;
+    }
+  }
+  .banner{
+    text-align: center;
+    margin-bottom: 80px;
+    &::before, &::after{
+      background: #CADEC7;
+      opacity: 0.3;
+    }
+    .banner--content{
+      padding: 65px 200px 40px;
+    }
+    h1{
+      color:$color-dark1;
+      font-size: 60px;
+      font-family: Lora;
+      margin-bottom: 30px;
+    }
+    .button{
+      width: 220px;
+      margin-bottom: 55px;
+    }
+  }
+  .testimonials{
+    text-align: center;
+    .point{
+      margin: 60px auto;
+    }
+    .star{
+      margin-top: 60px;
+      margin-bottom: 15px;
+    }
+    &__comment{
+      color:$color-yellow2;
+      font-size: 26px;
+      line-height: 42px;
+      font-family: Lora;
+      height: 250px;
+      &--name{
+        font-size: 20px;
+        line-height: 28px;
+        font-weight: bold;
+        color: $color-dark;
+      }
+    }
+  }
+}
