@@ -119,7 +119,8 @@
         <section class="horizon__second  final d-none d-lg-block">
             <div class="container-fluid">
                 <div class="row horizon no-gutters">
-                    <div class="col-sm-12 col-md-6 col-lg-6 item-body__left">
+                    <div class="col-sm-12 col-md-6 col-lg-6">
+                        <div class="item-body__left"></div>
                         <h3 class="title">
                             Protecting children's smiles with professional dentistry
                         </h3>
@@ -133,6 +134,7 @@
                         <button class="button desktop d-none d-lg-block">
                             Request an appoinment
                         </button>
+                        </div>
                     </div>
                     <div class="col-sm-12 col-md-6 col-lg-6 item-images">
                         <img src="<?php echo THEME_URL?>/src/images/shutterstock_663132562 1.png" class="images">

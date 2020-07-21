@@ -1,12 +1,14 @@
 .family {
-  .title-second{
+  .title-second {
     padding-top: 0px;
   }
-  .title-begin{
-    .title-second{
+
+  .title-begin {
+    .title-second {
       padding-top: 0px;
     }
   }
+
   .mobile {
     display: none;
   }
@@ -37,13 +39,14 @@
       }
 
       .item-body__right {
+        max-width: 600px;
         padding-left: 86px;
         padding-right: 151px;
       }
     }
 
   }
-}
+
   .banner {
     margin-left: 0;
     margin-right: 0;
@@ -90,7 +93,8 @@
     }
 
     .item-body__left {
-      padding-left: 184px;
+      max-width: 600px;
+      float: right;
       padding-right: 53px;
     }
 
@@ -125,7 +129,7 @@
   .final {
     margin-bottom: 80px;
   }
-
+}
   @include media-breakpoint-down(md) {
     .family {
       .horizon_mid {
@@ -191,6 +195,7 @@
       }
 
       .banner {
+        height: unset;
         .banner__title {
           font-size: 28px;
           padding-top: 46px;

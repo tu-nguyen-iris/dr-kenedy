@@ -66,12 +66,13 @@
         </div>
 
     </section>
-    <section class="banner">
-        <img src="<?php echo THEME_URL?>/src/images/Home2.png" >
+    <section class="banner banner__first">
+        <img class="images" src="<?php echo THEME_URL?>/src/images/Home2.png" >
     </section>
-    <section class="horizon d-none d-lg-flex container-fluid">
+    <section class="horizon d-none d-lg-block container-fluid">
         <div class="row no-gutters">
-            <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 item-body__left">
+            <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                <div class="item-body__left">
                 <h3 class="title">
                     Family Dentistry
                 </h3>
@@ -83,13 +84,14 @@
                     <button class="button">
                         Learn More
                     </button>
+                </div>
             </div>
             <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
                 <img class="images" src="<?php echo THEME_URL ?>/src/images/girl-hot.png">
             </div>
         </div>
     </section>
-    <section class="horizon_right d-flex d-lg-none container-fluid">
+    <section class="horizon_right d-block d-lg-none container-fluid">
         <div class="row no-gutters">
             <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 text-center">
                 <h2 class="title-second">
@@ -97,7 +99,8 @@
                 </h2>
                 <img class="images" src="<?php echo THEME_URL ?>/src/images/girl-hot.png">
             </div>
-            <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 item-body__right">
+            <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                <div class="item-body__right">
                 <p>
                     Family’s dental health requires a variety of dental services. Children’s teeth and oral structures require different treatments than those of their parents and older siblings—which are more complex. We offer a wide range of family dentistry services for every member of your family:
                 </p>
@@ -106,6 +109,7 @@
                 <button class="button">
                     Learn More
                 </button>
+                </div>
             </div>
         </div>
     </section>
@@ -117,7 +121,8 @@
                 </h2>
                 <img class="images" src="<?php echo THEME_URL ?>/src/images/man-smile.png">
             </div>
-            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 item-body__right">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 ">
+                <div class="item-body__right">
                 <h3 class="title d-none d-lg-block">
                     General Dentistry
                 </h3>
@@ -131,12 +136,14 @@
                 <button class="button">
                     Learn More
                 </button>
+                </div>
             </div>
         </div>
     </section>
-    <section class="horizon container-fluid d-none d-lg-flex">
+    <section class="horizon container-fluid d-none d-lg-block">
         <div class="row no-gutters">
-            <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 item-body__left">
+            <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 ">
+                <div class="item-body__left">
                 <h3 class="title">
                     Cosmetic Dentistry
                 </h3>
@@ -149,13 +156,14 @@
                 <button class="button">
                     Learn More
                 </button>
+                </div>
             </div>
             <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
                 <img class="images" src="<?php echo THEME_URL ?>/src/images/girlHome1.jpg">
             </div>
         </div>
     </section>
-    <section class="horizon_right d-flex d-sm-none container-fluid">
+    <section class="horizon_right d-block d-sm-none container-fluid">
         <div class="row no-gutters">
             <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 text-center">
                 <h2 class="title-second d-block d-lg-none">
@@ -163,7 +171,8 @@
                 </h2>
                 <img class="images" src="<?php echo THEME_URL ?>/src/images/girlHome1.jpg">
             </div>
-            <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 item-body__right">
+            <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                <div class="item-body__right">
                 <h3 class="title d-none d-lg-block">
                     Cosmetic Dentistry
                 </h3>
@@ -176,6 +185,7 @@
                 <button class="button">
                     Learn More
                 </button>
+                </div>
             </div>
         </div>
     </section>
@@ -187,7 +197,8 @@
                 </h2>
                 <img class="images" src="<?php echo THEME_URL ?>/src/images/beutiful-women.png">
             </div>
-            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 item-body__right">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                <div class="item-body__right">
                 <h3 class="title d-none d-lg-block">
                     Replacement Teeth
                 </h3>
@@ -200,11 +211,12 @@
                 <button class="button">
                     Learn More
                 </button>
+                </div>
             </div>
         </div>
     </section>
     <section class="container">
-        <div class="row text-center">
+        <div class="row text-center d-none d-lg-flex">
             <div class="col-12 col-sm-12 col-md-12 col-lg-12">
                 <h2 class="title-second">
                     Our Smile Transformations
@@ -215,6 +227,9 @@
     <div class="container home-slider">
         <div class="row">
         <div class="col-12 col-sm-12 col-md-3 col-lg-3">
+            <h2 class="title-second text-center d-block d-lg-none">
+                Our Smile Transformations
+            </h2>
             <div class="test">
                 <img src="<?php echo THEME_URL?>/src/images/patient-bf-1.png">
                 <img src="<?php echo THEME_URL?>/src/images/patient-af-1.png">
@@ -240,7 +255,7 @@
          </div>
     </div>
     </div>
-    <section class="testimonials container-fluid banner d-none d-lg-block">
+    <section class="testimonials  d-none d-lg-block">
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -249,72 +264,88 @@
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <div class="row">
+                    <div class="row no-gutters">
                         <img class="col-xl-6 col-lg-6" src="<?php echo THEME_URL?>/src/images/slider-1.png">
-                        <div class="col-xl-6 col-lg-6">
+                        <div class="banner col-xl-6 col-lg-6 ">
                             <img class="d-block point" src="<?php echo THEME_URL?>/src/images/dau-phay.png">
                             <p class="testimonials__comment">Everyone was patient and understanding when I asked to address a different tooth than they had planned during my appointment. It's a pleasure working with Dr. Kennedy and all the staff!</p>
                             <img class="block star" src="<?php echo THEME_URL?>/src/images/stars.png">
                             <p class="testimonials__comment--name"> Jack</p>
-                            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                <span class="sr-only">Previous</span>
-                            </a>
-                            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                <span class="sr-only">Next</span>
-                            </a>
                         </div>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <div class="row">
+                    <div class="row no-gutters">
                         <img class="col-xl-6 col-lg-6" src="<?php echo THEME_URL?>/src/images/slider-2.png">
-                        <div class="col-xl-6 col-lg-6">
+                        <div class="col-xl-6 col-lg-6  banner">
                             <img class="d-block point" src="<?php echo THEME_URL?>/src/images/dau-phay.png">
-                            <p class="testimonials__comment">“I really enjoy all of you. Friendly and funny and professional! Thank you.”</p>
+                            <p class="testimonials__comment">“I really enjoy all of you. Friendly and funny and professional! Thank you.”
+                            </p>
                             <img class="block star" src="<?php echo THEME_URL?>/src/images/stars.png">
                             <p class="testimonials__comment--name"> M.H.</p>
-                            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                <span class="sr-only">Previous</span>
-                            </a>
-                            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                <span class="sr-only">Next</span>
-                            </a>
                         </div>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <div class="row">
+                    <div class="row no-gutters">
                         <img class="col-xl-6 col-lg-6" src="<?php echo THEME_URL?>/src/images/slider-3.png">
-                        <div class="col-xl-6 col-lg-6">
+                        <div class="col-xl-6 col-lg-6  banner">
                             <img class="d-block point" src="<?php echo THEME_URL?>/src/images/dau-phay.png">
                             <p class="testimonials__comment">“Always welcoming, professional with excellent service. Thanks for running a first rate service and I am happy to recommend you to all my friends!”</p>
                             <img class="block star" src="<?php echo THEME_URL?>/src/images/stars.png">
                             <p class="testimonials__comment--name"> D.H. </p>
-                            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                <span class="sr-only">Previous</span>
-                            </a>
-                            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                <span class="sr-only">Next</span>
-                            </a>
                         </div>
                     </div>
                 </div>
             </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
         </div>
     </section>
     <section class="tetimonials_mobile banner d-block d-xl-none">
         <div class="container">
             <h2>Testimonials</h2>
-            <img class="avatar" src="<?php echo THEME_URL?>/src/images/slider-1.png">
-            <p class="testimonials-mobile__comment">Everyone was patient and understanding when I asked to address a different tooth than they had planned during my appointment. It's a pleasure working with Dr. Kennedy and all the staff!</p>
-            <img src="<?php echo THEME_URL?>/src/images/stars.png">
-            <p class="testimonials-mobile__comment--name text-center">P.C</p>
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="avatar" src="<?php echo THEME_URL?>/src/images/slider-1.png">
+                        <p class="testimonials-mobile__comment">Everyone was patient and understanding when I asked to address a different tooth than they had planned during my appointment. It's a pleasure working with Dr. Kennedy and all the staff!</p>
+                        <img src="<?php echo THEME_URL?>/src/images/stars.png">
+                        <p class="testimonials-mobile__comment--name text-center">P.C</p>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="avatar" src="<?php echo THEME_URL?>/src/images/slider-2.png">
+                        <p class="testimonials-mobile__comment">“I really enjoy all of you. Friendly and funny and professional! Thank you.”</p>
+                        <img src="<?php echo THEME_URL?>/src/images/stars.png">
+                        <p class="testimonials-mobile__comment--name text-center">M.H</p>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="avatar" src="<?php echo THEME_URL?>/src/images/slider-3.png">
+                        <p class="testimonials-mobile__comment">“Always welcoming, professional with excellent service. Thanks for running a first rate service and I am happy to recommend you to all my friends!”</p>
+                        <img src="<?php echo THEME_URL?>/src/images/stars.png">
+                        <p class="testimonials-mobile__comment--name text-center">D.H</p>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
             <button class="button">See more reviews</button>
         </div>
     </section>

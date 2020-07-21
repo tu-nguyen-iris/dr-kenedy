@@ -158,14 +158,14 @@ get_header();?>
                         <p class="testimonials-mobile__comment--name">P.C</p>
                     </div>
                     <div class="carousel-item">
-                        <img class="avatar" src="<?php echo THEME_URL?>/src/images/slider-1.png">
-                        <p class="testimonials-mobile__comment">Everyone was patient and understanding when I asked to address a different tooth than they had planned during my appointment. It's a pleasure working with Dr. Kennedy and all the staff!</p>
+                        <img class="avatar" src="<?php echo THEME_URL?>/src/images/slider-2.png">
+                        <p class="testimonials-mobile__comment">“I really enjoy all of you. Friendly and funny and professional! Thank you.”</p>
                         <img src="<?php echo THEME_URL?>/src/images/stars.png">
                         <p class="testimonials-mobile__comment--name">P.C</p>
                     </div>
                     <div class="carousel-item">
-                        <img class="avatar" src="<?php echo THEME_URL?>/src/images/slider-1.png">
-                        <p class="testimonials-mobile__comment">Everyone was patient and understanding when I asked to address a different tooth than they had planned during my appointment. It's a pleasure working with Dr. Kennedy and all the staff!</p>
+                        <img class="avatar" src="<?php echo THEME_URL?>/src/images/slider-3.png">
+                        <p class="testimonials-mobile__comment">“Always welcoming, professional with excellent service. Thanks for running a first rate service and I am happy to recommend you to all my friends!”</p>
                         <img src="<?php echo THEME_URL?>/src/images/stars.png">
                         <p class="testimonials-mobile__comment--name">P.C</p>
                     </div>

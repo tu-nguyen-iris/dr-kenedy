@@ -121,7 +121,8 @@
         </section>
         <section class="horizon__second container-fluid horizon_mid ">
             <div class="row horizon d-none d-lg-flex no-gutters">
-                <div class="col-sm-12 col-md-6 col-lg-6 item-body__left">
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                    <div class="item-body__left">
                     <h3 class="title">
                         Casey
                     </h3>
@@ -132,6 +133,7 @@
                     <p>
                         When she is not at work, she is busy spending time with family, friends and her South African Mastiff named Chase. She enjoys reading, yoga, Jazzercise, and going to her lake house in New Hampshire.
                     </p>
+                    </div>
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-6 item-images">
                     <img src="<?php echo THEME_URL?>/src/images/7807 1.png" class="images images__right">
@@ -180,7 +182,8 @@
                 </div>
             </div>
             <div class="row horizon no-gutters d-none d-lg-flex">
-                <div class="col-sm-12 col-md-6 col-lg-6 item-body__left">
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                    <div class="item-body__left">
                     <h3 class="title">
                         McKayla
                     </h3>
@@ -191,6 +194,7 @@
                     <p>
                         In her free time McKayla enjoys spending quality time with her family and friends, outdoor activities with her two dogs and is always happy to read a good book!
                     </p>
+                    </div>
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-6 item-images">
                     <img src="<?php echo THEME_URL?>/src/images/beautiful-young-woman-looking-camera-white-background_1301-7766 1.png" class="images images__right">
@@ -263,7 +267,8 @@
         <section class="horizon__second  final d-none d-lg-block">
             <div class="container-fluid">
             <div class="row horizon no-gutters">
-                <div class="col-sm-12 col-md-6 col-lg-6 item-body__left">
+                <div class="col-sm-12 col-md-6 col-lg-6 ">
+                    <div class="item-body__left">
                     <h3 class="title">
                         Ruth
                     </h3>
@@ -274,6 +279,7 @@
                     <p>
                         In her free time she enjoys spending time with her family, working in her garden and getting together with friends and family.
                     </p>
+                    </div>
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-6 item-images">
                     <img src="<?php echo THEME_URL?>/src/images/close-up-smiling-man_23-2148364950 1.png" class="images images__right">
