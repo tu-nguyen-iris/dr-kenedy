@@ -48,6 +48,9 @@
     }
   }
   .banner{
+    a{
+      color: $color-white;
+    }
     text-align: center;
     margin-bottom: 80px;
     &::before, &::after{

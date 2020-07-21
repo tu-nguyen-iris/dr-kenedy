@@ -35,6 +35,9 @@
     .map{
       padding-left: 80px;
       .infomation {
+        a{
+          color: $color-blue;
+        }
         h6 {
           color: #9E8363;
           font-family: "Averta";
