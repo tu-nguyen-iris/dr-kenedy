@@ -1,4 +1,7 @@
 .general {
+  .images{
+    height: 100%;
+  }
   .final-section{
     margin-bottom: 78px;
   }
@@ -152,6 +155,10 @@
 
   .horizon_right{
     .title{
+      font-family: Averta-Bold;
+      color:$color-dark;
+      font-size: 40px;
+      line-height: 50px;
       padding-top: 62px;
       margin-bottom: 16px;
     }
@@ -165,7 +172,6 @@
       width: 142px;
     }
     .item-body__right{
-      max-width: 600px;
       padding-left: 88px;
       padding-right: 148px;
     }
@@ -177,6 +183,10 @@
       padding-right: 53px;
     }
     .title{
+      color: $color-dark;
+      font-family: Averta-Bold;
+      font-size: 40px;
+      line-height: 50px;
       padding-top: 62px;
       margin-bottom: 16px;
     }
@@ -199,6 +209,9 @@
 }
 @include media-breakpoint-down(md){
   .general{
+    .images{
+      height: unset;
+    }
     .banner{
       height: unset;
       .banner__title{
@@ -250,9 +263,6 @@
       }
     }
     .horizon_right{
-      .images{
-        width: 95%;
-      }
       .title-second{
         padding-top: 24px;
         margin-bottom: 24px;
@@ -271,9 +281,8 @@
         padding-top: 16px;
       }
       .item-body__right{
-        float:right;
-        padding-left: 20px;
-        padding-right: 20px;
+        padding-left: 15px;
+        padding-right: 15px;
       }
       .button{
         width: 100%;

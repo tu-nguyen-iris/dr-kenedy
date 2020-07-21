@@ -1,4 +1,7 @@
 .family {
+  .images{
+    height: 100%;
+  }
   .title-second {
     padding-top: 0px;
   }
@@ -20,6 +23,9 @@
       background: #F1F4F5;
 
       .title {
+        font-family: Averta-Bold;
+        font-size: 40px;
+        line-height: 50px;
         color: $color-dark;
         padding-top: 88px;
 
@@ -39,7 +45,6 @@
       }
 
       .item-body__right {
-        max-width: 600px;
         padding-left: 86px;
         padding-right: 151px;
       }
@@ -87,6 +92,9 @@
 
   .horizon__second {
     .title {
+      font-family: Averta-Bold;
+      font-size: 40px;
+      line-height: 50px;
       color: $color-dark;
       padding-top: 90px;
       margin-bottom: 42px;
@@ -131,7 +139,10 @@
   }
 }
   @include media-breakpoint-down(md) {
-    .family {
+    .family{
+      .images{
+        height: auto;
+      }
       .horizon_mid {
         .button {
           margin-bottom: 40px;
@@ -159,9 +170,6 @@
         padding-bottom: 50px;
 
         .horizon_right {
-          .images{
-            width: 95%;
-          }
           padding-bottom: 0px;
           background: $color-yellow3;
           .title-second{
@@ -178,8 +186,8 @@
           }
 
           .item-body__right {
-            padding-left: 20px;
-            padding-right: 20px;
+            padding-left: 15px;
+            padding-right: 15px;
           }
 
           .desktop {
@@ -266,8 +274,8 @@
         }
 
         .item-body__right {
-          padding-left: 20px;
-          padding-right: 20px;
+          padding-left: 15px;
+          padding-right: 15px;
         }
 
         .button {

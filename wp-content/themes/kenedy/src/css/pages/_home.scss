@@ -86,22 +86,26 @@
     }
   }
 
+
   .tetimonials_mobile{
+    height: 488px;
     margin-bottom: 30px;
     h2{
+      padding-top: 40px;
       font-size: 32px;
       font-weight: bold;
       font-family: Lora;
       text-align: center;
-      margin-bottom: 50px;
+      margin-bottom: 25px;
       color: $color-yellow2;
     }
     .avatar{
       width:56px;
       border-radius: 50%;
-      margin-bottom: 15px;
+      margin-bottom: 11px;
     }
     .testimonials-mobile__comment{
+      color: #BC8452;
       font-family: Lora;
       margin-bottom: 30px;
     }
@@ -109,12 +113,14 @@
       width: 100%;
       margin-top: 30px;
     }
+    .carousel-inner{
+      height: 355px;
+    }
     .carousel-indicators {
       margin-left: 22%;
       margin-right: 22%;
       left: 0;
-      bottom: 300px;
-      margin-bottom: 50px;
+      top: 0px;
       li{
         height: 10px;
         width: 10px;
@@ -360,7 +366,6 @@
         line-height: 40px;
       }
       .images{
-        width: 95%;
         padding-bottom: 20px;
       }
       margin-bottom: 50px;
@@ -369,8 +374,8 @@
         line-height: 40px;
       }
       .item-body__right{
-        padding-left: 20px;
-        padding-right: 20px;
+        padding-left: 15px;
+        padding-right: 15px;
       }
       .title-second{
         padding-top: 55px;

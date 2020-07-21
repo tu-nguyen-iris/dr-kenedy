@@ -1,4 +1,7 @@
 .about{
+  .images{
+    height: 100%;
+  }
   .title-begin{
     .title-second{
       padding-top: 0px;
@@ -8,9 +11,6 @@
     display: none;
   }
   .horizon__first{
-    .images{
-      width: 95%;
-    }
     padding-bottom: 59px;
     .horizon_right{
       background: #F1F4F5;
@@ -31,7 +31,6 @@
         margin-bottom: 58px;
       }
       .item-body__right{
-        max-width: 600px;
         padding-left: 86px;
         padding-right: 151px;
       }
@@ -112,7 +111,18 @@
 }
 @include media-breakpoint-down(md)
 {
+
   .about{
+    .horizon_mid{
+      background-color: $color-yellow3;
+    }
+    .horizon__second{
+      margin-bottom: 50px;
+
+    }
+    .images{
+      height: unset;
+    }
     .horizon_mid{
       .button{
         margin-bottom: 40px;
@@ -148,8 +158,8 @@
           margin-bottom: 16px;
         }
         .item-body__right{
-          padding-left: 20px;
-          padding-right: 20px;
+          padding-left: 15px;
+          padding-right: 15px;
         }
         .desktop{
           display: none;
@@ -197,17 +207,12 @@
       }
     }
     .horizon__second{
-      background-color: $color-yellow3;
       .horizon_right{
-        .images{
-          width: 95%;
-        }
       }
       .title-second{
         padding-top: 24px;
         margin-bottom: 24px;
       }
-      padding-bottom: 40px;
       .title{
         color:$color-dark;
         padding-top: 12px;
@@ -226,8 +231,8 @@
         padding:0px;
       }
       .item-body__right{
-        padding-left: 20px;
-        padding-right: 20px;
+        padding-left: 15px;
+        padding-right: 15px;
         background-color: $color-yellow3;
       }
       .button{
