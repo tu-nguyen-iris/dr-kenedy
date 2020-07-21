@@ -52,7 +52,13 @@
  .contact-ph{
    .content{
      padding: 0px 20px;
+     .form-kenedy{
+       .button{
+         width: 100%;
+       }
+     }
      .map{
+       margin-top: 60px;
        padding-left: 0px;
        text-align: center;
        iframe{

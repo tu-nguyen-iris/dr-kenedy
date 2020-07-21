@@ -16,7 +16,7 @@ get_header();?>
                     <?php the_title()?>
                 </h1>
                 <div  class="cover__button" >
-                    <button class="button button--video" >Watch a video</button>
+                    <a data-fancybox href="https://www.youtube.com/watch?v=7aipHynsoLo"><button class="button button--video" >Watch a video</button></a>
                 </div>
             </div>
         </div>
