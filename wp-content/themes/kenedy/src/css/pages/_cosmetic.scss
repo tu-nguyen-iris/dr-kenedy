@@ -88,7 +88,7 @@
       }
       &__content{
         &--left,&--right{
-          padding: 0px;
+          padding: 0px 10px;
         }
       }
       img{
@@ -99,6 +99,7 @@
       }
     }
     .banner{
+      height: 100%;
       padding: 50px 0px;
       margin-bottom: 50px;
       .banner--content{
