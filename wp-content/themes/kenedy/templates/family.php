@@ -92,7 +92,7 @@
                         Schedule an Appointment with Dr. Kennedy Today!
                     </h2>
                     <p class="banner__content">
-                        To learn more about the services we offer to protect, restore, and improve your family’s smiles, contact us today by calling (781) 275-0200, or by visiting our Bedford, MA dental office.
+                        To learn more about the services we offer to protect, restore, and improve your family’s smiles, contact us today by calling <a href="#">781-275-0200</a>, or by visiting our Bedford, MA dental office.
                     </p>
                     <div class="row">
                         <div class="col-12 col-sm-12 col-md-6 col-lg-6 button-up ml-auto">
@@ -102,7 +102,7 @@
                         </div>
                         <div class="col-12 col-sm-12 col-md-6 col-lg-6 button-down mr-auto">
                             <button class="button">
-                                Request an appoinment
+                                781-275-0200
                             </button>
                         </div>
                     </div>

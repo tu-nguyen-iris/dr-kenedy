@@ -10,7 +10,6 @@
         ?>
         <div class="cover__body">
             <div class="container">
-                <p class="cover__title">Robert M. Kennedy, DDS</p>
                 <h1 class="heading">
                     <?php the_title() ?>
                 </h1>

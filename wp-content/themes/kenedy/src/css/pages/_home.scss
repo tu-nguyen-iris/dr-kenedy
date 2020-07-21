@@ -146,7 +146,7 @@
       width: 220px;
       position: absolute;
       left: calc(50% + 260px);
-      bottom: 80px;
+      bottom: 150px;
       background: #fff;
       border-radius: 10px;
       padding-top: 10px;
@@ -265,6 +265,9 @@
 
   .horizon_right{
     .title{
+      font-family: Lora,SansSerif;
+      font-size: 46px;
+      line-height: 63px;
       padding-top: 62px;
       margin-bottom: 16px;
     }
@@ -278,7 +281,7 @@
       width: 142px;
     }
     .item-body__right{
-      max-width: 550px;
+      max-width: 800px;
       padding-left: 88px;
       padding-right: 148px;
     }
@@ -290,6 +293,10 @@
       padding-right: 53px;
     }
     .title{
+
+      font-family: Lora,SansSerif;
+      font-size: 46px;
+      line-height: 63px;
       padding-top: 62px;
       margin-bottom: 16px;
     }

@@ -51,7 +51,7 @@
             <div class="row no-gutters">
                 <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 text-center">
                     <h2 class="title-second text-center">
-                        Tooth Extraction
+                        Tooth Fillings
                     </h2>
                     <img class="images" src="<?php echo THEME_URL ?>/src/images/shutterstock_1294378294 (1) 1.png">
                 </div>
@@ -65,7 +65,10 @@
                     <p>
                         If you’re concerned about mercury in dental amalgam or you want to keep your smile natural-looking as long as possible, you’ll appreciate our tooth-colored composite resin fillings. This material is a durable acrylic resin that contains no mercury or metals. It does not expand and contract with temperature fluctuations, either. We tint composite resin fillings to match the teeth in which they are placed, and the result is impressively lifelike.
                     </p>
-                    <button class="button">
+                    <button class="button button-request d-none d-lg-block">
+                        Request an appoinment
+                    </button>
+                    <button class="button d-block d-sm-none">
                         Learn More
                     </button>
                 </div>
@@ -95,7 +98,10 @@
                     <p>
                         If you’re concerned about mercury in dental amalgam or you want to keep your smile natural-looking as long as possible, you’ll appreciate our tooth-colored composite resin fillings. This material is a durable acrylic resin that contains no mercury or metals. It does not expand and contract with temperature fluctuations, either. We tint composite resin fillings to match the teeth in which they are placed, and the result is impressively lifelike.
                     </p>
-                   <button class="button">
+                    <button class="button button-request d-none d-lg-block">
+                        Request an appoinment
+                    </button>
+                    <button class="button d-block d-sm-none">
                         Learn More
                     </button>
                 </div>
@@ -127,9 +133,12 @@
                     <p>
                     Root canal treatment is an endodontic procedure, meaning that it involves the internal structure of a tooth. A deep crack or cavity can allow bacteria to enter the tooth’s internal canals. Inside a tooth’s canals, a nerve (or pulp) supplies blood and sustains the tooth’s life. Bacteria cause infection of the nerve, which creates swelling, pressure and, as a result, pain. Ultimately, the infection can reach the bloodstream and cause overall health problems.
                     </p>
-                    <button class="button">
-                        Learn More
-                    </button>
+                        <button class="button button-request d-none d-lg-block">
+                            Request an appoinment
+                        </button>
+                        <button class="button d-block d-sm-none">
+                            Learn More
+                        </button>
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
@@ -157,7 +166,10 @@
                     <p>
                         Root canal treatment is an endodontic procedure, meaning that it involves the internal structure of a tooth. A deep crack or cavity can allow bacteria to enter the tooth’s internal canals. Inside a tooth’s canals, a nerve (or pulp) supplies blood and sustains the tooth’s life. Bacteria cause infection of the nerve, which creates swelling, pressure and, as a result, pain. Ultimately, the infection can reach the bloodstream and cause overall health problems.
                     </p>
-                    <button class="button">
+                    <button class="button   button-request d-none d-lg-block">
+                        Request an appoinment
+                    </button>
+                    <button class="button d-block d-sm-none">
                         Learn More
                     </button>
                 </div>
@@ -170,7 +182,7 @@
                         Schedule an Appointment with Dr. Kennedy Today!
                     </h2>
                     <p class="banner__content">
-                        To learn more about the services we offer to protect, restore, and improve your family’s smiles, contact us today by calling (781) 275-0200, or by visiting our Bedford, MA dental office.
+                        To learn more about the services we offer to protect, restore, and improve your family’s smiles, contact us today by calling<a href="#">781-275-0200</a>, or by visiting our Bedford, MA dental office.
                     </p>
                     <div class="row">
                         <div class="col-12 col-sm-12 col-md-6 col-lg-6 button-up ml-auto">
@@ -180,7 +192,7 @@
                         </div>
                         <div class="col-12 col-sm-12 col-md-6 col-lg-6 button-down mr-auto">
                             <button class="button">
-                                Request an appoinment
+                                781-275-0200
                             </button>
                         </div>
                     </div>
@@ -211,7 +223,10 @@
                     <p>
                         At a trusted dental lab, a skilled ceramist will follow our instructions and use the impression of your teeth as a guide to create a crown that will fit snugly onto your prepared tooth. The ceramist will follow a shade guide to match the porcelain to the teeth on either side of the tooth. This will help ensure a natural and discreet finish.
                     </p>
-                    <button class="button">
+                    <button class="button button-request d-none d-lg-block">
+                        Request an appoinment
+                    </button>
+                    <button class="button d-block d-sm-none">
                         Learn More
                     </button>
                 </div>
@@ -235,7 +250,10 @@
                     <p>
                         At a trusted dental lab, a skilled ceramist will follow our instructions and use the impression of your teeth as a guide to create a crown that will fit snugly onto your prepared tooth. The ceramist will follow a shade guide to match the porcelain to the teeth on either side of the tooth. This will help ensure a natural and discreet finish.
                     </p>
-                    <button class="button">
+                    <button class="button button__request d-none d-lg-block">
+                        Request an appoinment
+                    </button>
+                    <button class="button d-block d-sm-none">
                         Learn More
                     </button>
                 </div>
@@ -254,18 +272,21 @@
             <div class="row no-gutters">
                 <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
                     <div class="item-body__left">
-                    <h3 class="title">
-                        Lifelike porcelain dental crowns for a natural look
-                    </h3>
-                    <p>
-                        Because Dr. Kennedy understands the importance of an attractive smile, we approach all dental procedures with a cosmetic dental philosophy. In many situations where a durable, attractive restoration is called for, we prefer to place tooth-colored, porcelain crowns rather than metal ones.
-                    </p>
-                    <p>
-                        At a trusted dental lab, a skilled ceramist will follow our instructions and use the impression of your teeth as a guide to create a crown that will fit snugly onto your prepared tooth. The ceramist will follow a shade guide to match the porcelain to the teeth on either side of the tooth. This will help ensure a natural and discreet finish.
-                    </p>
-                    <button class="button">
-                        Learn More
-                    </button>
+                        <h3 class="title">
+                            A viable solution to impacted teeth and gum diseases
+                        </h3>
+                        <p>
+                            We believe in conservative dental treatments. When Dr. Kennedy recommends tooth extraction, it is a last resort. Sometimes, when root canal treatment won’t suffice, a damaged tooth must be removed to ensure your good oral health. When teeth are too close together, one tooth or more may have to be extracted to apply orthodontic braces. Tooth extraction might be necessary for those who need dentures.
+                        </p>
+                        <p>
+                            Whatever your situation is, we will explain the reasons behind, and talk with you about how we’ll make the procedure quick and comfortable. If another dentist has recommended tooth extraction but you’d like a second opinion, then we’ll be glad to provide one.
+                        </p>
+                        <button class="button button__request d-none d-lg-block">
+                            Request an appoinment
+                        </button>
+                        <button class="button d-block d-sm-none">
+                            Learn More
+                        </button>
                     </div>
                 </div>
                 <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
@@ -291,7 +312,10 @@
                     <p>
                         Whatever your situation is, we will explain the reasons behind, and talk with you about how we’ll make the procedure quick and comfortable. If another dentist has recommended tooth extraction but you’d like a second opinion, then we’ll be glad to provide one.
                     </p>
-                    <button class="button">
+                    <button class="button button__request d-none d-lg-block">
+                        Request an appoinment
+                    </button>
+                    <button class="button d-block d-sm-none">
                         Learn More
                     </button>
                 </div>
