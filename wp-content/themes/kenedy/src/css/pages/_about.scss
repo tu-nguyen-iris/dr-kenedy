@@ -31,6 +31,7 @@
         margin-bottom: 58px;
       }
       .item-body__right{
+        max-width: 600px;
         padding-left: 86px;
         padding-right: 151px;
       }
@@ -77,7 +78,8 @@
       margin-bottom:42px;
     }
     .item-body__left{
-      padding-left: 184px;
+      max-width: 600px;
+      float: right;
       padding-right: 53px;
     }
     .item-images{
@@ -159,12 +161,7 @@
 
     }
     .banner{
-        &::before{
-          display: none;
-        }
-        &::after{
-          display: none;
-        }
+      height: unset;
       .banner__title{
         font-size: 28px;
         padding-top: 46px;
@@ -200,6 +197,7 @@
       }
     }
     .horizon__second{
+      background-color: $color-yellow3;
       .horizon_right{
         .images{
           width: 95%;

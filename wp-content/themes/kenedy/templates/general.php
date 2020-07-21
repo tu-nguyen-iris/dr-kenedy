@@ -47,7 +47,7 @@
                 </div>
             </div>
         </section>
-        <section class="horizon_right d-flex d-lg-none container-fluid">
+        <section class="horizon_right d-block d-lg-none container-fluid">
             <div class="row no-gutters">
                 <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 text-center">
                     <h2 class="title-second text-center">
@@ -80,7 +80,7 @@
                 </div>
             </div>
         </section>
-        <section class="horizon_right d-none d-lg-flex container-fluid">
+        <section class="horizon_right d-none d-lg-block container-fluid">
             <div class="row no-gutters">
                 <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
                     <img class="images" src="<?php echo THEME_URL ?>/src/images/shutterstock_1294378294 (1) 1.png">
@@ -111,9 +111,10 @@
             </div>
         </section>
 
-        <section class="horizon container-fluid d-none d-lg-flex">
+        <section class="horizon container-fluid d-none d-lg-block">
             <div class="row no-gutters">
-                <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 item-body__left">
+                <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                    <div class="item-body__left">
                     <h3 class="title">
                         Erase extreme tooth decays with root canal treatment
                     </h3>
@@ -129,13 +130,14 @@
                     <button class="button">
                         Learn More
                     </button>
+                    </div>
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
                     <img class="images" src="<?php echo THEME_URL ?>/src/images/general-root-canal.png">
                 </div>
             </div>
         </section>
-        <section class="horizon_right d-flex d-sm-none container-fluid">
+        <section class="horizon_right d-block d-sm-none container-fluid">
             <div class="row no-gutters">
 
                 <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 text-center">
@@ -194,7 +196,7 @@
                 </div>
             </div>
         </section>
-        <section class="horizon_right d-none d-lg-flex container-fluid">
+        <section class="horizon_right d-none d-lg-block container-fluid">
             <div class="row no-gutters">
                 <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
                     <img class="images" src="<?php echo THEME_URL ?>/src/images/Dental-Crown 1.png">
@@ -215,7 +217,7 @@
                 </div>
             </div>
         </section>
-        <section class="horizon_right d-flex d-lg-none container-fluid">
+        <section class="horizon_right d-block d-lg-none container-fluid">
             <div class="row no-gutters">
                 <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 text-center">
                     <h2 class="title-second text-center">
@@ -248,9 +250,10 @@
                 </div>
             </div>
         </section>
-        <section class="horizon d-none d-lg-flex final-section container-fluid">
+        <section class="horizon d-none d-lg-block final-section container-fluid">
             <div class="row no-gutters">
-                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 item-body__left">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                    <div class="item-body__left">
                     <h3 class="title">
                         Lifelike porcelain dental crowns for a natural look
                     </h3>
@@ -263,13 +266,14 @@
                     <button class="button">
                         Learn More
                     </button>
+                    </div>
                 </div>
                 <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
                     <img class="images" src="<?php echo THEME_URL ?>/src/images/134949515 1.png">
                 </div>
             </div>
         </section>
-        <section class="horizon_right d-flex d-lg-none container-fluid">
+        <section class="horizon_right d-block d-lg-none container-fluid">
             <div class="row no-gutters">
                 <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 text-center">
                             <h2 class="title-second text-center">

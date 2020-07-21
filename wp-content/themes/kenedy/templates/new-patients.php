@@ -168,6 +168,7 @@ get_header();?>
                         <p class="testimonials-mobile__comment">“Always welcoming, professional with excellent service. Thanks for running a first rate service and I am happy to recommend you to all my friends!”</p>
                         <img class="block star" src="<?php echo THEME_URL?>/src/images/stars.png">
                         <p class="testimonials-mobile__comment--name"> D.H. </p>
+
                     </div>
                 </div>
             </div>
