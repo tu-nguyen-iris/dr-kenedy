@@ -131,6 +131,9 @@
   }
 
   .tetimonials_mobile{
+    .carousel{
+      height: 300px;
+    }
     h2{
       font-size: 32px;
       font-weight: bold;
@@ -148,6 +151,7 @@
     .testimonials-mobile__comment{
       font-family: Lora;
       margin-bottom: 30px;
+      color:$color-yellow2;
     }
     .button{
       width: 100%;

@@ -160,24 +160,17 @@ get_header();?>
                     <div class="carousel-item">
                         <img class="avatar" src="<?php echo THEME_URL?>/src/images/slider-2.png">
                         <p class="testimonials-mobile__comment">“I really enjoy all of you. Friendly and funny and professional! Thank you.”</p>
-                        <img src="<?php echo THEME_URL?>/src/images/stars.png">
-                        <p class="testimonials-mobile__comment--name">P.C</p>
+                        <img class="block star" src="<?php echo THEME_URL?>/src/images/stars.png">
+                        <p class="testimonials-mobile__comment--name"> M.H.</p>
                     </div>
                     <div class="carousel-item">
                         <img class="avatar" src="<?php echo THEME_URL?>/src/images/slider-3.png">
                         <p class="testimonials-mobile__comment">“Always welcoming, professional with excellent service. Thanks for running a first rate service and I am happy to recommend you to all my friends!”</p>
-                        <img src="<?php echo THEME_URL?>/src/images/stars.png">
-                        <p class="testimonials-mobile__comment--name">P.C</p>
+                        <img class="block star" src="<?php echo THEME_URL?>/src/images/stars.png">
+                        <p class="testimonials-mobile__comment--name"> D.H. </p>
+
                     </div>
                 </div>
-                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                </a>
             </div>
         <button class="button">See more reviews</button>
         </div>

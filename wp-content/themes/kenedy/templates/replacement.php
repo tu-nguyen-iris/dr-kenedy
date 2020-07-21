@@ -29,7 +29,10 @@ get_header();?>
         <h2 class="d-none d-lg-block">Dental Bridges</h2>
         <div class="horizon_right row no-gutters">
             <h2 class="d-block d-xl-none">Dental Bridges</h2>
-            <img class="col-xl-6 col-lg-6" src="<?php echo THEME_URL?>/src/images/replacements-dental.png">
+            <img class="col-xl-6 col-lg-6 d-none d-md-flex" src="<?php echo THEME_URL?>/src/images/replacements-dental.png">
+            <div class="col-xl-6 col-lg-6 d-flex d-md-none">
+                <img class="col-xl-6 col-lg-6" src="<?php echo THEME_URL?>/src/images/replacements-dental.png">
+            </div>
             <div class="col-xl-6 col-lg-6 ">
                 <div class="item-list__content--right">
                 <h3>Bridge the gap between your teeth</h3>
@@ -45,7 +48,9 @@ get_header();?>
         <h2 class="d-none d-xl-block">Dentures</h2>
         <div class="horizon_right row no-gutters">
             <h2 class="d-block d-xl-none">Dentures</h2>
-            <img class="d-block d-xl-none col-xl-6 col-lg-6" src="<?php echo THEME_URL?>/src/images/replacements-dentures.png">
+            <div class="d-flex d-xl-none col-xl-6 col-lg-6">
+            <img class="col-xl-6 col-lg-6" src="<?php echo THEME_URL?>/src/images/replacements-dentures.png">
+            </div>
             <div class="col-xl-6 col-lg-6 ">
                 <div class="item-list__content--left">
                 <h3>Complete and partial dentures</h3>
@@ -79,7 +84,10 @@ get_header();?>
         <h2 class="d-none d-xl-block">Dental Implants</h2>
         <div class="horizon_right  row no-gutters">
             <h2 class="d-block d-xl-none">Dental Implants</h2>
-            <img class="col-xl-6 col-lg-6" src="<?php echo THEME_URL?>/src/images/replacement-dental-implant.png">
+            <img class="col-xl-6 col-lg-6 d-none d-md-flex" src="<?php echo THEME_URL?>/src/images/replacement-dental-implant.png">
+            <div class="col-xl-6 col-lg-6 d-flex d-md-none">
+                <img class="col-xl-6 col-lg-6" src="<?php echo THEME_URL?>/src/images/replacement-dental-implant.png">
+            </div>
             <div class="col-xl-6 col-lg-6">
                 <div class=" item-list__content--right">
                 <h3>Dental implants for more realistic replacement teeth</h3>
