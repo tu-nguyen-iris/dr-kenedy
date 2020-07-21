@@ -1,5 +1,12 @@
 .family {
-
+  .title-second{
+    padding-top: 0px;
+  }
+  .title-begin{
+    .title-second{
+      padding-top: 0px;
+    }
+  }
   .mobile {
     display: none;
   }
@@ -148,9 +155,15 @@
         padding-bottom: 50px;
 
         .horizon_right {
-          padding-bottom: 30px;
+          .images{
+            width: 95%;
+          }
+          padding-bottom: 0px;
           background: $color-yellow3;
-
+          .title-second{
+            margin-bottom: 24px;
+            padding-top: 24px;
+          }
           .title {
             font-family: Averta, SansSerif;
             font-weight: bold;
@@ -178,8 +191,6 @@
       }
 
       .banner {
-        height: 520px;
-
         .banner__title {
           font-size: 28px;
           padding-top: 46px;
@@ -221,7 +232,15 @@
 
       .horizon__second {
         padding-bottom: 40px;
-
+        .horizon_right{
+          .images{
+            width: 95%;
+          }
+        }
+        .title-second{
+          padding-top: 24px;
+          margin-bottom: 24px;
+        }
         .title {
           color: $color-dark;
           padding-top: 12px;

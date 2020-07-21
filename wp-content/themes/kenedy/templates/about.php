@@ -46,10 +46,10 @@
                 </div>
             </div>
         </section>
-        <section class="title-begin container d-none d-lg-block">
+        <section class="container d-none d-lg-block">
             <div class="row text-center">
                 <div class="col-12 col-sm-12 col-md-12 col-lg-12">
-                  <h2 class="title-second">
+                  <h2 class="title-begin">
                       Meet Dr. Robert M. Kennedy
                   </h2>
                 </div>

@@ -24,6 +24,15 @@
   margin-bottom: 40px;
   padding-top: 80px;
 }
+.title-begin{
+  font-family:Lora,SansSerif;
+  font-weight: bold;
+  font-size: 46px;
+  line-height: 63px;
+  color: $color-yellow2;
+  margin-bottom: 40px;
+  padding-top: 0px;
+}
 @include media-breakpoint-down(md){
   .title-headding{
     text-align: justify;
