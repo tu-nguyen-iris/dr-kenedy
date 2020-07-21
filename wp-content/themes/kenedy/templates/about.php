@@ -93,7 +93,7 @@
                             Schedule an Appointment with Dr. Kennedy Today!
                         </h2>
                         <p class="banner__content">
-                            To learn more about the services we offer to protect, restore, and improve your family’s smiles, contact us today by calling (781) 275-0200, or by visiting our Bedford, MA dental office.
+                            To learn more about the services we offer to protect, restore, and improve your family’s smiles, contact us today by calling <a href="#">781-275-0200</a>, or by visiting our Bedford, MA dental office.
                         </p>
                         <div class="row">
                             <div class="col-12 col-sm-12 col-md-6 col-lg-6 button-up ml-auto">
@@ -103,7 +103,7 @@
                             </div>
                             <div class="col-12 col-sm-12 col-md-6 col-lg-6 button-down mr-auto">
                                 <button class="button">
-                                    Request an appoinment
+                                    781-275-0200
                                 </button>
                             </div>
                         </div>
@@ -113,7 +113,7 @@
         <section class="container d-none d-lg-block">
             <div class="row text-center">
                 <div class="col-12 col-sm-12 col-md-12 col-lg-12">
-                    <h2 class="title-second">
+                    <h2 class="title-two">
                         Our Hygienists
                     </h2>
                 </div>
@@ -123,9 +123,9 @@
             <div class="row horizon d-none d-lg-flex no-gutters">
                 <div class="col-sm-12 col-md-6 col-lg-6">
                     <div class="item-body__left">
-                    <h3 class="title">
+                    <p class="title">
                         Casey
-                    </h3>
+                    </p>
                     <p>
                         Casey graduated from the Middlesex Hygiene Program and began working as a Dental Hygienist in 2009. Prior to that, she received her bachelor’s degree from Bryant College in 2001. Whether she is performing a cleaning, answering a question, or just making an anxious patient feel comfortable, Casey enjoys coming to work every day knowing that she will be making a positive difference in the patient’s oral health.
                     </p>
@@ -148,9 +148,9 @@
                     <img src="<?php echo THEME_URL?>/src/images/7807 1.png" class="images images__right">
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-6 item-body__right">
-                    <h3 class="title">
+                    <p class="title">
                         Casey
-                    </h3>
+                    </p>
                     <p>
                         Casey graduated from the Middlesex Hygiene Program and began working as a Dental Hygienist in 2009. Prior to that, she received her bachelor’s degree from Bryant College in 2001. Whether she is performing a cleaning, answering a question, or just making an anxious patient feel comfortable, Casey enjoys coming to work every day knowing that she will be making a positive difference in the patient’s oral health.
                     </p>
@@ -168,9 +168,9 @@
                     <img src="<?php echo THEME_URL?>/src/images/happy-cheerful-professional-posing-studio_1262-20927 1.png" class="images images__right">
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-6 item-body__right">
-                    <h3 class="title">
+                    <p class="title">
                         Cheryl
-                    </h3>
+                    </p>
                     <p>
                         Cheryl began working as a Dental Hygienist in 1978, and enjoys being a part of Dr. Kennedy’s team at Kennedy Family and Cosmetic Dentistry. She strives to provide a friendly and professional environment for our patients while also providing quality state of the art care. Cheryl is dedicated to treating and educating our patients so that they can maintain their optimal oral health. Working with children is a part of the job Cheryl truly loves, and she strives to always make sure they have an anxiety-free introduction to a lifetime of good oral care.
                     </p>
@@ -184,9 +184,9 @@
             <div class="row horizon no-gutters d-none d-lg-flex">
                 <div class="col-sm-12 col-md-6 col-lg-6">
                     <div class="item-body__left">
-                    <h3 class="title">
+                    <p class="title">
                         McKayla
-                    </h3>
+                    </p>
                     <p>
                         McKayla started working with Dr. Kennedy in 2012 as a dental assistant while working towards her degree in Dental Hygiene. She completed her program in 2016, and has thoroughly enjoyed growing in her career as a hygienist. Her favorite part of her job is interacting with and educating patients of all ages. She loves meeting new people, and providing exceptional care to meet everyone’s individual dental needs.
                     </p>
@@ -207,9 +207,9 @@
                     <img src="<?php echo THEME_URL?>/src/images/beautiful-young-woman-looking-camera-white-background_1301-7766 1.png" class="images images__right">
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-6 item-body__right">
-                    <h3 class="title">
+                    <p class="title">
                         McKayla
-                    </h3>
+                    </p>
                     <p>
                         McKayla started working with Dr. Kennedy in 2012 as a dental assistant while working towards her degree in Dental Hygiene. She completed her program in 2016, and has thoroughly enjoyed growing in her career as a hygienist. Her favorite part of her job is interacting with and educating patients of all ages. She loves meeting new people, and providing exceptional care to meet everyone’s individual dental needs.
                     </p>
@@ -240,9 +240,9 @@
                     <img src="<?php echo THEME_URL?>/src/images/Mask Group.png" class="images images__right">
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-6 item-body__right">
-                    <h3 class="title">
+                    <p class="title">
                         Nevena
-                    </h3>
+                    </p>
                     <p>
                         Nevena began her career as a Dental Assistant in 2004 after moving to the United States from Bulgaria. She enjoys the dynamic environment in Dr. Kennedy’s office, as well as ensuring that each patient has a pleasant and comfortable experience.
                     </p>
@@ -269,9 +269,9 @@
             <div class="row horizon no-gutters">
                 <div class="col-sm-12 col-md-6 col-lg-6 ">
                     <div class="item-body__left">
-                    <h3 class="title">
+                    <p class="title">
                         Ruth
-                    </h3>
+                    </p>
                     <p>
                         Ruth has been in the Event/Facility Management field for 20 years. She enjoys the different aspects of her job ranging from scheduling patient appointments, coordinating patient care with the staff and Dr. Kennedy and taking care of the day to day aspects of our office.
                     </p>
@@ -298,9 +298,9 @@
 
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-6 item-body__right">
-                    <h3 class="title">
+                    <p class="title">
                         Ruth
-                    </h3>
+                    </p>
                     <p>
                         Ruth has been in the Event/Facility Management field for 20 years. She enjoys the different aspects of her job ranging from scheduling patient appointments, coordinating patient care with the staff and Dr. Kennedy and taking care of the day to day aspects of our office.
                     </p>

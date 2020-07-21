@@ -1,4 +1,16 @@
 .about{
+  .title-two{
+    font-family:Lora,SansSerif;
+    font-weight: bold;
+    font-size: 46px;
+    line-height: 63px;
+    color: $color-yellow2;
+    margin-bottom: 40px;
+    padding-top: 44px;
+  }
+  .images{
+    height: 100%;
+  }ho
   .title-begin{
     .title-second{
       padding-top: 0px;
@@ -8,13 +20,14 @@
     display: none;
   }
   .horizon__first{
-    .images{
-      width: 95%;
-    }
     padding-bottom: 59px;
     .horizon_right{
       background: #F1F4F5;
       .title{
+        font-family: Averta-Bold;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 28px;
         color:$color-dark;
         padding-top: 88px;
 
@@ -31,7 +44,7 @@
         margin-bottom: 58px;
       }
       .item-body__right{
-        max-width: 600px;
+        max-width: 800px;
         padding-left: 86px;
         padding-right: 151px;
       }
@@ -43,7 +56,6 @@
     margin-left: 0;
     margin-right: 0;
     height: 481px;
-    margin-bottom: 50px;
     .banner__title{
       padding-top: 73px;
       padding-left: 270px;
@@ -73,6 +85,7 @@
   .horizon__second{
 
     .title{
+      font-weight: bold;
       color: $color-dark;
       padding-top: 90px;
       margin-bottom:42px;
@@ -87,6 +100,7 @@
       padding:0px;
     }
     .item-body__right{
+      max-width: 800px;
       padding-left: 88px;
       padding-right: 148px;
     }
@@ -112,7 +126,18 @@
 }
 @include media-breakpoint-down(md)
 {
+
   .about{
+    .horizon_mid{
+      background-color: $color-yellow3;
+    }
+    .horizon__second{
+      margin-bottom: 50px;
+
+    }
+    .images{
+      height: unset;
+    }
     .horizon_mid{
       .button{
         margin-bottom: 40px;
@@ -148,8 +173,8 @@
           margin-bottom: 16px;
         }
         .item-body__right{
-          padding-left: 20px;
-          padding-right: 20px;
+          padding-left: 15px;
+          padding-right: 15px;
         }
         .desktop{
           display: none;
@@ -161,6 +186,7 @@
 
     }
     .banner{
+      margin-bottom: 50px;
       height: unset;
       .banner__title{
         font-size: 28px;
@@ -197,17 +223,10 @@
       }
     }
     .horizon__second{
-      background-color: $color-yellow3;
-      .horizon_right{
-        .images{
-          width: 95%;
-        }
-      }
       .title-second{
         padding-top: 24px;
         margin-bottom: 24px;
       }
-      padding-bottom: 40px;
       .title{
         color:$color-dark;
         padding-top: 12px;
@@ -226,8 +245,8 @@
         padding:0px;
       }
       .item-body__right{
-        padding-left: 20px;
-        padding-right: 20px;
+        padding-left: 15px;
+        padding-right: 15px;
         background-color: $color-yellow3;
       }
       .button{

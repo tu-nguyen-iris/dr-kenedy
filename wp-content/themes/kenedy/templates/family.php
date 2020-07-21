@@ -63,7 +63,8 @@
                     </h2>
                     <img src="<?php echo THEME_URL?>/src/images/shutterstock_194275118 1.png" class="images">
                 </div>
-                <div class="col-12 col-sm-12 col-md-6 col-lg-6 item-body__right">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                    <div class="item-body__right">
                     <h3 class="title">
                         Prevention through routine checkups & cleanings
                     </h3>
@@ -80,6 +81,7 @@
                     <button class="button desktop d-none d-lg-block">
                         Request an appoinment
                     </button>
+                    </div>
                 </div>
             </div>
         </section>
@@ -90,7 +92,7 @@
                         Schedule an Appointment with Dr. Kennedy Today!
                     </h2>
                     <p class="banner__content">
-                        To learn more about the services we offer to protect, restore, and improve your family’s smiles, contact us today by calling (781) 275-0200, or by visiting our Bedford, MA dental office.
+                        To learn more about the services we offer to protect, restore, and improve your family’s smiles, contact us today by calling <a href="#">781-275-0200</a>, or by visiting our Bedford, MA dental office.
                     </p>
                     <div class="row">
                         <div class="col-12 col-sm-12 col-md-6 col-lg-6 button-up ml-auto">
@@ -100,7 +102,7 @@
                         </div>
                         <div class="col-12 col-sm-12 col-md-6 col-lg-6 button-down mr-auto">
                             <button class="button">
-                                Request an appoinment
+                                781-275-0200
                             </button>
                         </div>
                     </div>
@@ -116,11 +118,11 @@
                 </div>
             </div>
         </section>
-        <section class="horizon__second  final d-none d-lg-block">
+        <section class="horizon__second horizon final d-none d-lg-flex">
             <div class="container-fluid">
                 <div class="row horizon no-gutters">
                     <div class="col-sm-12 col-md-6 col-lg-6">
-                        <div class="item-body__left"></div>
+                        <div class="item-body__left">
                         <h3 class="title">
                             Protecting children's smiles with professional dentistry
                         </h3>

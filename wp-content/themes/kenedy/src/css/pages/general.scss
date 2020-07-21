@@ -1,4 +1,10 @@
 .general {
+  .title-second{
+    margin-bottom: 0px;
+  }
+  .images{
+    height: 100%;
+  }
   .final-section{
     margin-bottom: 78px;
   }
@@ -122,7 +128,6 @@
     height: 481px;
     width: 100%;
     margin-top: 50px;
-    margin-bottom: 50px;
     .banner__title{
       padding-top: 73px;
       padding-left: 270px;
@@ -152,6 +157,11 @@
 
   .horizon_right{
     .title{
+      font-family: Averta-Bold,Sans-Serif;
+      color:$color-dark;
+      font-weight: bold;
+      font-size: 40px;
+      line-height: 50px;
       padding-top: 62px;
       margin-bottom: 16px;
     }
@@ -162,10 +172,10 @@
     }
     .button{
       margin-top: 37px;
-      width: 142px;
+      width: 221px;
     }
     .item-body__right{
-      max-width: 600px;
+      max-width: 800px;
       padding-left: 88px;
       padding-right: 148px;
     }
@@ -177,6 +187,11 @@
       padding-right: 53px;
     }
     .title{
+      color: $color-dark;
+      font-family: Averta-Bold,Sans-Serif;
+      font-size: 40px;
+      font-weight: bold;
+      line-height: 50px;
       padding-top: 62px;
       margin-bottom: 16px;
     }
@@ -187,7 +202,7 @@
     }
     .button{
       margin-top: 37px;
-      width: 142px;
+      width: 221px;
     }
   }
   .fa{
@@ -199,7 +214,14 @@
 }
 @include media-breakpoint-down(md){
   .general{
+    .title-headding{
+      text-align: left;
+    }
+    .images{
+      height: unset;
+    }
     .banner{
+      margin-bottom:50px;
       height: unset;
       .banner__title{
         font-size: 28px;
@@ -250,9 +272,6 @@
       }
     }
     .horizon_right{
-      .images{
-        width: 95%;
-      }
       .title-second{
         padding-top: 24px;
         margin-bottom: 24px;
@@ -263,7 +282,7 @@
       }
       margin-bottom: 50px;
       .title{
-        font-family: Averta-Bold,SansSerif;
+        font-family: Averta-Bold,Sans-Serif;
         font-size: 18px;
         line-height: 28px;
         color: $color-dark;
@@ -271,9 +290,8 @@
         padding-top: 16px;
       }
       .item-body__right{
-        float:right;
-        padding-left: 20px;
-        padding-right: 20px;
+        padding-left: 15px;
+        padding-right: 15px;
       }
       .button{
         width: 100%;
