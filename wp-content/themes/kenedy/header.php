@@ -20,7 +20,7 @@
             <div class="header_top__right d-none d-lg-flex">
                 <a class="header_top__right__address" href="http://maps.google.com/?q=200 The Great Road, Suite 243, Bedford, MA 01730" target="_blank">200 The Great Road, Suite 243, Bedford, MA 01730</a>
                 <a class="header_top__right__phone" href="tel:781-275-0200">781-275-0200</a>
-                <button class="button">Request an appoinment</button>
+                <a href="/contact"><button class="button">Request an appoinment</button></a>
             </div>
     </div>
 

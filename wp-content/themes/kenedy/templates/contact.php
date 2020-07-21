@@ -66,30 +66,5 @@ get_header();?>
             </div>
         </div>
 </section>
-<section class="contact d-none d-lg-block clearfix">
-    <div class="content">
-        <h3 class="title">Kennedy Family and Cosmetic Dentistry</h3>
-        <a class="address">200 The Great Road, Suite 243 Bedford, <br/>MA 01730</a>
-        <a class="phone">
-            781-275-0200
-        </a>
-        <div class="social d-flex">
-            <span>Follow us</span>
-            <a class="facebook"></a>
-            <a class="linkedin"></a>
-        </div>
-    </div>
-    <div class="map">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2942.04737853355!2d-71.27374028472421!3d42.49054537917838!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e39ec4597925ad%3A0xf47800400bfd1c47!2s200%20Great%20Rd%20%23243%2C%20Bedford%2C%20MA%2001730%2C%20Hoa%20K%E1%BB%B3!5e0!3m2!1svi!2s!4v1594872907770!5m2!1svi!2s"
-                width="100%" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
-                tabindex="0"></iframe>
-    </div>
-</section>
-<section class="contact_mobile d-flex d-lg-none">
-    <a class=" d-flex justify-content-center align-items-center request">Resquest </a>
-    <a class="d-flex justify-content-center align-items-center call"> Call</a>
-    <a class="d-flex justify-content-center align-items-center map">Map </a>
-</section>
-<footer class="d-none d-lg-block">
-    <p>© 2020 Kennedy Family & Cosmetic Dentistry. All rights reserved.</p>
-</footer>
+
+<?php get_footer(); ?>

@@ -44,15 +44,15 @@
 
 <section class="contact d-none d-lg-block clearfix">
     <div class="content">
-        <h3 class="title">Kennedy Family and Cosmetic Dentistry</h3>
-        <a class="address">200 The Great Road, Suite 243 Bedford, <br/>MA 01730</a>
-        <a class="phone">
+        <h3 class="title" >Kennedy Family and Cosmetic Dentistry</h3>
+        <a class="address" target="_blank" href="http://maps.google.com/?q=200 The Great Road, Suite 243, Bedford, MA 01730">200 The Great Road, Suite 243 Bedford, <br/>MA 01730</a>
+        <a class="phone" href="tel:7812750200">
             781-275-0200
         </a>
         <div class="social d-flex">
             <span>Follow us</span>
-            <a class="facebook"></a>
-            <a class="linkedin"></a>
+            <a class="facebook" href="http://facebook.com" target="_blank"></a>
+            <a class="linkedin" href="http://instagram.com" target="_blank"></a>
         </div>
     </div>
     <div class="map">
@@ -63,9 +63,9 @@
 </section>
 
 <section class="contact_mobile d-lg-none d-flex">
-    <a class=" d-flex justify-content-center align-items-center request">Resquest </a>
-    <a class="d-flex justify-content-center align-items-center call"> Call</a>
-    <a class="d-flex justify-content-center align-items-center map">Map </a>
+    <a class=" d-flex justify-content-center align-items-center request" href="/contact">Resquest </a>
+    <a class="d-flex justify-content-center align-items-center call" href="tel:7812750200"> Call</a>
+    <a class="d-flex justify-content-center align-items-center map" target="_blank" href="http://maps.google.com/?q=200 The Great Road, Suite 243, Bedford, MA 01730">Map </a>
 </section>
 
 <footer class="d-none d-lg-block">

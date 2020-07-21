@@ -33,12 +33,12 @@ get_header();?>
         </div>
         <div class="d-none d-lg-block">
             <div class="row justify-content-center">
-                <img class="col-xl-5 col-lg-5" src="<?php echo THEME_URL?>/src/images/patient-bf-1.png">
-                <img class="col-xl-5 col-lg-5" src="<?php echo THEME_URL?>/src/images/patient-af-1.png">
+                <img class="col-xl-6 col-lg-6" src="<?php echo THEME_URL?>/src/images/patient-bf-1.png">
+                <img class="col-xl-6 col-lg-6" src="<?php echo THEME_URL?>/src/images/patient-af-1.png">
             </div>
             <div class="row justify-content-center">
-                <img class="col-xl-5 col-lg-5" src="<?php echo THEME_URL?>/src/images/patient-bf-2.png">
-                <img class="col-xl-5 col-lg-5" src="<?php echo THEME_URL?>/src/images/patient-af-2.png">
+                <img class="col-xl-6 col-lg-6" src="<?php echo THEME_URL?>/src/images/patient-bf-2.png">
+                <img class="col-xl-6 col-lg-6" src="<?php echo THEME_URL?>/src/images/patient-af-2.png">
             </div>
         </div>
         <!--mobile-->
@@ -66,7 +66,7 @@ get_header();?>
         <div class="container">
             <div class="d-block banner--content">
                 <h1>Schedule an Appointment with Dr. Kennedy Today!</h1>
-                <p>Robert M. Kennedy, DDS, and the caring, compassionate staff at Kennedy Family & Cosmetic Dentistry have served the Bedford, MA area and surrounding communities since 1992. To learn more about our services, contact us today by calling <a href="tel:781)2750200">(781) 275-0200 </a> or by visiting our office as soon as possible.</p>
+                <p>Robert M. Kennedy, DDS, and the caring, compassionate staff at Kennedy Family & Cosmetic Dentistry have served the Bedford, MA area and surrounding communities since 1992. To learn more about our services, contact us today by calling <a href="tel:781)2750200" class="phone">(781) 275-0200 </a> or by visiting our office as soon as possible.</p>
             </div>
             <div class="row justify-content-center d-none d-lg-flex" >
                 <div class="col-xl-3 col-lg-3" style="text-align:right"><a href="/contact" class="btn button">Request an appoinment</a> </div>
@@ -80,12 +80,12 @@ get_header();?>
     </section>
     <section class="before-after container d-none d-xl-block">
         <div class="row justify-content-center">
-            <img class="col-xl-5 col-lg-5" src="<?php echo THEME_URL?>/src/images/patient-bf-3.png">
-            <img class="col-xl-5 col-lg-5" src="<?php echo THEME_URL?>/src/images/patient-af-3.png">
+            <img class="col-xl-6 col-lg-6" src="<?php echo THEME_URL?>/src/images/patient-bf-3.png">
+            <img class="col-xl-6 col-lg-6" src="<?php echo THEME_URL?>/src/images/patient-af-3.png">
         </div>
         <div class="row justify-content-center">
-            <img class="col-xl-5 col-lg-5" src="<?php echo THEME_URL?>/src/images/patient-bf-4.png">
-            <img class="col-xl-5 col-lg-5" src="<?php echo THEME_URL?>/src/images/patient-af-4.png">
+            <img class="col-xl-6 col-lg-6" src="<?php echo THEME_URL?>/src/images/patient-bf-4.png">
+            <img class="col-xl-6 col-lg-6" src="<?php echo THEME_URL?>/src/images/patient-af-4.png">
         </div>
     </section>
     <section class="testimonials  d-none d-lg-block">

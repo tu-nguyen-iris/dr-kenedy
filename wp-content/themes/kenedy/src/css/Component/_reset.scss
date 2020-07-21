@@ -32,20 +32,22 @@ p {
 }
 
 a {
+  color: $color-white;
   &:hover {
     text-decoration: none;
   }
 }
 
 @include media-breakpoint-down(xl) {
-  .container {
+  .container{
     max-width: 1400px;
     width: 100%;
   }
+
 }
 
 @include media-breakpoint-down(lg) {
-  .container {
+  .container{
     max-width: 1200px;
     width: 100%;
   }
