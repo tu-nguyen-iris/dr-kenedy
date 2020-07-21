@@ -125,7 +125,6 @@
   .banner{
     margin-left: 0;
     margin-right: 0;
-    height: 481px;
     width: 100%;
     margin-top: 50px;
     .banner__title{
@@ -144,10 +143,17 @@
       padding-bottom: 49px;
     }
     .button-up{
+      margin-bottom: 56px;
       text-align: right;
+      a{
+        color: #ffffff;
+      }
     }
     .button-down{
       text-align: left;
+      a{
+        color: #ffffff;
+      }
     }
     .button{
       width: 221px;
@@ -165,11 +171,7 @@
       padding-top: 62px;
       margin-bottom: 16px;
     }
-    a{
-      display: block;
-      padding-top: 20px;
-      color: $color-blue;
-    }
+
     .button{
       margin-top: 37px;
       width: 221px;
@@ -194,11 +196,6 @@
       line-height: 50px;
       padding-top: 62px;
       margin-bottom: 16px;
-    }
-    a{
-      display: block;
-      padding-top: 20px;
-      color: $color-blue;
     }
     .button{
       margin-top: 37px;

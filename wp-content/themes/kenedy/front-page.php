@@ -78,10 +78,10 @@
                 <p>
                     Family’s dental health requires a variety of dental services. Children’s teeth and oral structures require different treatments than those of their parents and older siblings—which are more complex. We offer a wide range of family dentistry services for every member of your family:
                 </p>
-                <a href="#"><i class="fa fa-chevron-circle-right"></i>Checkups & Cleanings</a>
-                <a href="#"><i class="fa fa-chevron-circle-right"></i>Children’s Dentistry</a>
+                    <a href="#" class="a_custom"><i class="fa fa-chevron-circle-right"></i>Checkups & Cleanings</a>
+                    <a href="#" class="a_custom"><i class="fa fa-chevron-circle-right"></i>Children’s Dentistry</a>
                     <button class="button">
-                        Learn More
+                    <a href="/contact">Learn More</a>
                     </button>
                 </div>
             </div>
@@ -103,10 +103,10 @@
                 <p>
                     Family’s dental health requires a variety of dental services. Children’s teeth and oral structures require different treatments than those of their parents and older siblings—which are more complex. We offer a wide range of family dentistry services for every member of your family:
                 </p>
-                <a href="#"><i class="fa fa-chevron-circle-right"></i>Checkups & Cleanings</a>
-                <a href="#"><i class="fa fa-chevron-circle-right"></i>Children’s Dentistry</a>
+                    <a href="#" class="a_custom"><i class="fa fa-chevron-circle-right"></i>Checkups & Cleanings</a>
+                    <a href="#" class="a_custom"><i class="fa fa-chevron-circle-right"></i>Children’s Dentistry</a>
                 <button class="button">
-                    Learn More
+                    <a href="/contact">Learn More</a>
                 </button>
                 </div>
             </div>
@@ -128,12 +128,12 @@
                 <p>
                     General dentistry describes services, treatments, and practices that help maintain your oral health, or repair your teeth after being damaged. We offer treatments that can be custom-designed to meet every patient’s unique needs. Our general dentistry services include:
                 </p>
-                <a href="#" style="display: block"><i class="fa fa-chevron-circle-right"></i>Tooth Fillings</a>
-                <a href="#" style="display: block"><i class="fa fa-chevron-circle-right"></i>Root Canal Treatment</a>
-                <a href="#" style="display: block"><i class="fa fa-chevron-circle-right"></i>Dental Crowns</a>
-                <a href="#" style="display: block"><i class="fa fa-chevron-circle-right"></i>Tooth <Extraction></Extraction></a>
+                    <a href="#" class="a_custom"><i class="fa fa-chevron-circle-right"></i>Tooth Fillings</a>
+                    <a href="#" class="a_custom"><i class="fa fa-chevron-circle-right"></i>Root Canal Treatment</a>
+                    <a href="#" class="a_custom"><i class="fa fa-chevron-circle-right"></i>Dental Crowns</a>
+                    <a href="#" class="a_custom"><i class="fa fa-chevron-circle-right"></i>Tooth Extraction</a>
                 <button class="button">
-                    Learn More
+                    <a href="/contact">Learn More</a>
                 </button>
                 </div>
             </div>
@@ -149,11 +149,11 @@
                 <p>
                     Whether your teeth are stained, chipped, or crooked, or you have cosmetic issues that need to be addressed to improve your smile’s appearance, Dr. Kennedy can prescribe a conservative smile makeover plan to correct your specific concerns. Common cosmetic procedures include:
                 </p>
-                <a href="#"><i class="fa fa-chevron-circle-right"></i>Teeth Whitening</a>
-                <a href="#"><i class="fa fa-chevron-circle-right"></i>Bonding/Contouring</a>
-                <a href="#"><i class="fa fa-chevron-circle-right"></i>Porcelain Veneers</a>
+                    <a href="#" class="a_custom"><i class="fa fa-chevron-circle-right"></i>Teeth Whitening</a>
+                    <a href="#" class="a_custom"><i class="fa fa-chevron-circle-right"></i>Bonding/Contouring</a>
+                    <a href="#" class="a_custom"><i class="fa fa-chevron-circle-right"></i>Porcelain Veneers</a>
                 <button class="button">
-                    Learn More
+                    <a href="/contact">Learn More</a>
                 </button>
                 </div>
             </div>
@@ -178,11 +178,11 @@
                 <p>
                     Whether your teeth are stained, chipped, or crooked, or you have cosmetic issues that need to be addressed to improve your smile’s appearance, Dr. Kennedy can prescribe a conservative smile makeover plan to correct your specific concerns. Common cosmetic procedures include:
                 </p>
-                <a href="#"><i class="fa fa-chevron-circle-right"></i>Teeth Whitening</a>
-                <a href="#"><i class="fa fa-chevron-circle-right"></i>Bonding/Contouring</a>
-                <a href="#"><i class="fa fa-chevron-circle-right"></i>Porcelain Veneers</a>
+                    <a href="#" class="a_custom"><i class="fa fa-chevron-circle-right"></i>Teeth Whitening</a>
+                    <a href="#" class="a_custom"><i class="fa fa-chevron-circle-right"></i>Bonding/Contouring</a>
+                    <a href="#" class="a_custom"><i class="fa fa-chevron-circle-right"></i>Porcelain Veneers</a>
                 <button class="button">
-                    Learn More
+                    <a href="/contact">Learn More</a>
                 </button>
                 </div>
             </div>
@@ -204,11 +204,11 @@
                 <p>
                     When a tooth is lost or needs to be extracted, the right type of replacement is needed to preserve the rest of your healthy teeth and oral structures. Using advanced equipment and materials, Dr. Kennedy can custom-design the right dental prosthetic to complete your smile, such as:
                 </p>
-                <a href="#"><i class="fa fa-chevron-circle-right"></i>Dental Bridges</a>
-                <a href="#"><i class="fa fa-chevron-circle-right"></i>Dentures</a>
-                <a href="#"><i class="fa fa-chevron-circle-right"></i>Dental Implants</a>
+                    <a href="#" class="a_custom"><i class="fa fa-chevron-circle-right"></i>Dental Bridges</a>
+                    <a href="#" class="a_custom"><i class="fa fa-chevron-circle-right"></i>Dentures</a>
+                    <a href="#" class="a_custom"><i class="fa fa-chevron-circle-right"></i>Dental Implants</a>
                 <button class="button">
-                    Learn More
+                    <a href="/contact">Learn More</a>
                 </button>
                 </div>
             </div>
@@ -337,7 +337,7 @@
                     </div>
                 </div>
             </div>
-            <button class="button">See more reviews</button>
+            <button class="button"><a href="/contact">Read more reviews</a></button>
         </div>
     </section>
 

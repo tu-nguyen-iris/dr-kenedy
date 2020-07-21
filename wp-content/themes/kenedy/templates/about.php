@@ -41,8 +41,7 @@
                     </h2>
                     </div>
                     <p class="title-headding__title-content">
-                        Caring for your family’s dental health requires a variety of different types of dental services, especially when it comes to your children. For instance, since children’s teeth and oral structures are still growing, their needs may be different than the needs of their parents and older siblings. Meanwhile, your dental needs may be more complex, such as the need to conservatively repair a tooth, or replace one that’s been lost.
-                    </p>
+                        Our goal is to provide high-quality family, general, and cosmetic dental services to patients and their families throughout the community. Combining over two decades of experience, an array of advanced technology and procedures, and a caring, compassionate, and knowledgeable staff, Dr. Kennedy works to ensure that you receive the effective dental care that you and your family need.                    </p>
                 </div>
             </div>
         </section>
@@ -82,33 +81,33 @@
                     <p>
                         When he is not seeing patients, Dr. Kennedy spends his time with his wife Lisa and their twin boys, Kevin and James.
                     </p>
-                    <button class="button mobile">Learn More</button>
+                    <button class="button mobile"><a href="/contact">Learn More</a></button>
                 </div>
             </div>
         </section>
         <section class="container-fluid ">
-                <div class="row banner">
-                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center">
-                        <h2 class="banner__title">
-                            Schedule an Appointment with Dr. Kennedy Today!
-                        </h2>
-                        <p class="banner__content">
-                            To learn more about the services we offer to protect, restore, and improve your family’s smiles, contact us today by calling <a href="#">781-275-0200</a>, or by visiting our Bedford, MA dental office.
-                        </p>
-                        <div class="row">
-                            <div class="col-12 col-sm-12 col-md-6 col-lg-6 button-up ml-auto">
-                                <button class="button">
-                                    Request an appoinment
-                                </button>
-                            </div>
-                            <div class="col-12 col-sm-12 col-md-6 col-lg-6 button-down mr-auto">
-                                <button class="button">
-                                    781-275-0200
-                                </button>
-                            </div>
+            <div class="row banner">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                    <h2 class="banner__title">
+                        Schedule an Appointment with Dr. Kennedy Today!
+                    </h2>
+                    <p class="banner__content">
+                        To learn more about the services we offer to protect, restore, and improve your family’s smiles, contact us today by calling <a href="tel:7812750200"> (781) 275-0200 </a>, or by visiting our Bedford, MA dental office.
+                    </p>
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-6 button-up ml-auto">
+                            <button class="button">
+                                <a href="/contact">  Request an appoinment </a>
+                            </button>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-6 button-down mr-auto">
+                            <button class="button">
+                                <a href="tel:7812750200"> 781-275-0200</a>
+                            </button>
                         </div>
                     </div>
                 </div>
+            </div>
         </section>
         <section class="container d-none d-lg-block">
             <div class="row text-center">
@@ -137,7 +136,7 @@
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-6 item-images">
                     <img src="<?php echo THEME_URL?>/src/images/7807 1.png" class="images images__right">
-                    <button class="button">Learn More</button>
+                    <button class="button"><a href="/contact"> Learn More</a></button>
                 </div>
             </div>
             <div class="row horizon_right no-gutters mobile">
@@ -158,7 +157,7 @@
                     <p>
                         When she is not at work, she is busy spending time with family, friends and her South African Mastiff named Chase. She enjoys reading, yoga, Jazzercise, and going to her lake house in New Hampshire.
                     </p>
-                    <button class="button">Learn More</button>
+                    <button class="button"><a href="/contact"> Learn More</a></button>
                 </div>
             </div>
 
@@ -178,7 +177,7 @@
                     <p>
                         In her spare time, Cheryl enjoys spending time with her family, friends and two dogs. Her hobbies include quilting, gardening, cooking, and remodeling projects around her house. She is an avid New England sports fan!
                     </p>
-                    <button class="button">Learn More</button>
+                    <button class="button"><a href="/contact"> Learn More</a></button>
                 </div>
             </div>
             <div class="row horizon no-gutters d-none d-lg-flex">
@@ -198,7 +197,7 @@
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-6 item-images">
                     <img src="<?php echo THEME_URL?>/src/images/beautiful-young-woman-looking-camera-white-background_1301-7766 1.png" class="images images__right">
-                    <button class="button">Learn More</button>
+                    <button class="button"><a href="/contact"> Learn More</a></button>
                 </div>
 
             </div>
@@ -217,7 +216,7 @@
                     <p>
                         In her free time McKayla enjoys spending quality time with her family and friends, outdoor activities with her two dogs and is always happy to read a good book!
                     </p>
-                    <button class="button final__mid">Learn More</button>
+                    <button class="button final__mid"><a href="/contact">Learn More </a></button>
                 </div>
             </div>
         </section>
@@ -250,7 +249,7 @@
                     <p>
                         Nevena loves being with her family and friends, taking long walks on the beach, and working on her arts and crafts projects.
                     </p>
-                    <button class="button">Learn More</button>
+                    <button class="button"><a href="/contact"> Learn More</a></button>
                 </div>
             </div>
             </div>
@@ -283,7 +282,7 @@
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-6 item-images">
                     <img src="<?php echo THEME_URL?>/src/images/close-up-smiling-man_23-2148364950 1.png" class="images images__right">
-                    <button class="button">Learn More</button>
+                    <button class="button"><a href="/contact"> Learn More</a></button>
                 </div>
             </div>
             </div>
@@ -308,7 +307,7 @@
                     <p>
                         In her free time she enjoys spending time with her family, working in her garden and getting together with friends and family.
                     </p>
-                    <button class="button">Learn More</button>
+                    <button class="button"><a href="/contact"> Learn More</a></button>
                 </div>
 
             </div>

@@ -58,7 +58,6 @@
   .banner {
     margin-left: 0;
     margin-right: 0;
-    height: 481px;
     width: 100%;
     margin-bottom: 50px;
 
@@ -80,11 +79,18 @@
     }
 
     .button-up {
+      margin-bottom: 56px;
       text-align: right;
+      a{
+        color: #ffffff;
+      }
     }
 
     .button-down {
       text-align: left;
+      a{
+        color: #ffffff;
+      }
     }
 
     .button {

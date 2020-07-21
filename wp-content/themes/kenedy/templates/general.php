@@ -62,14 +62,15 @@
                     <p>
                         At some point in your life, you’ll probably develop a cavity. If you let a cavity continue to grow, it can become deep and necessitate root canal treatment and a dental crown, or in extreme cases, tooth extraction.
                     </p>
+                    <br>
                     <p>
                         If you’re concerned about mercury in dental amalgam or you want to keep your smile natural-looking as long as possible, you’ll appreciate our tooth-colored composite resin fillings. This material is a durable acrylic resin that contains no mercury or metals. It does not expand and contract with temperature fluctuations, either. We tint composite resin fillings to match the teeth in which they are placed, and the result is impressively lifelike.
                     </p>
                     <button class="button button-request d-none d-lg-block">
-                        Request an appoinment
+                        <a href="/contact">  Request an appoinment </a>
                     </button>
                     <button class="button d-block d-sm-none">
-                        Learn More
+                        <a href="/contact"> Learn More </a>
                     </button>
                 </div>
             </div>
@@ -95,14 +96,15 @@
                     <p>
                         At some point in your life, you’ll probably develop a cavity. If you let a cavity continue to grow, it can become deep and necessitate root canal treatment and a dental crown, or in extreme cases, tooth extraction.
                     </p>
+                    <br>
                     <p>
                         If you’re concerned about mercury in dental amalgam or you want to keep your smile natural-looking as long as possible, you’ll appreciate our tooth-colored composite resin fillings. This material is a durable acrylic resin that contains no mercury or metals. It does not expand and contract with temperature fluctuations, either. We tint composite resin fillings to match the teeth in which they are placed, and the result is impressively lifelike.
                     </p>
                     <button class="button button-request d-none d-lg-block">
-                        Request an appoinment
+                        <a href="/contact">  Request an appoinment </a>
                     </button>
                     <button class="button d-block d-sm-none">
-                        Learn More
+                        <a href="/contact"> Learn More </a>
                     </button>
                 </div>
             </div>
@@ -124,20 +126,19 @@
                     <h3 class="title">
                         Erase extreme tooth decays with root canal treatment
                     </h3>
-
-
                     <p>
                         Modern root canal therapy is vastly different than what it was. Our office provides treatments that can be completed in one visit. In addition, we use high-quality and precision instruments for restorative treatments to reduce the potential for complications during and after the procedure.
 
                     </p>
+                        <br>
                     <p>
-                    Root canal treatment is an endodontic procedure, meaning that it involves the internal structure of a tooth. A deep crack or cavity can allow bacteria to enter the tooth’s internal canals. Inside a tooth’s canals, a nerve (or pulp) supplies blood and sustains the tooth’s life. Bacteria cause infection of the nerve, which creates swelling, pressure and, as a result, pain. Ultimately, the infection can reach the bloodstream and cause overall health problems.
+                     Root canal treatment is an endodontic procedure, meaning that it involves the internal structure of a tooth. A deep crack or cavity can allow bacteria to enter the tooth’s internal canals. Inside a tooth’s canals, a nerve (or pulp) supplies blood and sustains the tooth’s life. Bacteria cause infection of the nerve, which creates swelling, pressure and, as a result, pain. Ultimately, the infection can reach the bloodstream and cause overall health problems.
                     </p>
                         <button class="button button-request d-none d-lg-block">
-                            Request an appoinment
+                            <a href="/contact">  Request an appoinment </a>
                         </button>
                         <button class="button d-block d-sm-none">
-                            Learn More
+                            <a href="/contact"> Learn More </a>
                         </button>
                     </div>
                 </div>
@@ -161,16 +162,16 @@
                     </h3>
                     <p>
                         Modern root canal therapy is vastly different than what it was. Our office provides treatments that can be completed in one visit. In addition, we use high-quality and precision instruments for restorative treatments to reduce the potential for complications during and after the procedure.
-
                     </p>
+                        <br>
                     <p>
                         Root canal treatment is an endodontic procedure, meaning that it involves the internal structure of a tooth. A deep crack or cavity can allow bacteria to enter the tooth’s internal canals. Inside a tooth’s canals, a nerve (or pulp) supplies blood and sustains the tooth’s life. Bacteria cause infection of the nerve, which creates swelling, pressure and, as a result, pain. Ultimately, the infection can reach the bloodstream and cause overall health problems.
                     </p>
                     <button class="button   button-request d-none d-lg-block">
-                        Request an appoinment
+                        <a href="/contact">  Request an appoinment </a>
                     </button>
                     <button class="button d-block d-sm-none">
-                        Learn More
+                        <a href="/contact"> Learn More </a>
                     </button>
                 </div>
             </div>
@@ -182,17 +183,17 @@
                         Schedule an Appointment with Dr. Kennedy Today!
                     </h2>
                     <p class="banner__content">
-                        To learn more about the services we offer to protect, restore, and improve your family’s smiles, contact us today by calling<a href="#">781-275-0200</a>, or by visiting our Bedford, MA dental office.
+                        To learn more about the services we offer to protect, restore, and improve your family’s smiles, contact us today by calling <a href="tel:7812750200"> (781) 275-0200 </a>, or by visiting our Bedford, MA dental office.
                     </p>
                     <div class="row">
                         <div class="col-12 col-sm-12 col-md-6 col-lg-6 button-up ml-auto">
                             <button class="button">
-                                Request an appoinment
+                                <a href="/contact">  Request an appoinment </a>
                             </button>
                         </div>
                         <div class="col-12 col-sm-12 col-md-6 col-lg-6 button-down mr-auto">
                             <button class="button">
-                                781-275-0200
+                                <a href="tel:7812750200"> 781-275-0200</a>
                             </button>
                         </div>
                     </div>
@@ -220,14 +221,15 @@
                     <p>
                         Because Dr. Kennedy understands the importance of an attractive smile, we approach all dental procedures with a cosmetic dental philosophy. In many situations where a durable, attractive restoration is called for, we prefer to place tooth-colored, porcelain crowns rather than metal ones.
                     </p>
+                    <br>
                     <p>
                         At a trusted dental lab, a skilled ceramist will follow our instructions and use the impression of your teeth as a guide to create a crown that will fit snugly onto your prepared tooth. The ceramist will follow a shade guide to match the porcelain to the teeth on either side of the tooth. This will help ensure a natural and discreet finish.
                     </p>
                     <button class="button button-request d-none d-lg-block">
-                        Request an appoinment
+                        <a href="/contact">  Request an appoinment </a>
                     </button>
                     <button class="button d-block d-sm-none">
-                        Learn More
+                        <a href="/contact"> Learn More </a>
                     </button>
                 </div>
             </div>
@@ -247,14 +249,15 @@
                     <p>
                         Because Dr. Kennedy understands the importance of an attractive smile, we approach all dental procedures with a cosmetic dental philosophy. In many situations where a durable, attractive restoration is called for, we prefer to place tooth-colored, porcelain crowns rather than metal ones.
                     </p>
+                    <br>
                     <p>
                         At a trusted dental lab, a skilled ceramist will follow our instructions and use the impression of your teeth as a guide to create a crown that will fit snugly onto your prepared tooth. The ceramist will follow a shade guide to match the porcelain to the teeth on either side of the tooth. This will help ensure a natural and discreet finish.
                     </p>
                     <button class="button button__request d-none d-lg-block">
-                        Request an appoinment
+                        <a href="/contact">  Request an appoinment </a>
                     </button>
                     <button class="button d-block d-sm-none">
-                        Learn More
+                        <a href="/contact"> Learn More </a>
                     </button>
                 </div>
             </div>
@@ -278,14 +281,15 @@
                         <p>
                             We believe in conservative dental treatments. When Dr. Kennedy recommends tooth extraction, it is a last resort. Sometimes, when root canal treatment won’t suffice, a damaged tooth must be removed to ensure your good oral health. When teeth are too close together, one tooth or more may have to be extracted to apply orthodontic braces. Tooth extraction might be necessary for those who need dentures.
                         </p>
+                        <br>
                         <p>
                             Whatever your situation is, we will explain the reasons behind, and talk with you about how we’ll make the procedure quick and comfortable. If another dentist has recommended tooth extraction but you’d like a second opinion, then we’ll be glad to provide one.
                         </p>
                         <button class="button button__request d-none d-lg-block">
-                            Request an appoinment
+                            <a href="/contact">  Request an appoinment </a>
                         </button>
                         <button class="button d-block d-sm-none">
-                            Learn More
+                            <a href="/contact"> Learn More </a>
                         </button>
                     </div>
                 </div>
@@ -309,14 +313,15 @@
                     <p>
                         We believe in conservative dental treatments. When Dr. Kennedy recommends tooth extraction, it is a last resort. Sometimes, when root canal treatment won’t suffice, a damaged tooth must be removed to ensure your good oral health. When teeth are too close together, one tooth or more may have to be extracted to apply orthodontic braces. Tooth extraction might be necessary for those who need dentures.
                     </p>
+                    <br>
                     <p>
                         Whatever your situation is, we will explain the reasons behind, and talk with you about how we’ll make the procedure quick and comfortable. If another dentist has recommended tooth extraction but you’d like a second opinion, then we’ll be glad to provide one.
                     </p>
                     <button class="button button__request d-none d-lg-block">
-                        Request an appoinment
+                        <a href="/contact">  Request an appoinment </a>
                     </button>
                     <button class="button d-block d-sm-none">
-                        Learn More
+                        <a href="/contact"> Learn More </a>
                     </button>
                 </div>
             </div>

@@ -1,4 +1,12 @@
 .home {
+  .a_custom{
+    display: block;
+    font-family: Lora,sans-serif;
+    font-size: 22px;
+    line-height: 30px;
+    color: #0068B5;
+    margin-top: 36px;
+  }
   .home-slider{
     padding-bottom: 80px;
   }
@@ -22,6 +30,7 @@
       margin: 60px auto;
     }
     .star{
+      margin-right: 345px;
       margin-top: 60px;
       margin-bottom: 15px;
     }
@@ -271,11 +280,6 @@
       padding-top: 62px;
       margin-bottom: 16px;
     }
-    a{
-      display: block;
-      padding-top: 20px;
-      color: $color-blue;
-    }
     .button{
       margin-top: 37px;
       width: 142px;
@@ -300,11 +304,6 @@
       padding-top: 62px;
       margin-bottom: 16px;
     }
-    a{
-      display: block;
-      padding-top: 20px;
-      color: $color-blue;
-    }
     .button{
       margin-top: 37px;
       width: 142px;
@@ -319,6 +318,13 @@
 }
 @include media-breakpoint-down(md){
   .home{
+    .a_custom{
+      font-family: Lora,sans-serif;
+      font-size: 18px;
+      line-height: 30px;
+      color: #0068B5;
+      margin-top: 17px;
+    }
     .welcome{
       .welcome__text{
         margin-bottom: unset;

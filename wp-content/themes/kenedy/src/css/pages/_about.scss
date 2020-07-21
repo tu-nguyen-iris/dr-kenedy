@@ -10,7 +10,7 @@
   }
   .images{
     height: 100%;
-  }ho
+  }
   .title-begin{
     .title-second{
       padding-top: 0px;
@@ -24,12 +24,13 @@
     .horizon_right{
       background: #F1F4F5;
       .title{
-        font-family: Averta-Bold;
+        font-family: Averta-Bold,sans-serif;
         font-weight: bold;
         font-size: 40px;
         line-height: 28px;
         color:$color-dark;
         padding-top: 88px;
+        margin-bottom: 25px;
 
       }
       .button{
@@ -55,7 +56,6 @@
     width: 100%;
     margin-left: 0;
     margin-right: 0;
-    height: 481px;
     .banner__title{
       padding-top: 73px;
       padding-left: 270px;
@@ -72,10 +72,17 @@
       padding-bottom: 49px;
     }
     .button-up{
-      text-align: right
+      margin-bottom: 56px;
+      text-align: right;
+      a{
+        color: #ffffff;
+      }
     }
     .button-down{
-      text-align: left
+      text-align: left;
+      a{
+        color: #ffffff;
+      }
     }
     .button{
       width: 221px;
@@ -165,7 +172,7 @@
         }
           background: $color-yellow3;
         .title{
-          font-family: Averta,SansSerif;
+          font-family: Averta-Bold,SansSerif;
           font-weight: bold;
           font-size: 18px;
           line-height: 28px;
@@ -224,7 +231,7 @@
     }
     .horizon__second{
       .title-second{
-        padding-top: 24px;
+        padding-top: 50px;
         margin-bottom: 24px;
       }
       .title{
@@ -254,8 +261,10 @@
       }
     }
     .final{
-      margin-bottom: 20px;
+      margin-bottom: 30px;
+
       .item-body__right{
+
         background-color: $color-yellow3;
       }
     }

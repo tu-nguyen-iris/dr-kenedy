@@ -77,9 +77,9 @@
                     <p>
                         During a checkup, Dr. Kennedy will look for cavities, demineralization (the precursor to cavities), and structural problems, like cracks or chips and recommend a suitable treatment. If necessary, we’ll take digital X-rays to review. During your cleaning, our registered dental hygienist will chart information about your gums, look for signs of gum disease, and then thoroughly clean your teeth to remove plaque, tartar, and debris. Because gum diseases begin with plaque, six-month cleanings will reduce your risk for those diseases.
                     </p>
-                    <button class="button mobile">Learn More</button>
+                    <button class="button mobile"><a href="/contact"> Learn More </a></button>
                     <button class="button desktop d-none d-lg-block">
-                        Request an appoinment
+                       <a href="/contact"> Request an appoinment</a>
                     </button>
                     </div>
                 </div>
@@ -92,17 +92,17 @@
                         Schedule an Appointment with Dr. Kennedy Today!
                     </h2>
                     <p class="banner__content">
-                        To learn more about the services we offer to protect, restore, and improve your family’s smiles, contact us today by calling <a href="#">781-275-0200</a>, or by visiting our Bedford, MA dental office.
+                        To learn more about the services we offer to protect, restore, and improve your family’s smiles, contact us today by calling <a href="tel:7812750200"> (781) 275-0200 </a>, or by visiting our Bedford, MA dental office.
                     </p>
                     <div class="row">
                         <div class="col-12 col-sm-12 col-md-6 col-lg-6 button-up ml-auto">
                             <button class="button">
-                                Request an appoinment
+                                <a href="/contact">  Request an appoinment </a>
                             </button>
                         </div>
                         <div class="col-12 col-sm-12 col-md-6 col-lg-6 button-down mr-auto">
                             <button class="button">
-                                781-275-0200
+                                <a href="tel:7812750200"> 781-275-0200</a>
                             </button>
                         </div>
                     </div>
@@ -134,13 +134,13 @@
                             Dr. Kennedy will look inside your child’s mouth to assess oral development. If he sees any reason for concern, we can talk about your options. We’ll also chat about how to encourage your child to take good care of his or her teeth and gums at home.
                         </p>
                         <button class="button desktop d-none d-lg-block">
-                            Request an appoinment
+                           <a href="/contact">Request an appoinment</a>
                         </button>
                         </div>
                     </div>
                     <div class="col-sm-12 col-md-6 col-lg-6 item-images">
                         <img src="<?php echo THEME_URL?>/src/images/shutterstock_663132562 1.png" class="images">
-                        <button class="button d-none">Learn More</button>
+                        <button class="button d-none"><a href="contact">Learn More</a></button>
                     </div>
                 </div>
             </div>
@@ -167,9 +167,9 @@
                     Dr. Kennedy will look inside your child’s mouth to assess oral development. If he sees any reason for concern, we can talk about your options. We’ll also chat about how to encourage your child to take good care of his or her teeth and gums at home.
                 </p>
                 <button class="button desktop d-none d-lg-block">
-                    Request an appoinment
+                    <a href="/contact">Request an appoinment</a>
                 </button>
-                <button class="button">Learn More</button>
+                <button class="button"><a href="/contact">Learn More</a></button>
             </div>
 
             </div>
