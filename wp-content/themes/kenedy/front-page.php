@@ -91,13 +91,13 @@
     </section>
     <section class="horizon_right d-flex d-lg-none container-fluid">
         <div class="row no-gutters">
-            <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+            <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 text-center">
+                <h2 class="title-second">
+                    Family Dentistry
+                </h2>
                 <img class="images" src="<?php echo THEME_URL ?>/src/images/girl-hot.png">
             </div>
             <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 item-body__right">
-                <h3 class="title">
-                    Family Dentistry
-                </h3>
                 <p>
                     Family’s dental health requires a variety of dental services. Children’s teeth and oral structures require different treatments than those of their parents and older siblings—which are more complex. We offer a wide range of family dentistry services for every member of your family:
                 </p>
@@ -111,18 +111,23 @@
     </section>
     <section class="horizon_right container-fluid">
         <div class="row no-gutters">
-            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 text-center">
+                <h2 class="title-second d-block d-lg-none">
+                    General Dentistry
+                </h2>
                 <img class="images" src="<?php echo THEME_URL ?>/src/images/man-smile.png">
             </div>
             <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 item-body__right">
-                <h3 class="title">
+                <h3 class="title d-none d-lg-block">
                     General Dentistry
                 </h3>
                 <p>
                     General dentistry describes services, treatments, and practices that help maintain your oral health, or repair your teeth after being damaged. We offer treatments that can be custom-designed to meet every patient’s unique needs. Our general dentistry services include:
                 </p>
-                <a href="#" style="display: block"><i class="fa fa-chevron-circle-right"></i>Checkups & Cleanings</a>
-                <a href="#" style="display: block"><i class="fa fa-chevron-circle-right"></i>Checkups & Cleanings</a>
+                <a href="#" style="display: block"><i class="fa fa-chevron-circle-right"></i>Tooth Fillings</a>
+                <a href="#" style="display: block"><i class="fa fa-chevron-circle-right"></i>Root Canal Treatment</a>
+                <a href="#" style="display: block"><i class="fa fa-chevron-circle-right"></i>Dental Crowns</a>
+                <a href="#" style="display: block"><i class="fa fa-chevron-circle-right"></i>Tooth <Extraction></Extraction></a>
                 <button class="button">
                     Learn More
                 </button>
@@ -138,7 +143,7 @@
                 <p>
                     Whether your teeth are stained, chipped, or crooked, or you have cosmetic issues that need to be addressed to improve your smile’s appearance, Dr. Kennedy can prescribe a conservative smile makeover plan to correct your specific concerns. Common cosmetic procedures include:
                 </p>
-                <a href="#"><i class="fa fa-chevron-circle-right"></i>Checkups & Cleanings</a>
+                <a href="#"><i class="fa fa-chevron-circle-right"></i>Teeth Whitening</a>
                 <a href="#"><i class="fa fa-chevron-circle-right"></i>Bonding/Contouring</a>
                 <a href="#"><i class="fa fa-chevron-circle-right"></i>Porcelain Veneers</a>
                 <button class="button">
@@ -152,17 +157,20 @@
     </section>
     <section class="horizon_right d-flex d-sm-none container-fluid">
         <div class="row no-gutters">
-            <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+            <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 text-center">
+                <h2 class="title-second d-block d-lg-none">
+                    Cosmetic Dentistry
+                </h2>
                 <img class="images" src="<?php echo THEME_URL ?>/src/images/girlHome1.jpg">
             </div>
             <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 item-body__right">
-                <h3 class="title">
+                <h3 class="title d-none d-lg-block">
                     Cosmetic Dentistry
                 </h3>
                 <p>
                     Whether your teeth are stained, chipped, or crooked, or you have cosmetic issues that need to be addressed to improve your smile’s appearance, Dr. Kennedy can prescribe a conservative smile makeover plan to correct your specific concerns. Common cosmetic procedures include:
                 </p>
-                <a href="#"><i class="fa fa-chevron-circle-right"></i>Checkups & Cleanings</a>
+                <a href="#"><i class="fa fa-chevron-circle-right"></i>Teeth Whitening</a>
                 <a href="#"><i class="fa fa-chevron-circle-right"></i>Bonding/Contouring</a>
                 <a href="#"><i class="fa fa-chevron-circle-right"></i>Porcelain Veneers</a>
                 <button class="button">
@@ -173,25 +181,29 @@
     </section>
     <section class="horizon_right container-fluid">
         <div class="row no-gutters">
-            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 text-center">
+                <h2 class="title-second d-block d-lg-none">
+                    Replacement Teeth
+                </h2>
                 <img class="images" src="<?php echo THEME_URL ?>/src/images/beutiful-women.png">
             </div>
             <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 item-body__right">
-                <h3 class="title">
+                <h3 class="title d-none d-lg-block">
                     Replacement Teeth
                 </h3>
                 <p>
                     When a tooth is lost or needs to be extracted, the right type of replacement is needed to preserve the rest of your healthy teeth and oral structures. Using advanced equipment and materials, Dr. Kennedy can custom-design the right dental prosthetic to complete your smile, such as:
                 </p>
-                <a href="#" style="display: block"><i class="fa fa-chevron-circle-right "></i>Checkups & Cleanings</a>
-                <a href="#" style="display: block"><i class="fa fa-chevron-circle-right"></i>Checkups & Cleanings</a>
+                <a href="#"><i class="fa fa-chevron-circle-right"></i>Dental Bridges</a>
+                <a href="#"><i class="fa fa-chevron-circle-right"></i>Dentures</a>
+                <a href="#"><i class="fa fa-chevron-circle-right"></i>Dental Implants</a>
                 <button class="button">
                     Learn More
                 </button>
             </div>
         </div>
     </section>
-    <section class="title-begin container d-none d-lg-block">
+    <section class="container">
         <div class="row text-center">
             <div class="col-12 col-sm-12 col-md-12 col-lg-12">
                 <h2 class="title-second">
@@ -228,7 +240,7 @@
          </div>
     </div>
     </div>
-    <section class="testimonials banner d-none d-lg-block">
+    <section class="testimonials container-fluid banner d-none d-lg-block">
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>

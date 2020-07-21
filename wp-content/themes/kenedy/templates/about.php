@@ -46,10 +46,10 @@
                 </div>
             </div>
         </section>
-        <section class="title-begin container d-none d-lg-block">
+        <section class="container d-none d-lg-block">
             <div class="row text-center">
                 <div class="col-12 col-sm-12 col-md-12 col-lg-12">
-                  <h2 class="title-second">
+                  <h2 class="title-begin">
                       Meet Dr. Robert M. Kennedy
                   </h2>
                 </div>
@@ -57,7 +57,7 @@
         </section>
         <section class="horizon__first container-fluid">
             <div class="row horizon_right no-gutters">
-                <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 text-center">
                             <h2 class="title-second d-block d-lg-none text-center">
                                 Meet Dr. Robert M. Kennedy
                             </h2>
@@ -119,8 +119,7 @@
                 </div>
             </div>
         </section>
-        <section class="horizon__second horizon_mid ">
-            <div class="container-fluid">
+        <section class="horizon__second container-fluid horizon_mid ">
             <div class="row horizon d-none d-lg-flex no-gutters">
                 <div class="col-sm-12 col-md-6 col-lg-6 item-body__left">
                     <h3 class="title">
@@ -139,10 +138,8 @@
                     <button class="button">Learn More</button>
                 </div>
             </div>
-            </div>
-
             <div class="row horizon_right no-gutters mobile">
-                <div class="col-sm-12 col-md-6 col-lg-6 item-images">
+                <div class="col-sm-12 col-md-6 col-lg-6 text-center item-images">
                             <h2 class="title-second d-block d-lg-none text-center">
                                 Our Hygienists
                             </h2>
@@ -164,7 +161,7 @@
             </div>
 
             <div class="row horizon_right no-gutters">
-                <div class="col-sm-12 col-md-6 col-lg-6 item-images">
+                <div class="col-sm-12 col-md-6 col-lg-6 text-center item-images">
 
                     <img src="<?php echo THEME_URL?>/src/images/happy-cheerful-professional-posing-studio_1262-20927 1.png" class="images images__right">
                 </div>
@@ -202,7 +199,7 @@
 
             </div>
             <div class="row horizon_right no-gutters mobile">
-                <div class="col-sm-12 col-md-6 col-lg-6 item-images">
+                <div class="col-sm-12 col-md-6 col-lg-6 text-center item-images">
                     <img src="<?php echo THEME_URL?>/src/images/beautiful-young-woman-looking-camera-white-background_1301-7766 1.png" class="images images__right">
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-6 item-body__right">
@@ -232,7 +229,7 @@
         <section class="horizon__second">
             <div class="container-fluid">
             <div class="row horizon_right no-gutters">
-                <div class="col-sm-12 col-md-6 col-lg-6 item-images">
+                <div class="col-sm-12 col-md-6 col-lg-6 text-center item-images">
                             <h2 class="title-second d-block d-lg-none text-center">
                                 Our Dental Assistant
                             </h2>
@@ -258,7 +255,7 @@
             <div class="row text-center">
                 <div class="col-12 col-sm-12 col-md-12 col-lg-12">
                     <h2 class="title-second">
-                        Our Dental Assistant
+                        Office Manager
                     </h2>
                 </div>
             </div>
@@ -287,12 +284,10 @@
         </section>
         <section class="horizon__second final mobile container-fluid">
             <div class="row horizon_right no-gutters">
-
-                <div class="col-sm-12 col-md-6 col-lg-6 item-images">
-                            <h2 class="title-second d-block d-lg-none text-center">
-                                Our Dental Assistant
-                            </h2>
-                    </div>
+                <div class="col-sm-12 col-md-6 col-lg-6 text-center item-images">
+                    <h2 class="title-second text-center">
+                        Office Manager
+                    </h2>
                     <img src="<?php echo THEME_URL?>/src/images/close-up-smiling-man_23-2148364950 1.png" class="images images__right">
 
                 </div>

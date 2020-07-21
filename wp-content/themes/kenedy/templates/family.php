@@ -46,10 +46,10 @@
                 </div>
             </div>
         </section>
-        <section class="title-begin container d-none d-lg-block">
+        <section class="container d-none d-lg-block">
             <div class="row text-center">
                 <div class="col-12 col-sm-12 col-md-12 col-lg-12">
-                    <h2 class="title-second">
+                    <h2 class="title-begin">
                         Checkups & Cleanings
                     </h2>
                 </div>
@@ -57,9 +57,9 @@
         </section>
         <section class="horizon__first container-fluid">
             <div class="row horizon_right no-gutters">
-                <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 text-center">
                     <h2 class="title-second d-block d-lg-none text-center">
-                        Checkups & Cleanings
+                        Checkups & <br> Cleanings
                     </h2>
                     <img src="<?php echo THEME_URL?>/src/images/shutterstock_194275118 1.png" class="images">
                 </div>
@@ -143,10 +143,9 @@
         </section>
         <section class="horizon__second final mobile container-fluid">
             <div class="row horizon_right no-gutters">
-
-                <div class="col-sm-12 col-md-6 col-lg-6 item-images">
+                <div class="col-sm-12 col-md-6 col-lg-6 text-center">
                     <h2 class="title-second d-block d-lg-none text-center">
-                        Our Dental Assistant
+                        Children's Dentistry
                     </h2>
                 </div>
                 <img src="<?php echo THEME_URL?>/src/images/shutterstock_663132562 1.png" class="images">

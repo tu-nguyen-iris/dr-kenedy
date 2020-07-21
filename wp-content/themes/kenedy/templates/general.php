@@ -17,12 +17,8 @@
                 </h1>
                 <div class="cover__button">
                     <button class="button button--video">Watch a video</button>
-                    <button class="button button--video button--video--primary d-none d-lg-block">Watch a video</button>
                 </div>
                 <div class="cover__rating d-none d-lg-block">
-                    <p class="title">Best Dental</p>
-                    <p class="number">101</p>
-                    <p class="label">Review</p>
                     <div class="cover__rating__stars">
                         <div class="star"></div>
                         <div class="star"></div>
@@ -53,7 +49,7 @@
         </section>
         <section class="horizon_right d-flex d-lg-none container-fluid">
             <div class="row no-gutters">
-                <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 text-center">
                     <h2 class="title-second text-center">
                         Tooth Extraction
                     </h2>
@@ -75,10 +71,10 @@
                 </div>
             </div>
         </section>
-        <section class="title-begin container d-none d-lg-block">
+        <section class="container d-none d-lg-block">
             <div class="row text-center">
                 <div class="col-12 col-sm-12 col-md-12 col-lg-12">
-                    <h2 class="title-second">
+                    <h2 class="title-begin">
                         Tooth Fillings
                     </h2>
                 </div>
@@ -141,13 +137,17 @@
         </section>
         <section class="horizon_right d-flex d-sm-none container-fluid">
             <div class="row no-gutters">
-                <h2 class="title-second d-block d-lg-none text-center">
-                    Root Canal Treatment
-                </h2>
-                <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+
+                <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 text-center">
+                    <h2 class="title-second text-center d-block d-lg-none">
+                        Root Canal <br> Treatment
+                    </h2>
                     <img class="images" src="<?php echo THEME_URL ?>/src/images/general-root-canal.png">
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 item-body__right">
+                    <h3 class="title">
+                        Erase extreme tooth decays with root canal treatment
+                    </h3>
                     <p>
                         Modern root canal therapy is vastly different than what it was. Our office provides treatments that can be completed in one visit. In addition, we use high-quality and precision instruments for restorative treatments to reduce the potential for complications during and after the procedure.
 
@@ -217,7 +217,7 @@
         </section>
         <section class="horizon_right d-flex d-lg-none container-fluid">
             <div class="row no-gutters">
-                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 text-center">
                     <h2 class="title-second text-center">
                         Dental Crowns
                     </h2>
@@ -271,7 +271,7 @@
         </section>
         <section class="horizon_right d-flex d-lg-none container-fluid">
             <div class="row no-gutters">
-                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 text-center">
                             <h2 class="title-second text-center">
                                 Tooth Extraction
                             </h2>

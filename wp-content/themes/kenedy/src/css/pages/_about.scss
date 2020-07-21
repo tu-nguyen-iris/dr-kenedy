@@ -1,8 +1,16 @@
 .about{
+  .title-begin{
+    .title-second{
+      padding-top: 0px;
+    }
+  }
   .mobile{
     display: none;
   }
   .horizon__first{
+    .images{
+      width: 95%;
+    }
     padding-bottom: 59px;
     .horizon_right{
       background: #F1F4F5;
@@ -51,10 +59,10 @@
       padding-bottom: 49px;
     }
     .button-up{
-      padding-left: 500px;
+      text-align: right
     }
     .button-down{
-      padding-right: 500px;
+      text-align: left
     }
     .button{
       width: 221px;
@@ -62,6 +70,7 @@
     }
   }
   .horizon__second{
+
     .title{
       color: $color-dark;
       padding-top: 90px;
@@ -123,8 +132,11 @@
     .horizon__first{
       padding-bottom: 50px;
       .horizon_right{
-        padding-bottom: 30px;
-        background: $color-yellow3;
+        .title-second{
+          margin-bottom: 24px;
+          padding-top: 24px;
+        }
+          background: $color-yellow3;
         .title{
           font-family: Averta,SansSerif;
           font-weight: bold;
@@ -147,7 +159,12 @@
 
     }
     .banner{
-      height: 520px;
+        &::before{
+          display: none;
+        }
+        &::after{
+          display: none;
+        }
       .banner__title{
         font-size: 28px;
         padding-top: 46px;
@@ -165,11 +182,13 @@
         padding-bottom: 29px;
       }
       .button-up{
+        text-align: center;
         padding-right:0px;
         padding-left:0px;
         margin-bottom: 20px;
       }
       .button-down{
+        text-align: center;
         margin-bottom: 69px;
         padding-right:0px;
         padding-left:0px;
@@ -181,6 +200,15 @@
       }
     }
     .horizon__second{
+      .horizon_right{
+        .images{
+          width: 95%;
+        }
+      }
+      .title-second{
+        padding-top: 24px;
+        margin-bottom: 24px;
+      }
       padding-bottom: 40px;
       .title{
         color:$color-dark;
@@ -195,6 +223,7 @@
         padding-right: 20px;
       }
       .item-images{
+
         background: $color-yellow3;
         padding:0px;
       }
