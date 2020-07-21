@@ -62,8 +62,12 @@ get_header();?>
                 <h1>Schedule an Appointment with Dr. Kennedy Today!</h1>
                 <p>Robert M. Kennedy, DDS, and the caring, compassionate staff at Kennedy Family & Cosmetic Dentistry have served the Bedford, MA area and surrounding communities since 1992. To learn more about our services, contact us today by calling <a href="tel:781)2750200">(781) 275-0200 </a> or by visiting our office as soon as possible.</p>
             </div>
-            <div class="row no-gutters justify-content-center">
-                <div class="col-xl-3 col-lg-3"><a href="/contact" class="btn button">Request an appoinment</a> </div>
+            <div class="row justify-content-center d-none d-lg-flex">
+                <div class="col-xl-3 col-lg-3" style="text-align:right"><a href="/contact" class="btn button">Request an appoinment</a> </div>
+                <div class="col-xl-3 col-lg-3" style="text-align:left"><a href="tel:7812750200" class="btn button">781-275-0200</a> </div>
+            </div>
+            <div class="row  justify-content-center d-block d-lg-none">
+                <div class="col-xl-3 col-lg-3 "><a href="/contact" class="btn button">Request an appoinment</a> </div>
                 <div class="col-xl-3 col-lg-3"><a href="tel:7812750200" class="btn button">781-275-0200</a> </div>
             </div>
         </div>

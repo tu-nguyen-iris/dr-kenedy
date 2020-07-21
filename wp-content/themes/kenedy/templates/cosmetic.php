@@ -26,7 +26,7 @@ get_header();?>
         <p class="">Cosmetic dentistry entails a number of procedures designed to address the issues that often affect patients’ smiles. Whether your teeth are stained, chipped, or crooked, or you have several cosmetic issues that need to be addressed to improve your smile’s appearance, Dr. Kennedy can prescribe a conservative smile makeover plan to correct your specific concerns.</p>
     </section>
     <section class="item-list container-fluid">
-        <h2 class="d-none d-lx-block">Teeth Whitening</h2>
+        <h2 class="d-none d-lg-block">Teeth Whitening</h2>
         <div class="horizon_right row no-gutters">
             <h2 class="d-block d-xl-none">Teeth Whitening</h2>
             <img class="col-xl-6 col-lg-6" src="<?php echo THEME_URL?>/src/images/cosmetic-teeth-whitening.png">
@@ -61,10 +61,14 @@ get_header();?>
             <h1>Schedule an Appointment with Dr. Kennedy Today!</h1>
             <p>Robert M. Kennedy, DDS, and the caring, compassionate staff at Kennedy Family & Cosmetic Dentistry have served the Bedford, MA area and surrounding communities since 1992. To learn more about our services, contact us today by calling <a href="tel:781)2750200">(781) 275-0200 </a> or by visiting our office as soon as possible.</p>
         </div>
-        <div class="row no-gutters justify-content-center">
-            <div class="col-xl-3 col-lg-3"><a href="/contact" class="btn button">Request an appoinment</a> </div>
-            <div class="col-xl-3 col-lg-3"><a href="tel:7812750200" class="btn button">781-275-0200</a> </div>
+        <div class="row  justify-content-center d-none d-lg-flex">
+            <div class="col-xl-3 col-lg-3 " style="text-align:right"><a href="/contact" class="btn button">Request an appoinment</a> </div>
+            <div class="col-xl-3 col-lg-3" style="text-align:left"><a href="tel:7812750200" class="btn button">781-275-0200</a> </div>
         </div>
+            <div class="row  justify-content-center d-block d-lg-none">
+                <div class="col-xl-3 col-lg-3 "><a href="/contact" class="btn button">Request an appoinment</a> </div>
+                <div class="col-xl-3 col-lg-3"><a href="tel:7812750200" class="btn button">781-275-0200</a> </div>
+            </div>
         </div>
     </section>
     <section class="item-list container-fluid">
