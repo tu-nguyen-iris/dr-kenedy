@@ -88,7 +88,7 @@ get_header();?>
             <img class="col-xl-6 col-lg-6" src="<?php echo THEME_URL?>/src/images/patient-af-4.png">
         </div>
     </section>
-    <section class="testimonials  d-none d-lg-block">
+    <section class="testimonials  d-none d-xl-block">
         <h2>Testimonials</h2>
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
