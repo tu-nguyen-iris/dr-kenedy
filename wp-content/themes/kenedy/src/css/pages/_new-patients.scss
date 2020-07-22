@@ -113,12 +113,14 @@
         }
       }
       .carousel-control-prev, .carousel-control-next{
-        top:550px;
+        top:unset;
+        bottom: 60px;
         color: $color-dark1;
         height: 50px;
       }
       .carousel-control-prev{
-        left: 660px;
+        left: unset;
+        right: 35%;
         color: black;
       }
       .carousel-control-next{
@@ -152,6 +154,7 @@
       margin-bottom: 15px;
     }
     .testimonials-mobile__comment{
+      height: 130px;
       font-family: Lora;
       margin-bottom: 30px;
       color:$color-yellow2;
