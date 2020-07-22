@@ -30,7 +30,6 @@
       margin: 60px auto;
     }
     .star{
-      margin-right: 345px;
       margin-top: 60px;
       margin-bottom: 15px;
     }
@@ -72,12 +71,15 @@
         }
       }
       .carousel-control-prev, .carousel-control-next{
-        top:650px;
+
+        top: unset;
+        bottom: 50px;
         color: $color-dark1;
         height: 50px;
       }
       .carousel-control-prev{
-        left: 746px;
+        left: unset;
+        right: 35%;
         color: black;
       }
       .carousel-control-next{
@@ -97,6 +99,9 @@
   .tetimonials_mobile{
     .carousel{
       height: 300px;
+    }
+    .star{
+      margin-top: 30px;
     }
     height: 488px;
     margin-bottom: 30px;
@@ -118,6 +123,8 @@
       color: #BC8452;
       font-family: Lora;
       margin-bottom: 30px;
+      height: 100px;
+
     }
     .button{
       width: 100%;
