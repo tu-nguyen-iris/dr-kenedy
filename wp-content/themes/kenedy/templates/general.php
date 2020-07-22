@@ -26,7 +26,6 @@
                         <div class="star"></div>
                         <div class="star"></div>
                     </div>
-                    <a class="cover__rating__learnmore" href="#!">Learn More</a>
                 </div>
             </div>
         </div>

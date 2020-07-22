@@ -337,7 +337,7 @@
                     </div>
                 </div>
             </div>
-            <button class="button"><a href="/contact">Read more reviews</a></button>
+            <button class="button">Read more reviews</button>
         </div>
     </section>
 
