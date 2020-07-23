@@ -281,6 +281,10 @@
   }
 
   .horizon_right{
+    .images{
+      object-fit: cover;
+      height: 100%;
+    }
     .title{
       font-family: Lora,SansSerif;
       font-size: 46px;
@@ -299,6 +303,11 @@
     }
   }
   .horizon{
+    .images{
+      object-fit: cover;
+      width: 100%;
+      height: 100%;
+    }
     .item-body__left{
       max-width: 550px;
       float: right;
@@ -368,6 +377,9 @@
       margin-bottom: 18px;
     }
     .horizon{
+      .images{
+        height: unset;
+      }
       .title{
         font-size: 32px;
         line-height: 40px;
@@ -381,6 +393,9 @@
       }
     }
     .horizon_right{
+      .images{
+        height: unset;
+      }
       .title-second{
         margin-bottom: 20px;
         font-size: 32px;

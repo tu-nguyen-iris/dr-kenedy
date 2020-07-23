@@ -60,7 +60,7 @@
                             <h2 class="title-second d-block d-lg-none text-center">
                                 Meet Dr. Robert M. Kennedy
                             </h2>
-                    <img src="<?php echo THEME_URL?>/src/images/avatar.png" class="images">
+                    <img src="<?php echo THEME_URL?>/src/images/about-kenedy.png" class="images">
                 </div>
                 <div class="col-12 col-sm-12 col-md-6 col-lg-6 item-body__right">
                     <h3 class="title">
