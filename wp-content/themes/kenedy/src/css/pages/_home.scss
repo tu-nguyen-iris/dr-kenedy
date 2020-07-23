@@ -297,6 +297,7 @@
       width: 142px;
     }
     .item-body__right{
+      padding-bottom: 50px;
       max-width: 800px;
       padding-left: 88px;
       padding-right: 148px;
@@ -309,9 +310,11 @@
       height: 100%;
     }
     .item-body__left{
+      padding-bottom: 50px;
       max-width: 550px;
       float: right;
       padding-right: 53px;
+      padding-left: 20px;
     }
     .title{
 
@@ -385,6 +388,7 @@
         line-height: 40px;
       }
       .item-body__left{
+        padding-bottom: unset;
         padding-left: 20px;
         padding-right: 20px;
       }
@@ -410,6 +414,7 @@
         line-height: 40px;
       }
       .item-body__right{
+        padding-bottom: unset;
         padding-left: 15px;
         padding-right: 15px;
       }
