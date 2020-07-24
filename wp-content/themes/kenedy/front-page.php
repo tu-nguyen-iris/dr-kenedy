@@ -264,7 +264,7 @@
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <div class="row no-gutters">
-                        <img class="col-xl-6 col-lg-6" src="<?php echo THEME_URL?>/src/images/slider-1.png" style="height: 720px">
+                        <img class="col-xl-6 col-lg-6" src="<?php echo THEME_URL?>/src/images/slider-1.png" style="height: 720px;object-fit: cover;">
                         <div class="banner col-xl-6 col-lg-6 ">
                             <img class="d-block point" src="<?php echo THEME_URL?>/src/images/dau-phay.png">
                             <p class="testimonials__comment">Everyone was patient and understanding when I asked to address a different tooth than they had planned during my appointment. It's a pleasure working with Dr. Kennedy and all the staff!</p>
@@ -275,7 +275,7 @@
                 </div>
                 <div class="carousel-item">
                     <div class="row no-gutters">
-                        <img class="col-xl-6 col-lg-6" src="<?php echo THEME_URL?>/src/images/slider-2.png">
+                        <img class="col-xl-6 col-lg-6" src="<?php echo THEME_URL?>/src/images/slider-2.png" style="height: 720px;object-fit: cover;">
                         <div class="col-xl-6 col-lg-6  banner">
                             <img class="d-block point" src="<?php echo THEME_URL?>/src/images/dau-phay.png">
                             <p class="testimonials__comment">“I really enjoy all of you. Friendly and funny and professional! Thank you.”
@@ -287,7 +287,7 @@
                 </div>
                 <div class="carousel-item">
                     <div class="row no-gutters">
-                        <img class="col-xl-6 col-lg-6" src="<?php echo THEME_URL?>/src/images/slider-3.png">
+                        <img class="col-xl-6 col-lg-6" src="<?php echo THEME_URL?>/src/images/slider-3.png" style="height: 720px;object-fit: cover;">
                         <div class="col-xl-6 col-lg-6  banner">
                             <img class="d-block point" src="<?php echo THEME_URL?>/src/images/dau-phay.png">
                             <p class="testimonials__comment">“Always welcoming, professional with excellent service. Thanks for running a first rate service and I am happy to recommend you to all my friends!”</p>
