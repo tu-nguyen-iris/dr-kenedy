@@ -39,7 +39,7 @@ get_header();?>
                 <p>To replace a missing tooth, or a few in a row, a dental bridge literally bridges the gap. We work with talented ceramists at reputable dental labs so that the materials and quality of the bridges we place are of high quality.</p><br>
                 <p>During your visit, we’ll take an impression of your mouth, then send it to the dental lab. There, a ceramist will use the guide and Dr. Kennedy’s detailed notes to fabricate a custom dental bridge just for you. The bridge will consist of one or more replacement teeth set between two dental crowns. After we receive the bridge from the lab, you’ll return so that we can complete the procedure.</p>
                 <a href="/contact" class="btn button d-none d-xl-block">Request an appoinment</a>
-                <button class="button  d-block d-xl-none">Learn more</button>
+                <button class="button  d-block d-xl-none"><a href="/contact">Learn More</a></button>
                 </div>
             </div>
         </div>
@@ -58,7 +58,7 @@ get_header();?>
                 <p>Partial dentures replace multiple teeth on the upper and/or lower dental arch. They attach to existing teeth with inconspicuous clasps. Partials dentures can also be attached to one or more dental implants.</p>
                 <p>Dr. Kennedy will sit down with you to talk about your situation. By understanding your previous experiences and current needs, we can recommend the best solution to replace your missing teeth.</p>
                 <a href="/contact" class="btn button d-none d-xl-block">Request an appoinment</a>
-                <button class="button  d-block d-xl-none">Learn more</button>
+                <button class="button  d-block d-xl-none"><a href="/contact">Learn More</a></button>
                 </div>
             </div>
             <img class="d-none d-xl-flex col-xl-6 col-lg-6" src="<?php echo THEME_URL?>/src/images/replacements-dentures.png">
@@ -94,7 +94,7 @@ get_header();?>
                 <p> Whether you’re missing one or many teeth, you may want to consider dental implants. This innovative option for tooth replacement and denture stabilization provides extreme stability. Dental implants have two major components: a small post that anchors into the jawbone, and the replacement tooth or teeth. One implant post can hold one dental crown or a few can anchor a complete or partial denture.</p><br>
                 <p>If you have good oral health and sufficient jawbone density, let’s talk about dental implants. We’ll answer all of your questions and help you decide if implants are the right option for your situation.</p>
                 <a href="/contact" class="btn button d-none d-xl-block">Request an appoinment</a>
-                <button class="button  d-block d-xl-none">Learn more</button>
+                <button class="button  d-block d-xl-none"><a href="/contact">Learn More</a></button>
                 </div>
             </div>
         </div>

@@ -39,7 +39,7 @@ get_header();?>
                 <p>Want whiter teeth? Worried about sensitivity with harsh bleaching lights? After evaluating many modern teeth whitening systems, we believe the best option is home whitening. The system we prescribe yields results that rival extensive bleaching systems, but without the sensitivity. </p><br>
                 <p>Dr. Kennedy will create custom-fitted mouth trays to hold a prescription-strength bleaching gel closely against your tooth enamel. The trays will also keep saliva from diluting the gel. Wear your bleaching trays as directed — usually for an hour or two each night, for about 14 nights. After just one night’s treatment, you will notice a dramatic change in the brightness of your smile.</p>
                 <a href="/contact" class="btn button d-none d-xl-block">Request an appoinment</a>
-                <button class="button  d-block d-xl-none">Learn more</button>
+                <button class="button  d-block d-xl-none"><a href="/contact">Learn More</a></button>
                 </div>
             </div>
         </div>
@@ -57,7 +57,7 @@ get_header();?>
                 <p>Cosmetic dental imperfections like small gaps between teeth or a minor chip in a front tooth can be quickly and effectively corrected with cosmetic bonding. The material we use for bonding is the same material used for tooth fillings: a tooth-colored composite resin. </p><br>
                 <p>Many times, patients who want a short-term (5 to 10 years) cosmetic solution prior to porcelain veneers will opt for cosmetic bonding. With bonding, Dr. Kennedy applies composite resin to add structure to the tooth. He can also remove tooth structure as needed with tooth contouring. This procedure works well for patients who have jagged, uneven, or sharp edges on their teeth. Contouring smooths the line for a more attractive appearance and smoother, more comfortable fit.</p>
                 <a href="/contact" class="btn button d-none d-xl-block">Request an appoinment</a>
-                <button class="button  d-block d-xl-none">Learn more</button>
+                <button class="button  d-block d-xl-none"><a href="/contact">Learn More</a></button>
                 </div>
             </div>
             <img class="d-none d-xl-flex col-xl-6 col-lg-6 col-md-12" src="<?php echo THEME_URL?>/src/images/cosmetic-bonding.png">
@@ -93,7 +93,7 @@ get_header();?>
                 <p> Porcelain veneers can give you a nearly perfect, Hollywood-esque smile. Made from high-quality dental porcelain, these shell-shaped cosmetic enhancements correct gaps, stains, chips, crooked teeth, and misshapen teeth, and more. They’re stain-resistant, so you’ll never need teeth whitening. </p><br>
                 <p> First, Dr. Kennedy will take a dental impression of your teeth. You’ll wear temporary restorations while our dental ceramists are hand-making your veneers in the lab. Once the veneers have been completed, you’ll return to our office for the final placement. The results will complement your overall appearance, while delivering the beautiful smile you need to feel great about your image.</p>
                 <a href="/contact" class="btn button d-none d-xl-block">Request an appoinment</a>
-                <button class="button  d-block d-xl-none">Learn more</button>
+                <button class="button  d-block d-xl-none"><a href="/contact">Learn More</a></button>
                 </div>
             </div>
         </div>
