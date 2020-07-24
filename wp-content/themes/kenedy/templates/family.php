@@ -61,7 +61,7 @@
                     <h2 class="title-second d-block d-lg-none text-center">
                         Checkups & <br> Cleanings
                     </h2>
-                    <img src="<?php echo THEME_URL?>/src/images/shutterstock_194275118 1.png" class="images">
+                    <img src="<?php echo THEME_URL?>/src/images/family-checkup.png" class="images">
                 </div>
                 <div class="col-12 col-sm-12 col-md-6 col-lg-6">
                     <div class="item-body__right">
