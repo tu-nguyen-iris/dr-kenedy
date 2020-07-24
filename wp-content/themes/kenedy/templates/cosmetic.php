@@ -45,7 +45,7 @@ get_header();?>
         </div>
     </section>
     <section class="item-list container-fluid">
-        <h2 class="d-none d-md  -block">Bonding/ Contouring</h2>
+        <h2 class="d-none d-md-block">Bonding/ Contouring</h2>
         <div class="horizon_right row no-gutters">
             <h2 class="d-block d-xl-none col-md-12">Bonding/ Contouring</h2>
             <div class="col-xl-6 col-lg-6 col-md-12 d-flex d-md-none">
