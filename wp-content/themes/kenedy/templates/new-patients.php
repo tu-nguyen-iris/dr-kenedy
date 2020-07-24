@@ -47,19 +47,19 @@ get_header();?>
             <img  src="<?php echo THEME_URL?>/src/images/patient-bf-1.png">
             <img  src="<?php echo THEME_URL?>/src/images/patient-af-1.png">
         </div>
-            <div class="test">
+            <div class="test" >
                 <img  src="<?php echo THEME_URL?>/src/images/patient-bf-2.png">
                 <img  src="<?php echo THEME_URL?>/src/images/patient-af-2.png">
             </div>
-            <div class="test">
+            <div class="test"  id="test1">
                 <img  src="<?php echo THEME_URL?>/src/images/patient-bf-3.png">
                 <img  src="<?php echo THEME_URL?>/src/images/patient-af-3.png">
             </div>
-            <div class="test">
+            <div class="test " id="test1">
                 <img src="<?php echo THEME_URL?>/src/images/patient-bf-4.png">
                 <img src="<?php echo THEME_URL?>/src/images/patient-af-4.png">
             </div>
-            <button class="button">See more</button>
+            <button class="button" id="seemore-button">See more</button>
         </div>
     </section>
     <section class="banner">
@@ -99,7 +99,7 @@ get_header();?>
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <div class="row no-gutters">
-                        <img class="col-xl-6 col-lg-6" src="<?php echo THEME_URL?>/src/images/slider-1.png">
+                        <img class="col-xl-6 col-lg-6" src="<?php echo THEME_URL?>/src/images/slider-1.png" style="height:674.5px">
                         <div class="banner col-xl-6 col-lg-6 ">
                             <img class="d-block point" src="<?php echo THEME_URL?>/src/images/dau-phay.png">
                             <p class="testimonials__comment">Everyone was patient and understanding when I asked to address a different tooth than they had planned during my appointment. It's a pleasure working with Dr. Kennedy and all the staff!</p>

@@ -4,6 +4,7 @@ import "bootstrap/dist/js/bootstrap.min";
 import "zurb-twentytwenty/js/jquery.event.move"
 import "zurb-twentytwenty/js/jquery.twentytwenty"
 import "@fancyapps/fancybox/dist/jquery.fancybox.min";
+
 export default () => {
     console.log("global");
     let body = document.body
@@ -17,14 +18,22 @@ export default () => {
     });
     $(".test").twentytwenty();
     $('[data-fancybox]').fancybox({
-        youtube : {
-            controls : 0,
-            showinfo : 0
+        youtube: {
+            controls: 0,
+            showinfo: 0
         },
-        vimeo : {
-            color : 'f00'
+        vimeo: {
+            color: 'f00'
         }
-    });
-    }
+    })
+    $("#seemore-button").click(function () {
+        if($("#test1").hasClass("show")){
+            $("#test1").removeClass("show")
+        }else{
+            $("#test1").addClass("show")
+        }
+    })
+
+}
 
 
