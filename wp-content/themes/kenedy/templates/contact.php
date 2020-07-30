@@ -30,15 +30,18 @@ get_header();?>
                 <form class="form-kenedy">
                     <div class="form-group">
                         <label>Name*</label>
-                        <input  class="form-control">
+                        <input  class="form-control" required>
+                        <div class="invalid-feedback">Please fill out this field.</div>
                     </div>
                     <div class="form-group">
                         <label>Email*</label>
-                        <input  class="form-control">
+                        <input  type="email" class="form-control" required>
+                        <div class="invalid-feedback">Please fill out this field.</div>
                     </div>
                     <div class="form-group">
                         <label>Phone number*</label>
-                        <input  class="form-control" type="number">
+                        <input  class="form-control" type="number" required>
+                        <div class="invalid-feedback">Please fill out this field.</div>
                     </div>
                     <div class="form-group">
                         <label>Message</label>

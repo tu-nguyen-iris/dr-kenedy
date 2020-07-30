@@ -51,15 +51,15 @@ get_header();?>
                 <img  src="<?php echo THEME_URL?>/src/images/patient-bf-2.png">
                 <img  src="<?php echo THEME_URL?>/src/images/patient-af-2.png">
             </div>
-            <div class="test"  id="test1">
+            <div class="test xvideos">
                 <img  src="<?php echo THEME_URL?>/src/images/patient-bf-3.png">
                 <img  src="<?php echo THEME_URL?>/src/images/patient-af-3.png">
             </div>
-            <div class="test " id="test1">
+            <div class="test xvideos" >
                 <img src="<?php echo THEME_URL?>/src/images/patient-bf-4.png">
                 <img src="<?php echo THEME_URL?>/src/images/patient-af-4.png">
             </div>
-            <button class="button" id="seemore-button">See more</button>
+            <button id="seemore-button" class="button">See more</button>
         </div>
     </section>
     <section class="banner">

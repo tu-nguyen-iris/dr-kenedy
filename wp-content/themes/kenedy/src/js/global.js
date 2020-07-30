@@ -26,14 +26,30 @@ export default () => {
             color: 'f00'
         }
     })
-    $("#seemore-button").click(function () {
-        if($("#test1").hasClass("show")){
-            $("#test1").removeClass("show")
-        }else{
-            $("#test1").addClass("show")
+    // $(".button").click(function () {
+    //     // $("test").toggleClass("xvideos")
+    //     if($("#test1").hasClass("xvideos")){
+    //         $("#test1").removeClass("xvideos")
+    //     }else{
+    //         $("#test1").addClass("xvideos")
+    //     }
+    //     console.log("jav")
+    //
+    // })
+    $(".xvideos").hide();
+    let tep = true
+    $("#seemore-button").click(() => {
+        // !$("#test1").show() ? $("#test1").show() : $("#test1").hide()
+        // $("#test1").hide() ? $("#test1").show() : $("#test1").hide()
+        if (tep){
+            $(".xvideos").show();
+            tep = false;
+        } else {
+            tep = true;
+            $(".xvideos").hide();
+
         }
     })
-
 }
 
 
